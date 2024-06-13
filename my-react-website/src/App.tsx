@@ -2,14 +2,15 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import { Foo } from '@components/foo' // import { Foo } from './components
+//import { Foo } from '@components/foo' // import { Foo } from './components
+import { Donut } from '@components/spline/grass-donuts' // import { Donut } from './components/decor/grass-donuts'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-    <Foo />
+    <Donut />
       <div>
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
