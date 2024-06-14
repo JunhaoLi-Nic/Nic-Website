@@ -12,7 +12,7 @@
   padding-bottom: 15px;
   box-sizing: border-box;
   align-items: center; /* Aligns children in the center horizontally */
-  width: 1500px;
+  width: 1300px;
 }
 .app .container {
   position: relative;
@@ -25,7 +25,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 1500px;
+  width: 1300px;
   box-sizing: border-box;
 }
 .app .banner { /* Assuming this is the container class */
@@ -157,7 +157,7 @@
   position: absolute;
   top: 0px;
   right: -1px;
-  width: 796px;
+  width: 1000px;
   height: 941px;
 }
 .app .frame-42 {
