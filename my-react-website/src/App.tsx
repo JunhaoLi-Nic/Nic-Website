@@ -146,7 +146,7 @@ export default function App() {
                 <img className="vector-56" src="src/assets/vectors/Vector57_x2.svg" />
               </div>
               <span className="javascript-8">
-                Nest.Js
+                Jenkins
               </span>
             </div>
             <div className="skills-7">
@@ -154,13 +154,13 @@ export default function App() {
                 <img className="vector-53" src="src/assets/vectors/Vector19_x2.svg" />
               </div>
               <span className="javascript-5">
-                Git
+                AWS
               </span>
             </div>
             <div className="skills-11">
               <img className="icon-storybook" src="src/assets/vectors/IconStorybook_x2.svg" />
               <span className="javascript-9">
-                Storybook
+                Kubernetes
               </span>
             </div>
             <div className="skills-8">
@@ -168,7 +168,7 @@ export default function App() {
                 <img className="vector-54" src="src/assets/vectors/Vector49_x2.svg" />
               </div>
               <span className="javascript-6">
-                Socket.io
+                MySQL
               </span>
             </div>
             <div className="skills-9">
@@ -176,7 +176,7 @@ export default function App() {
                 <img className="vector-55" src="src/assets/vectors/Vector27_x2.svg" />
               </div>
               <span className="javascript-7">
-                Sass/scss
+                Python
               </span>
             </div>
           </div>
