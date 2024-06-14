@@ -1,38 +1,442 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
-//import { Foo } from '@components/foo' // import { Foo } from './components
-import { Donut } from '@components/spline/grass-donuts' // import { Donut } from './components/decor/grass-donuts'
 
-function App() {
-  const [count, setCount] = useState(0)
 
+export default function App() {
   return (
-    <>
-    <Donut />
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+    <div className="app">
+      <div className="header">
+        <div className="logo">
+          <div className="logo-1">
+            <img className="group-26" src="src/assets/vectors/Group1_x2.svg" />
+          </div>
+          <div className="personal-1">
+            Nic.
+          </div>
+        </div>
+        <div className="taskbaar">
+          <div className="about-me-1">
+            <span className="about-me-5">
+              About Me
+            </span>
+          </div>
+          <div className="about-me-2">
+            <span className="about-me-6">
+              Skills
+            </span>
+          </div>
+          <div className="about-me-3">
+            <span className="about-me-7">
+              Project
+            </span>
+          </div>
+          <div className="about-me-4">
+            <span className="about-me-8">
+              Contact me
+            </span>
+          </div>
+        </div>
+        <div className="button-8">
+          <span className="resume-1">
+            Resume
+          </span>
+          <div className="download">
+            <img className="icon" src="src/assets/vectors/Icon24_x2.svg" />
+          </div>
+        </div>
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
+      <div className="hero-section">
+        <div className="frame-42">
+          <div className="button-1">
+            <img className="vector-68" src="src/assets/vectors/Vector82_x2.svg" />
+          </div>
+          <div className="button-2">
+            <img className="vector-69" src="src/assets/vectors/Vector5_x2.svg" />
+          </div>
+        </div>
+        <div className="container">
+          <div className="banner">
+            <div className="frame-46">
+              <div className="frame-43">
+                <span className="hello-iam">
+                  Hello I’am
+                </span>
+                <span className="nicholas-li">
+                  Nicholas Li.
+                </span>
+              </div>
+              <div className="frame-44">
+                <span className="software">
+                  Software
+                </span>
+                <span className="engineer">
+                  Engineer
+                </span>
+              </div>
+              <div className="frame-45">
+                <span className="based-in">
+                  Based In
+                </span>
+                <span className="melbourne">
+                  Melbourne.
+                </span>
+              </div>
+            </div>
+            <p className="im-nicholas-li-who-is-simply-dummy-text-of-the-printing-and-typesetting-industry-lorem-ipsum-has-been-the-industrys-standard-dummy-text-ever-since-the-1500-swhen-an-unknown-printer-took-agalley-of-type-and-scrambled-it-to-specimen-book">
+              I&#39;m Nicholas Li who is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#39;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to specimen book.
+            </p>
+          </div>
+          <div className="frame-20">
+            <img className="group-1000015839" src="src/assets/vectors/Group10000158391_x2.svg" />
+          </div>
+        </div>
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+      <div className="skills">
+        <div className="row">
+          <span className="my">
+            My
+          </span>
+          <span className="skills-1">
+            Skills
+          </span>
+        </div>
+        <div className="row-1">
+          <div className="column">
+            <div className="skills-2">
+              <div className="icon-git">
+                <img className="vector-41" src="src/assets/vectors/Vector26_x2.svg" />
+              </div>
+              <span className="javascript">
+                Git
+              </span>
+            </div>
+            <div className="skills-3">
+              <div className="icon-javscript">
+                <img className="vector-43" src="src/assets/vectors/Vector4_x2.svg" />
+              </div>
+              <span className="javascript-1">
+                javascript
+              </span>
+            </div>
+            <div className="skills-4">
+              <img className="icon-react" src="src/assets/vectors/IconReact1_x2.svg" />
+              <span className="javascript-2">
+                React
+              </span>
+            </div>
+            <div className="skills-5">
+              <div className="logosnodejs">
+                <img className="group-24" src="src/assets/vectors/Group7_x2.svg" />
+              </div>
+              <span className="javascript-3">
+                Node.Js
+              </span>
+            </div>
+            <div className="skills-6">
+              <div className="icon-docker">
+                <img className="vector-52" src="src/assets/vectors/Vector84_x2.svg" />
+              </div>
+              <span className="javascript-4">
+                Docker
+              </span>
+            </div>
+          </div>
+          <div className="column-1">
+            <div className="skills-10">
+              <div className="icon-nest">
+                <img className="vector-56" src="src/assets/vectors/Vector57_x2.svg" />
+              </div>
+              <span className="javascript-8">
+                Nest.Js
+              </span>
+            </div>
+            <div className="skills-7">
+              <div className="icon-git-1">
+                <img className="vector-53" src="src/assets/vectors/Vector19_x2.svg" />
+              </div>
+              <span className="javascript-5">
+                Git
+              </span>
+            </div>
+            <div className="skills-11">
+              <img className="icon-storybook" src="src/assets/vectors/IconStorybook_x2.svg" />
+              <span className="javascript-9">
+                Storybook
+              </span>
+            </div>
+            <div className="skills-8">
+              <div className="icon-socket">
+                <img className="vector-54" src="src/assets/vectors/Vector49_x2.svg" />
+              </div>
+              <span className="javascript-6">
+                Socket.io
+              </span>
+            </div>
+            <div className="skills-9">
+              <div className="icon-sass">
+                <img className="vector-55" src="src/assets/vectors/Vector27_x2.svg" />
+              </div>
+              <span className="javascript-7">
+                Sass/scss
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="testimonial-5">
+        <div className="row-4">
+          <span className="my-4">
+            My
+          </span>
+          <span className="experience">
+            Experience
+          </span>
+        </div>
+        <div className="row-5">
+          <div className="experience-1">
+            <div className="frame-1000015887">
+              <div className="frame-1000015886">
+                <img className="google" src="src/assets/vectors/Google6_x2.svg" />
+                <div className="lead-software-engineer-at-google">
+                  Lead Software Engineer at Google
+                </div>
+              </div>
+              <div className="nov-2019-present">
+                Nov 2019 - Present
+              </div>
+            </div>
+            <span className="as-asenior-software-engineer-at-google-iplayed-apivotal-role-in-developing-innovative-solutions-for-googles-core-search-algorithms-collaborating-with-adynamic-team-of-engineers-icontributed-to-the-enhancement-of-search-accuracy-and-efficiency-optimizing-user-experiences-for-millions-of-users-worldwide">
+              As a Senior Software Engineer at Google, I played a pivotal role in developing innovative solutions for Google&#39;s core search algorithms. Collaborating with a dynamic team of engineers, I contributed to the enhancement of search accuracy and efficiency, optimizing user experiences for millions of users worldwide.
+            </span>
+          </div>
+          <div className="experience-2">
+            <div className="frame-10000158871">
+              <div className="frame-10000158861">
+                <img className="youtube" src="src/assets/vectors/Youtube2_x2.svg" />
+                <div className="lead-software-engineer-at-google-1">
+                  Software Engineer at Youtube
+                </div>
+              </div>
+              <div className="nov-2019-present-1">
+                Jan 2017 - Oct 2019
+              </div>
+            </div>
+            <span className="as-asenior-software-engineer-at-google-iplayed-apivotal-role-in-developing-innovative-solutions-for-googles-core-search-algorithms-collaborating-with-adynamic-team-of-engineers-icontributed-to-the-enhancement-of-search-accuracy-and-efficiency-optimizing-user-experiences-for-millions-of-users-worldwide-1">
+              At Youtube, I served as a  Software Engineer, focusing on the design and implementation of backend systems for the social media giant&#39;s dynamic platform. Working on projects that involved large-scale data processing and user engagement features, I leveraged my expertise to ensure seamless functionality and scalability.
+            </span>
+          </div>
+          <div className="experience-3">
+            <div className="frame-10000158872">
+              <div className="frame-10000158862">
+                <img className="apple" src="src/assets/vectors/Apple4_x2.svg" />
+                <div className="lead-software-engineer-at-google-2">
+                  Junior Software Engineer at Apple
+                </div>
+              </div>
+              <div className="nov-2019-present-2">
+                Jan 2016 - Dec 2017
+              </div>
+            </div>
+            <span className="as-asenior-software-engineer-at-google-iplayed-apivotal-role-in-developing-innovative-solutions-for-googles-core-search-algorithms-collaborating-with-adynamic-team-of-engineers-icontributed-to-the-enhancement-of-search-accuracy-and-efficiency-optimizing-user-experiences-for-millions-of-users-worldwide-2">
+              During my tenure at Apple, I held the role of Software Architect, where I played a key role in shaping the architecture of mission-critical software projects. Responsible for designing scalable and efficient systems, I provided technical leadership to a cross-functional team.
+            </span>
+          </div>
+        </div>
+      </div>
+      <div className="about-me">
+        <img className="group-1000015845" src="src/assets/vectors/Group1000015845_x2.svg" />
+        <div className="frame-1000015860">
+          <div className="frame-1000015861">
+            <span className="my-1">
+              About
+            </span>
+            <span className="me">
+              Me
+            </span>
+          </div>
+          <div className="frame-1000015875">
+            <div className="im-apassionate-self-proclaimed-designer-who-specializes-in-full-stack-development-react-js-node-js-iam-very-enthusiastic-about-bringing-the-technical-and-visual-aspects-of-digital-products-to-life-user-experience-pixel-perfect-design-and-writing-clear-readable-highly-performant-code-matters-to-me">
+              I&#39;m a passionate, self-proclaimed designer who specializes in full stack development (React.js &amp; Node.js). I am very enthusiastic about bringing the technical and visual aspects of digital products to life. User experience, pixel perfect design, and writing clear, readable, highly performant code matters to me.
+            </div>
+            <div className="ibegan-my-journey-as-aweb-developer-in-2015-and-since-then-ive-continued-to-grow-and-evolve-as-adeveloper-taking-on-new-challenges-and-learning-the-latest-technologies-along-the-way-now-in-my-early-thirties-7-years-after-starting-my-web-development-journey-im-building-cutting-edge-web-applications-using-modern-technologies-such-as-next-js-type-script-nestjs-tailwindcss-supabase-and-much-more">
+              I began my journey as a web developer in 2015, and since then, I&#39;ve continued to grow and evolve as a developer, taking on new challenges and learning the latest technologies along the way. Now, in my early thirties, 7 years after starting my web development journey, I&#39;m building cutting-edge web applications using modern technologies such as Next.js, TypeScript, Nestjs, Tailwindcss, Supabase and much more.
+            </div>
+            <span className="when-im-not-in-full-on-developer-mode-you-can-find-me-hovering-around-on-twitter-or-on-indie-hacker-witnessing-the-journey-of-early-startups-or-enjoying-some-free-time-you-can-follow-me-on-twitter-where-ishare-tech-related-bites-and-build-in-public-or-you-can-follow-me-on-git-hub">
+              When I&#39;m not in full-on developer mode, you can find me hovering around on twitter or on indie hacker, witnessing the journey of early startups or enjoying some free time. You can follow me on Twitter where I share tech-related bites and build in public, or you can follow me on GitHub.
+            </span>
+          </div>
+        </div>
+      </div>
+      <div className="project">
+        <div className="heading">
+          <span className="my-2">
+            My
+          </span>
+          <span className="projects">
+            Projects
+          </span>
+        </div>
+        <div className="project-1">
+          <div className="image">
+            <div className="image-771">
+            </div>
+          </div>
+          <div className="details">
+            <div className="container">
+              01
+            </div>
+            <div className="crypto-screener-application">
+              Crypto Screener Application
+            </div>
+            <div className="im-evren-shah-lorem-ipsum-is-simply-dummy-text-of-the-printing-and-typesetting-industry-lorem-ipsum-has-been-the-industrys-standard-dummy-text-ever-since-the-1500-swhen-an-unknown-printer-took-agalley-of-type-and-scrambled-it-to-specimen-book">
+              I&#39;m Evren Shah Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#39;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to specimen book.
+            </div>
+            <div className="read-more">
+              <img className="export" src="src/assets/vectors/Export5_x2.svg" />
+            </div>
+          </div>
+        </div>
+        <div className="project-2">
+          <div className="details-1">
+            <div className="container-1">
+              02
+            </div>
+            <div className="euphoria-ecommerce-apparels-website-template">
+              Euphoria - Ecommerce (Apparels) Website Template
+            </div>
+            <div className="im-evren-shah-lorem-ipsum-is-simply-dummy-text-of-the-printing-and-typesetting-industry-lorem-ipsum-has-been-the-industrys-standard-dummy-text-ever-since-the-1500-swhen-an-unknown-printer-took-agalley-of-type-and-scrambled-it-to-specimen-book-when-an-unknown-printer-took-agalley-of-type-and-scrambled-it-to-specimen-book">
+              I&#39;m Evren Shah Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#39;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to specimen book.<br />
+              when an unknown printer took a galley of type and scrambled it to specimen book.
+            </div>
+            <div className="read-more-1">
+              <img className="export-1" src="src/assets/vectors/Export9_x2.svg" />
+            </div>
+          </div>
+          <div className="image-1">
+            <div className="image-770">
+            </div>
+          </div>
+        </div>
+        <div className="project-3">
+          <div className="image-2">
+            <div className="image-7701">
+            </div>
+          </div>
+          <div className="details-2">
+            <div className="container-2">
+              03
+            </div>
+            <div className="blog-website-template">
+              Blog Website Template
+            </div>
+            <div className="im-evren-shah-lorem-ipsum-is-simply-dummy-text-of-the-printing-and-typesetting-industry-lorem-ipsum-has-been-the-industrys-standard-dummy-text-ever-since-the-1500-swhen-an-unknown-printer-took-agalley-of-type-and-scrambled-it-to-specimen-book-1">
+              I&#39;m Evren Shah Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#39;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to specimen book.
+            </div>
+            <div className="read-more-2">
+              <img className="export-2" src="src/assets/vectors/Export13_x2.svg" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="contact-form">
+        <div className="column-2">
+          <div className="component-1">
+            <div className="frame-1000015865">
+              <span className="your-name">
+                Your name
+              </span>
+            </div>
+          </div>
+          <div className="component-2">
+            <div className="frame-10000158651">
+              <span className="your-name-1">
+                Email
+              </span>
+            </div>
+          </div>
+          <div className="component-3">
+            <div className="frame-10000158652">
+              <span className="your-name-2">
+                Your website (If exists)
+              </span>
+            </div>
+          </div>
+          <div className="component-4">
+            <div className="frame-10000158653">
+              <span className="how-can-ihelp">
+                How can I help?*
+              </span>
+            </div>
+          </div>
+          <div className="button">
+            <div className="button-3">
+              <span className="resume">
+                Get In Touch
+              </span>
+            </div>
+            <div className="button-4">
+              <img className="vector-70" src="src/assets/vectors/Vector20_x2.svg" />
+            </div>
+            <div className="button-5">
+              <img className="subtract" src="src/assets/vectors/Subtract5_x2.svg" />
+            </div>
+            <div className="button-6">
+              <img className="vector-71" src="src/assets/vectors/Vector45_x2.svg" />
+            </div>
+            <div className="button-7">
+              <img className="group-1" src="src/assets/vectors/Group11_x2.svg" />
+            </div>
+          </div>
+        </div>
+        <div className="column-3">
+          <div className="frame-1000015867">
+            <div className="frame-1000015874">
+              <div className="frame-1000015866">
+                <span className="lets">
+                  Let’s
+                </span>
+                <span className="talk">
+                  talk
+                </span>
+                <span className="for">
+                  for
+                </span>
+              </div>
+              <span className="something-special">
+                Something special
+              </span>
+            </div>
+            <span className="iseek-to-push-the-limits-of-creativity-to-create-high-engaging-user-friendly-and-memorable-interactive-experiences">
+              I seek to push the limits of creativity to create high-engaging, user-friendly, and memorable interactive experiences.
+            </span>
+          </div>
+          <div className="frame-1000015868">
+            <div className="youremailgmail-com">
+              Youremail@gmail.com
+            </div>
+            <span className="container-3">
+              1234567890
+            </span>
+          </div>
+        </div>
+      </div>
+      <div className="footer">
+        <div className="frame-16">
+          <div className="logo-11">
+            <img className="group-27" src="src/assets/vectors/Group4_x2.svg" />
+          </div>
+          <div className="personal-2">
+            Personal
+          </div>
+        </div>
+        <div className="frame-1000015869">
+          <div className="personal">
+            @ 2019-2024 
+          </div>
+          <span className="made-in-figma">
+            Made In Figma
+          </span>
+        </div>
+      </div>
+    </div>
   )
 }
-
-export default App

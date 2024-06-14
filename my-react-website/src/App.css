@@ -1,42 +1,1833 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+.app {
+  background: #FFFFFF;
+  display: flex; /* This enables flexbox */
+  flex-direction: column; /* Children are stacked vertically */
+  justify-content: center; /* Aligns children in the center vertically */
+  align-items: center; /* Aligns children in the center horizontally */
+  width: 100%; /* Takes the full width of the viewport */
+}
+.app .hero-section {
+  position: relative;
+  margin: 0 112px 116px 112px;
+  padding-bottom: 15px;
+  box-sizing: border-box;
+  align-items: center; /* Aligns children in the center horizontally */
+  width: 1500px;
+}
+.app .container {
+  position: relative;
+  padding: 157px 57px 157px 120px;
+  align-items: center; /* Aligns children in the center horizontally */
+  width: 500px;
+}
+.app .header {
+  margin: 30px 112px 73px 120.4px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 1500px;
+  box-sizing: border-box;
+}
+.app .banner { /* Assuming this is the container class */
+  padding: 0; /* Remove padding */
+  margin-left: 0; /* Align it to the far left */
+  width: 100%; /* Ensure it spans the full width */
+}
+
+.app .frame-46 {
+  margin: 0 0px 32px 0;
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.app .frame-43 {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.app .hello-iam {
+  margin-right: 16.1px;
+  overflow-wrap: break-word;
+  font-family: var(--displaytext-regular-font-family, 'Sora');
+  font-weight: var(--displaytext-regular-font-weight, 400);
+  font-size: var(--displaytext-regular-font-size, 48px);
+  letter-spacing: var(--displaytext-regular-letter-spacing, -1px);
+  line-height: var(--displaytext-regular-line-height, 1.167);
+  color: var(--primary-black, #000000);
+}
+.app .nicholas-li {
+  overflow-wrap: break-word;
+  font-family: var(--displaytext-extra-bold-font-family, 'Sora');
+  font-weight: var(--displaytext-extra-bold-font-weight, 800);
+  font-size: var(--displaytext-extra-bold-font-size, 48px);
+  letter-spacing: var(--displaytext-extra-bold-letter-spacing, -1px);
+  line-height: var(--displaytext-extra-bold-line-height, 1.167);
+  color: var(--primary-black, #000000);
+}
+.app .frame-44 {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  align-self: flex-start;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.app .software {
+  margin-right: 16.3px;
+  overflow-wrap: break-word;
+  font-family: var(--displaytext-extra-bold-font-family, 'Sora');
+  font-weight: var(--displaytext-extra-bold-font-weight, 800);
+  font-size: var(--displaytext-extra-bold-font-size, 48px);
+  letter-spacing: var(--displaytext-extra-bold-letter-spacing, -1px);
+  line-height: var(--displaytext-extra-bold-line-height, 1.167);
+  color: var(--primary-black, #000000);
+}
+.app .engineer {
+  font-family: Arial, sans-serif; /* Change to your preferred font */
+  font-size: 48px; /* Adjust as needed */
+  font-weight: bold;
+  color: white; /* Text color */
+  text-shadow: 
+  -3px -3px 0 #000,  
+  3px -3px 0 #000,
+  -3px 3px 0 #000,
+  3px 3px 0 #000,
+  -2.5px 0 0 #000,
+  2.5px 0 0 #000,
+  0 -2.5px 0 #000,
+  0 2.5px 0 #000,
+  -3px 0 0 #000,
+  3px 0 0 #000,
+  0 -3px 0 #000,
+  0 3px 0 #000; /* Black thicker outline */
+}
+.app .frame-45 {
+  margin-right: 33.6px;
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.app .based-in {
+  margin-right: 16.6px;
+  overflow-wrap: break-word;
+  font-family: var(--displaytext-regular-font-family, 'Sora');
+  font-weight: var(--displaytext-regular-font-weight, 400);
+  font-size: var(--displaytext-regular-font-size, 48px);
+  letter-spacing: var(--displaytext-regular-letter-spacing, -1px);
+  line-height: var(--displaytext-regular-line-height, 1.167);
+  color: var(--primary-black, #000000);
+}
+.app .melbourne {
+  overflow-wrap: break-word;
+  font-family: var(--displaytext-extra-bold-font-family, 'Sora');
+  font-weight: var(--displaytext-extra-bold-font-weight, 800);
+  font-size: var(--displaytext-extra-bold-font-size, 48px);
+  letter-spacing: var(--displaytext-extra-bold-letter-spacing, -1px);
+  line-height: var(--displaytext-extra-bold-line-height, 1.167);
+  color: var(--primary-black, #000000);
+}
+.app .im-nicholas-li-who-is-simply-dummy-text-of-the-printing-and-typesetting-industry-lorem-ipsum-has-been-the-industrys-standard-dummy-text-ever-since-the-1500-swhen-an-unknown-printer-took-agalley-of-type-and-scrambled-it-to-specimen-book {
+  overflow-wrap: break-word;
+  font-family: var(--paragraph-p-2-regular-font-family, 'Sora');
+  font-weight: var(--paragraph-p-2-regular-font-weight, 400);
+  font-size: var(--paragraph-p-2-regular-font-size, 16px);
+  letter-spacing: var(--paragraph-p-2-regular-letter-spacing, 0.3px);
+  line-height: var(--paragraph-p-2-regular-line-height, 1.5);
+  color: var(--zinc-500, #71717A);
+  white-space: normal;
+  text-align: left; /* Ensure text is aligned to the left */
+  padding-left: 0; /* Remove any left padding if existing */
+  margin-left: 0; /* Ensure margin is not pushing it inward */
+  max-width: 448px;
+}
+
+
+.frame-20 {
+  position: absolute;
+  left: 120%;
+  Top: 0px;
+  width: 500px;       /* Adjusted width */
+  height: auto;       /* Auto height for maintaining aspect ratio */
+}
+.app .group-1000015839 {
+  position: absolute;
+  top: 0px;
+  right: -1px;
+  width: 796px;
+  height: 941px;
+}
+.app .frame-42 {
+  position: absolute;
+  left: 112px;
+  bottom: 0px;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.app .skills {
+  margin: 0 112px 100px 112px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1216px;
+  box-sizing: border-box;
+}
+.app .row {
+  margin: 0 0.9px 80px 0;
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.app .skills-1 {
+  overflow-wrap: break-word;
+  font-family: var(--displaytext-extra-bold-font-family, 'Sora');
+  font-weight: var(--displaytext-extra-bold-font-weight, 800);
+  font-size: var(--displaytext-extra-bold-font-size, 48px);
+  letter-spacing: var(--displaytext-extra-bold-letter-spacing, -1px);
+  line-height: var(--displaytext-extra-bold-line-height, 1.167);
+  color: var(--primary-black, #000000);
+}
+.app .column {
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: row;
+  column-gap: 71.5px;
+  width: 1216px;
+  box-sizing: border-box;
+}
+.app .skills-2 {
+  border-radius: 4px;
+  border: 2px solid var(--primary-black, #000000);
+  background: var(--primary-white, #FFFFFF);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 186px;
+}
+.app .skills-3 {
+  border-radius: 4px;
+  border: 2px solid var(--primary-black, #000000);
+  background: var(--primary-black, #000000);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 186px;
+}
+.app .skills-4 {
+  border-radius: 4px;
+  border: 2px solid var(--primary-black, #000000);
+  background: var(--primary-white, #FFFFFF);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 186px;
+}
+.app .skills-5 {
+  border-radius: 4px;
+  border: 2px solid var(--primary-black, #000000);
+  background: var(--primary-white, #FFFFFF);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 186px;
+}
+.app .skills-6 {
+  border-radius: 4px;
+  border: 2px solid var(--primary-black, #000000);
+  background: var(--primary-white, #FFFFFF);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 186px;
+}
+.app .column-1 {
+  display: flex;
+  flex-direction: row;
+  column-gap: 71.5px;
+  width: 1216px;
+  box-sizing: border-box;
+}
+.app .skills-7 {
+  border-radius: 4px;
+  border: 2px solid var(--primary-black, #000000);
+  background: var(--primary-white, #FFFFFF);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 186px;
+}
+.app .skills-8 {
+  border-radius: 4px;
+  border: 2px solid var(--primary-black, #000000);
+  background: var(--primary-white, #FFFFFF);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 186px;
+}
+.app .skills-9 {
+  border-radius: 4px;
+  border: 2px solid var(--primary-black, #000000);
+  background: var(--primary-white, #FFFFFF);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 186px;
+}
+.app .skills-10 {
+  border-radius: 4px;
+  border: 2px solid var(--primary-black, #000000);
+  background: var(--primary-white, #FFFFFF);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 186px;
+}
+.app .skills-11 {
+  border-radius: 4px;
+  border: 2px solid var(--primary-black, #000000);
+  background: var(--primary-white, #FFFFFF);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 186px;
+}
+.app .row-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1216px;
+  box-sizing: border-box;
+}
+.app .my {
+  margin-right: 16.5px;
+  overflow-wrap: break-word;
+  font-family: var(--displaytext-regular-font-family, 'Sora');
+  font-weight: var(--displaytext-regular-font-weight, 400);
+  font-size: var(--displaytext-regular-font-size, 48px);
+  letter-spacing: var(--displaytext-regular-letter-spacing, -1px);
+  line-height: var(--displaytext-regular-line-height, 1.167);
+  color: var(--primary-black, #000000);
+}
+.app .about-me {
+  margin: 0 121.2px 60px 112px;
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.app .group-1000015845 {
+  margin-right: 80.6px;
+  width: 525.4px;
+  height: 572px;
+}
+.app .frame-1000015860 {
+  margin: 20px 0 32px 0;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.app .im-apassionate-self-proclaimed-designer-who-specializes-in-full-stack-development-react-js-node-js-iam-very-enthusiastic-about-bringing-the-technical-and-visual-aspects-of-digital-products-to-life-user-experience-pixel-perfect-design-and-writing-clear-readable-highly-performant-code-matters-to-me {
+  margin: 0 1.8px 20px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: var(--paragraph-p-2-regular-font-family, 'Sora');
+  font-weight: var(--paragraph-p-2-regular-font-weight, 400);
+  font-size: var(--paragraph-p-2-regular-font-size, 16px);
+  letter-spacing: var(--paragraph-p-2-regular-letter-spacing, 0.3px);
+  line-height: var(--paragraph-p-2-regular-line-height, 1.5);
+  color: var(--zinc-500, #71717A);
+}
+.app .ibegan-my-journey-as-aweb-developer-in-2015-and-since-then-ive-continued-to-grow-and-evolve-as-adeveloper-taking-on-new-challenges-and-learning-the-latest-technologies-along-the-way-now-in-my-early-thirties-7-years-after-starting-my-web-development-journey-im-building-cutting-edge-web-applications-using-modern-technologies-such-as-next-js-type-script-nestjs-tailwindcss-supabase-and-much-more {
+  margin-bottom: 20px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: var(--paragraph-p-2-regular-font-family, 'Sora');
+  font-weight: var(--paragraph-p-2-regular-font-weight, 400);
+  font-size: var(--paragraph-p-2-regular-font-size, 16px);
+  letter-spacing: var(--paragraph-p-2-regular-letter-spacing, 0.3px);
+  line-height: var(--paragraph-p-2-regular-line-height, 1.5);
+  color: var(--zinc-500, #71717A);
+}
+.app .when-im-not-in-full-on-developer-mode-you-can-find-me-hovering-around-on-twitter-or-on-indie-hacker-witnessing-the-journey-of-early-startups-or-enjoying-some-free-time-you-can-follow-me-on-twitter-where-ishare-tech-related-bites-and-build-in-public-or-you-can-follow-me-on-git-hub {
+  margin-right: 3.1px;
+  overflow-wrap: break-word;
+  font-family: var(--paragraph-p-2-regular-font-family, 'Sora');
+  font-weight: var(--paragraph-p-2-regular-font-weight, 400);
+  font-size: var(--paragraph-p-2-regular-font-size, 16px);
+  letter-spacing: var(--paragraph-p-2-regular-letter-spacing, 0.3px);
+  line-height: var(--paragraph-p-2-regular-line-height, 1.5);
+  color: var(--zinc-500, #71717A);
+}
+.app .frame-1000015861 {
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: row;
+  align-self: flex-start;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.app .my-1 {
+  margin-right: 16.4px;
+  overflow-wrap: break-word;
+  font-family: var(--displaytext-regular-font-family, 'Sora');
+  font-weight: var(--displaytext-regular-font-weight, 400);
+  font-size: var(--displaytext-regular-font-size, 48px);
+  letter-spacing: var(--displaytext-regular-letter-spacing, -1px);
+  line-height: var(--displaytext-regular-line-height, 1.167);
+  color: var(--primary-black, #000000);
+}
+.app .me {
+  overflow-wrap: break-word;
+  font-family: var(--displaytext-extra-bold-font-family, 'Sora');
+  font-weight: var(--displaytext-extra-bold-font-weight, 800);
+  font-size: var(--displaytext-extra-bold-font-size, 48px);
+  letter-spacing: var(--displaytext-extra-bold-letter-spacing, -1px);
+  line-height: var(--displaytext-extra-bold-line-height, 1.167);
+  color: var(--primary-black, #000000);
+}
+.app .project {
+  background: var(--primary-black, #000000);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 80px 112px 119.1px 112px;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.app .project-1 {
+  margin: 0 5.4px 138.3px 0;
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.app .image {
+  margin-right: 104px;
+  display: flex;
+  width: 530px;
+  height: 397.7px;
+  box-sizing: border-box;
+}
+.app .details {
+  margin: 50.9px 0;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.app .project-2 {
+  margin-bottom: 138.3px;
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.app .details-1 {
+  margin: 6.9px 109.4px 6.9px 0;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.app .image-1 {
+  display: flex;
+  width: 530px;
+  height: 397.7px;
+  box-sizing: border-box;
+}
+.app .project-3 {
+  margin-right: 5.4px;
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.app .image-2 {
+  margin-right: 104px;
+  display: flex;
+  width: 530px;
+  height: 397.7px;
+  box-sizing: border-box;
+}
+.app .details-2 {
+  margin: 47.9px 0;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.app .container {
+  margin-bottom: 28px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: var(--displaytext-extra-bold-font-family, 'Sora');
+  font-weight: var(--displaytext-extra-bold-font-weight, 800);
+  font-size: var(--displaytext-extra-bold-font-size, 48px);
+  letter-spacing: var(--displaytext-extra-bold-letter-spacing, -1px);
+  line-height: var(--displaytext-extra-bold-line-height, 1.167);
+  color: var(--primary-white, #FFFFFF);
+}
+.app .crypto-screener-application {
+  margin-bottom: 28px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: var(--heading-h-2-bold-font-family, 'Sora');
+  font-weight: var(--heading-h-2-bold-font-weight, 700);
+  font-size: var(--heading-h-2-bold-font-size, 32px);
+  letter-spacing: var(--heading-h-2-bold-letter-spacing, -0.6px);
+  line-height: var(--heading-h-2-bold-line-height, 1.25);
+  color: var(--primary-white, #FFFFFF);
+}
+.app .im-evren-shah-lorem-ipsum-is-simply-dummy-text-of-the-printing-and-typesetting-industry-lorem-ipsum-has-been-the-industrys-standard-dummy-text-ever-since-the-1500-swhen-an-unknown-printer-took-agalley-of-type-and-scrambled-it-to-specimen-book {
+  margin-bottom: 28px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: var(--paragraph-p-2-regular-font-family, 'Sora');
+  font-weight: var(--paragraph-p-2-regular-font-weight, 400);
+  font-size: var(--paragraph-p-2-regular-font-size, 16px);
+  letter-spacing: var(--paragraph-p-2-regular-letter-spacing, 0.3px);
+  line-height: var(--paragraph-p-2-regular-line-height, 1.5);
+  color: var(--zinc-500, #71717A);
+}
+.app .read-more {
+  display: flex;
+  align-self: flex-start;
+  width: 20px;
+  height: 20px;
+  box-sizing: border-box;
+}
+.app .image-771 {
+  box-shadow: 0px 8px 18px -6px rgba(24, 39, 75, 0.12), 0px 12px 42px -4px rgba(24, 39, 75, 0.12);
+  border-radius: 18.8px;
+  background: url('assets/images/Image7711.jpeg') 50% / cover no-repeat;
+  width: 530px;
+  height: 397.7px;
+}
+.app .container-1 {
+  margin-bottom: 28px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: var(--displaytext-extra-bold-font-family, 'Sora');
+  font-weight: var(--displaytext-extra-bold-font-weight, 800);
+  font-size: var(--displaytext-extra-bold-font-size, 48px);
+  letter-spacing: var(--displaytext-extra-bold-letter-spacing, -1px);
+  line-height: var(--displaytext-extra-bold-line-height, 1.167);
+  color: var(--primary-white, #FFFFFF);
+}
+.app .euphoria-ecommerce-apparels-website-template {
+  margin: 0 42px 28px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: var(--heading-h-2-bold-font-family, 'Sora');
+  font-weight: var(--heading-h-2-bold-font-weight, 700);
+  font-size: var(--heading-h-2-bold-font-size, 32px);
+  letter-spacing: var(--heading-h-2-bold-letter-spacing, -0.6px);
+  line-height: var(--heading-h-2-bold-line-height, 1.25);
+  color: var(--primary-white, #FFFFFF);
+}
+.app .im-evren-shah-lorem-ipsum-is-simply-dummy-text-of-the-printing-and-typesetting-industry-lorem-ipsum-has-been-the-industrys-standard-dummy-text-ever-since-the-1500-swhen-an-unknown-printer-took-agalley-of-type-and-scrambled-it-to-specimen-book-when-an-unknown-printer-took-agalley-of-type-and-scrambled-it-to-specimen-book {
+  margin-bottom: 28px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: var(--paragraph-p-2-regular-font-family, 'Sora');
+  font-weight: var(--paragraph-p-2-regular-font-weight, 400);
+  font-size: var(--paragraph-p-2-regular-font-size, 16px);
+  letter-spacing: var(--paragraph-p-2-regular-letter-spacing, 0.3px);
+  line-height: var(--paragraph-p-2-regular-line-height, 1.5);
+  color: var(--zinc-500, #71717A);
+}
+.app .read-more-1 {
+  display: flex;
+  align-self: flex-start;
+  width: 20px;
+  height: 20px;
+  box-sizing: border-box;
+}
+.app .image-770 {
+  box-shadow: 0px 8px 18px -6px rgba(24, 39, 75, 0.12), 0px 12px 42px -4px rgba(24, 39, 75, 0.12);
+  border-radius: 18.8px;
+  background: url('assets/images/Image770.jpeg') 50% / cover no-repeat;
+  width: 530px;
+  height: 397.7px;
+}
+.app .container-2 {
+  margin-bottom: 30px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: var(--displaytext-extra-bold-font-family, 'Sora');
+  font-weight: var(--displaytext-extra-bold-font-weight, 800);
+  font-size: var(--displaytext-extra-bold-font-size, 48px);
+  letter-spacing: var(--displaytext-extra-bold-letter-spacing, -1px);
+  line-height: var(--displaytext-extra-bold-line-height, 1.167);
+  color: var(--primary-white, #FFFFFF);
+}
+.app .blog-website-template {
+  margin-bottom: 30px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: var(--heading-h-2-bold-font-family, 'Sora');
+  font-weight: var(--heading-h-2-bold-font-weight, 700);
+  font-size: var(--heading-h-2-bold-font-size, 32px);
+  letter-spacing: var(--heading-h-2-bold-letter-spacing, -0.6px);
+  line-height: var(--heading-h-2-bold-line-height, 1.25);
+  color: var(--primary-white, #FFFFFF);
+}
+.app .im-evren-shah-lorem-ipsum-is-simply-dummy-text-of-the-printing-and-typesetting-industry-lorem-ipsum-has-been-the-industrys-standard-dummy-text-ever-since-the-1500-swhen-an-unknown-printer-took-agalley-of-type-and-scrambled-it-to-specimen-book-1 {
+  margin-bottom: 30px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: var(--paragraph-p-2-regular-font-family, 'Sora');
+  font-weight: var(--paragraph-p-2-regular-font-weight, 400);
+  font-size: var(--paragraph-p-2-regular-font-size, 16px);
+  letter-spacing: var(--paragraph-p-2-regular-letter-spacing, 0.3px);
+  line-height: var(--paragraph-p-2-regular-line-height, 1.5);
+  color: var(--zinc-500, #71717A);
+}
+.app .read-more-2 {
+  display: flex;
+  align-self: flex-start;
+  width: 20px;
+  height: 20px;
+  box-sizing: border-box;
+}
+.app .image-7701 {
+  box-shadow: 0px 8px 18px -6px rgba(24, 39, 75, 0.12), 0px 12px 42px -4px rgba(24, 39, 75, 0.12);
+  border-radius: 18.8px;
+  background: url('assets/images/Image771.jpeg');
+  width: 530px;
+  height: 397.7px;
+}
+.app .heading {
+  margin: 0 0.1px 99.1px 0;
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.app .my-2 {
+  margin-right: 16.5px;
+  overflow-wrap: break-word;
+  font-family: var(--displaytext-regular-font-family, 'Sora');
+  font-weight: var(--displaytext-regular-font-weight, 400);
+  font-size: var(--displaytext-regular-font-size, 48px);
+  letter-spacing: var(--displaytext-regular-letter-spacing, -1px);
+  line-height: var(--displaytext-regular-line-height, 1.167);
+  color: var(--primary-white, #FFFFFF);
+}
+.app .projects {
+  overflow-wrap: break-word;
+  font-family: var(--displaytext-extra-bold-font-family, 'Sora');
+  font-weight: var(--displaytext-extra-bold-font-weight, 800);
+  font-size: var(--displaytext-extra-bold-font-size, 48px);
+  letter-spacing: var(--displaytext-extra-bold-letter-spacing, -1px);
+  line-height: var(--displaytext-extra-bold-line-height, 1.167);
+  color: var(--primary-white, #FFFFFF);
+}
+.app .contact-form {
+  background: #FFFFFF;
+  display: flex;
+  flex-direction: row;
+  padding: 80px 0 80px 112px;
+  width: 1440px;
+  box-sizing: border-box;
+}
+.app .column-2 {
+  margin-right: 108px;
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  box-sizing: border-box;
+}
+.app .column-3 {
+  margin: 66px 0;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.app .component-1 {
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+.app .component-2 {
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+.app .component-3 {
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+.app .component-4 {
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+.app .button {
+  margin-right: 7px;
+  display: flex;
+  flex-direction: row;
+  column-gap: 24px;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.app .frame-1000015867 {
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.app .frame-1000015866 {
+  margin-bottom: 12px;
+  display: flex;
+  flex-direction: row;
+  align-self: flex-start;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.app .lets {
+  margin-right: 16.6px;
+  overflow-wrap: break-word;
+  font-family: var(--displaytext-extra-bold-font-family, 'Sora');
+  font-weight: var(--displaytext-extra-bold-font-weight, 800);
+  font-size: var(--displaytext-extra-bold-font-size, 48px);
+  letter-spacing: var(--displaytext-extra-bold-letter-spacing, -1px);
+  line-height: var(--displaytext-extra-bold-line-height, 1.167);
+  color: var(--primary-black, #000000);
+}
+.app .talk {
+  border: 3px solid var(--primary-black, #000000);
+  margin-right: 17px;
+  overflow-wrap: break-word;
+}
+.app .for {
+  overflow-wrap: break-word;
+  font-family: var(--displaytext-extra-bold-font-family, 'Sora');
+  font-weight: var(--displaytext-extra-bold-font-weight, 800);
+  font-size: var(--displaytext-extra-bold-font-size, 48px);
+  letter-spacing: var(--displaytext-extra-bold-letter-spacing, -1px);
+  line-height: var(--displaytext-extra-bold-line-height, 1.167);
+  color: var(--primary-black, #000000);
+}
+.app .something-special {
+  overflow-wrap: break-word;
+  font-family: var(--displaytext-extra-bold-font-family, 'Sora');
+  font-weight: var(--displaytext-extra-bold-font-weight, 800);
+  font-size: var(--displaytext-extra-bold-font-size, 48px);
+  letter-spacing: var(--displaytext-extra-bold-letter-spacing, -1px);
+  line-height: var(--displaytext-extra-bold-line-height, 1.167);
+  color: var(--primary-black, #000000);
+}
+.app .iseek-to-push-the-limits-of-creativity-to-create-high-engaging-user-friendly-and-memorable-interactive-experiences {
+  overflow-wrap: break-word;
+  font-family: var(--paragraph-p-2-regular-font-family, 'Sora');
+  font-weight: var(--paragraph-p-2-regular-font-weight, 400);
+  font-size: var(--paragraph-p-2-regular-font-size, 16px);
+  letter-spacing: var(--paragraph-p-2-regular-letter-spacing, 0.3px);
+  line-height: var(--paragraph-p-2-regular-line-height, 1.5);
+  color: var(--zinc-500, #71717A);
+}
+.app .frame-1000015868 {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.app .youremailgmail-com {
+  margin-bottom: 16px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: var(--heading-h-3-semibold-font-family, 'Sora');
+  font-weight: var(--heading-h-3-semibold-font-weight, 600);
+  font-size: var(--heading-h-3-semibold-font-size, 28px);
+  letter-spacing: var(--heading-h-3-semibold-letter-spacing, -0.6px);
+  line-height: var(--heading-h-3-semibold-line-height, 1.143);
+  color: var(--primary-black, #000000);
+}
+.app .container-3 {
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: var(--heading-h-3-semibold-font-family, 'Sora');
+  font-weight: var(--heading-h-3-semibold-font-weight, 600);
+  font-size: var(--heading-h-3-semibold-font-size, 28px);
+  letter-spacing: var(--heading-h-3-semibold-letter-spacing, -0.6px);
+  line-height: var(--heading-h-3-semibold-line-height, 1.143);
+  color: var(--primary-black, #000000);
+}
+.app .footer {
+  background: var(--primary-black, #000000);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 24px 112px 24px 120.4px;
+  width: 1440px;
+  box-sizing: border-box;
+}
+.app .frame-16 {
+  margin: 8.6px 0;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.app .frame-1000015869 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  box-sizing: border-box;
+}
+.app .personal {
+  margin-bottom: 12px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: var(--heading-h-6-semibold-font-family, 'Sora');
+  font-weight: var(--heading-h-6-semibold-font-weight, 600);
+  font-size: var(--heading-h-6-semibold-font-size, 26px);
+  letter-spacing: var(--heading-h-6-semibold-letter-spacing, -0.3px);
+  line-height: var(--heading-h-6-semibold-line-height, 1.25);
+  color: var(--primary-white, #FFFFFF);
+}
+.app .made-in-figma {
+  overflow-wrap: break-word;
+  font-family: var(--heading-h-6-semibold-font-family, 'Sora');
+  font-weight: var(--heading-h-6-semibold-font-weight, 600);
+  font-size: var(--heading-h-6-semibold-font-size, 16px);
+  letter-spacing: var(--heading-h-6-semibold-letter-spacing, -0.3px);
+  line-height: var(--heading-h-6-semibold-line-height, 1.25);
+  color: var(--primary-white, #FFFFFF);
+}
+.app .button-1 {
+  border-radius: 4px;
+  background: var(--primary-black, #000000);
+  margin-right: 32px;
+  display: flex;
+  padding: 18px;
+  width: 56px;
+  height: 56px;
+  box-sizing: border-box;
+}
+.app .button-2 {
+  border-radius: 4px;
+  border: 2px solid var(--primary-black, #000000);
+  display: flex;
+  padding: 18.9px 17px;
+  width: 56px;
+  height: 56px;
+  box-sizing: border-box;
+}
+.app .button-3 {
+  border-radius: 4px;
+  background: var(--primary-black, #000000);
+  padding: 16px 20px;
+  width: 173px;
+  box-sizing: border-box;
+}
+.app .button-4 {
+  border-radius: 4px;
+  background: var(--primary-black, #000000);
+  display: flex;
+  padding: 18px 18px 18.1px 18px;
+  width: 56px;
+  height: 56px;
+  box-sizing: border-box;
+}
+.app .button-5 {
+  border-radius: 4px;
+  border: 2px solid var(--primary-black, #000000);
+  display: flex;
+  padding: 17px;
+  width: 56px;
+  height: 56px;
+  box-sizing: border-box;
+}
+.app .button-6 {
+  border-radius: 4px;
+  border: 2px solid var(--primary-black, #000000);
+  display: flex;
+  padding: 18.9px 17px;
+  width: 56px;
+  height: 56px;
+  box-sizing: border-box;
+}
+.app .button-7 {
+  border-radius: 4px;
+  border: 2px solid var(--primary-black, #000000);
+  display: flex;
+  padding: 17px 18.2px 17px 18.3px;
+  width: 56px;
+  height: 56px;
+  box-sizing: border-box;
+}
+.app .frame-1000015874 {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.app .button-8 {
+  border-radius: 20px;
+  background: var(--primary-black, #000000);
+  display: flex;
+  flex-direction: row;
+  padding: 16px 0 16px 20px;
+  width: 130px;
+  height: 60px;
+  box-sizing: border-box;
+}
+.app .frame-1000015875 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.app .about-me-1 {
+  display: flex;
+  box-sizing: border-box;
+}
+.app .about-me-2 {
+  display: flex;
+  box-sizing: border-box;
+}
+.app .about-me-3 {
+  display: flex;
+  box-sizing: border-box;
+}
+.app .about-me-4 {
+  margin-right: 0px;
+  display: flex;
+  box-sizing: border-box;
+}
+.app .taskbaar {
+  margin: 16px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 436.9px;
+  height: fit-content;
+  box-sizing: border-box;
+  
+}
+.app .logo {
+  margin: 10.6px 0;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.app .testimonial {
+  background: var(--primary-white, #FFFFFF);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 80px 136px 100px 136px;
+  width: 1440px;
+  box-sizing: border-box;
+}
+.app .row-2 {
+  margin: 0 0px 80px 0;
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.app .my-3 {
+  margin-right: 16.5px;
+  overflow-wrap: break-word;
+  font-family: var(--displaytext-regular-font-family, 'Sora');
+  font-weight: var(--displaytext-regular-font-weight, 400);
+  font-size: var(--displaytext-regular-font-size, 48px);
+  letter-spacing: var(--displaytext-regular-letter-spacing, -1px);
+  line-height: var(--displaytext-regular-line-height, 1.167);
+  color: #000000;
+}
+.app .testimonial-1 {
+  overflow-wrap: break-word;
+  font-family: var(--displaytext-extra-bold-font-family, 'Sora');
+  font-weight: var(--displaytext-extra-bold-font-weight, 800);
+  font-size: var(--displaytext-extra-bold-font-size, 48px);
+  letter-spacing: var(--displaytext-extra-bold-letter-spacing, -1px);
+  line-height: var(--displaytext-extra-bold-line-height, 1.167);
+  color: #000000;
+}
+.app .row-3 {
+  display: flex;
+  flex-direction: row;
+  column-gap: 29px;
+  width: 1168px;
+  box-sizing: border-box;
+}
+.app .testimonial-2 {
+  box-shadow: 0px 6px 8px -6px rgba(24, 39, 75, 0.12), 0px 8px 16px -6px rgba(24, 39, 75, 0.08);
+  border-radius: 20px;
+  background: var(--primary-white, #FFFFFF);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 370px;
+}
+.app .testimonial-3 {
+  box-shadow: 0px 6px 8px -6px rgba(24, 39, 75, 0.12), 0px 8px 16px -6px rgba(24, 39, 75, 0.08);
+  border-radius: 20px;
+  background: var(--primary-black, #000000);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 370px;
+}
+.app .testimonial-4 {
+  box-shadow: 0px 6px 8px -6px rgba(24, 39, 75, 0.12), 0px 8px 16px -6px rgba(24, 39, 75, 0.08);
+  border-radius: 20px;
+  background: var(--primary-white, #FFFFFF);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 370px;
+}
+.app .testimonial-5 {
+  background: var(--primary-black, #000000);
+  margin-bottom: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 80px 136px 100px 136px;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.app .row-4 {
+  margin: 0 0.7px 80px 0;
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.app .my-4 {
+  margin-right: 16.5px;
+  overflow-wrap: break-word;
+  font-family: var(--displaytext-regular-font-family, 'Sora');
+  font-weight: var(--displaytext-regular-font-weight, 400);
+  font-size: var(--displaytext-regular-font-size, 48px);
+  letter-spacing: var(--displaytext-regular-letter-spacing, -1px);
+  line-height: var(--displaytext-regular-line-height, 1.167);
+  color: var(--primary-white, #FFFFFF);
+}
+.app .experience {
+  overflow-wrap: break-word;
+  font-family: var(--displaytext-extra-bold-font-family, 'Sora');
+  font-weight: var(--displaytext-extra-bold-font-weight, 800);
+  font-size: var(--displaytext-extra-bold-font-size, 48px);
+  letter-spacing: var(--displaytext-extra-bold-letter-spacing, -1px);
+  line-height: var(--displaytext-extra-bold-line-height, 1.167);
+  color: var(--primary-white, #FFFFFF);
+}
+.app .row-5 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.app .experience-1 {
+  border-radius: 10px;
+  border: 1px solid var(--zinc-500, #71717A);
+  margin-bottom: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 29px 23.1px 29px 23px;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.app .experience-2 {
+  border-radius: 10px;
+  background: #27272A;
+  margin-bottom: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 24px;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.app .experience-3 {
+  border-radius: 10px;
+  border: 1px solid var(--zinc-500, #71717A);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 29px 23.2px 29px 23px;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.app .javascript {
+  overflow-wrap: break-word;
+  font-family: var(--heading-h-5-bold-font-family, 'Sora');
+  font-weight: var(--heading-h-5-bold-font-weight, 700);
+  font-size: var(--heading-h-5-bold-font-size, 20px);
+  letter-spacing: var(--heading-h-5-bold-letter-spacing, -0.4px);
+  line-height: var(--heading-h-5-bold-line-height, 1.2);
+  text-transform: var(--heading-h-5-bold-text-transform, capitalize);
+  color: var(--primary-black, #000000);
+}
+.app .icon-git {
+  margin-bottom: 37.8px;
+  display: flex;
+  width: 44.3px;
+  height: 44.3px;
+  box-sizing: border-box;
+}
+.app .vector-41 {
+  width: 44.3px;
+  height: 44.3px;
+}
+.app .icon-javscript {
+  background: #FFFFFF;
+  position: relative;
+  margin-bottom: 32px;
+  display: flex;
+  padding: 24.9px 6.2px 6.2px 14.5px;
+  width: 56px;
+  height: 56px;
+  box-sizing: border-box;
+}
+.app .vector-43 {
+  width: 35.3px;
+  height: 24.9px;
+}
+.app .javascript-1 {
+  overflow-wrap: break-word;
+  font-family: var(--heading-h-5-bold-font-family, 'Sora');
+  font-weight: var(--heading-h-5-bold-font-weight, 700);
+  font-size: var(--heading-h-5-bold-font-size, 20px);
+  letter-spacing: var(--heading-h-5-bold-letter-spacing, -0.4px);
+  line-height: var(--heading-h-5-bold-line-height, 1.2);
+  text-transform: var(--heading-h-5-bold-text-transform, capitalize);
+  color: var(--primary-white, #FFFFFF);
+}
+.app .javascript-2 {
+  overflow-wrap: break-word;
+  font-family: var(--heading-h-5-bold-font-family, 'Sora');
+  font-weight: var(--heading-h-5-bold-font-weight, 700);
+  font-size: var(--heading-h-5-bold-font-size, 20px);
+  letter-spacing: var(--heading-h-5-bold-letter-spacing, -0.4px);
+  line-height: var(--heading-h-5-bold-line-height, 1.2);
+  text-transform: var(--heading-h-5-bold-text-transform, capitalize);
+  color: var(--primary-black, #000000);
+}
+.app .icon-react {
+  margin-bottom: 32px;
+  width: 56px;
+  height: 56px;
+}
+.app .javascript-3 {
+  overflow-wrap: break-word;
+  font-family: var(--heading-h-5-bold-font-family, 'Sora');
+  font-weight: var(--heading-h-5-bold-font-weight, 700);
+  font-size: var(--heading-h-5-bold-font-size, 20px);
+  letter-spacing: var(--heading-h-5-bold-letter-spacing, -0.4px);
+  line-height: var(--heading-h-5-bold-line-height, 1.2);
+  text-transform: var(--heading-h-5-bold-text-transform, capitalize);
+  color: var(--primary-black, #000000);
+}
+.app .logosnodejs {
+  margin-bottom: 32px;
+  display: flex;
+  width: 77.9px;
+  height: 51.9px;
+  box-sizing: border-box;
+}
+.app .group-24 {
+  width: 77.9px;
+  height: 51.9px;
+}
+.app .javascript-4 {
+  overflow-wrap: break-word;
+  font-family: var(--heading-h-5-bold-font-family, 'Sora');
+  font-weight: var(--heading-h-5-bold-font-weight, 700);
+  font-size: var(--heading-h-5-bold-font-size, 20px);
+  letter-spacing: var(--heading-h-5-bold-letter-spacing, -0.4px);
+  line-height: var(--heading-h-5-bold-line-height, 1.2);
+  text-transform: var(--heading-h-5-bold-text-transform, capitalize);
+  color: var(--primary-black, #000000);
+}
+.app .icon-docker {
+  margin: 0 0px 39.9px 0;
+  display: flex;
+  width: 56px;
+  height: 40.3px;
+  box-sizing: border-box;
+}
+.app .vector-52 {
+  width: 56px;
+  height: 40.3px;
+}
+.app .javascript-5 {
+  overflow-wrap: break-word;
+  font-family: var(--heading-h-5-bold-font-family, 'Sora');
+  font-weight: var(--heading-h-5-bold-font-weight, 700);
+  font-size: var(--heading-h-5-bold-font-size, 20px);
+  letter-spacing: var(--heading-h-5-bold-letter-spacing, -0.4px);
+  line-height: var(--heading-h-5-bold-line-height, 1.2);
+  text-transform: var(--heading-h-5-bold-text-transform, capitalize);
+  color: var(--primary-black, #000000);
+}
+.app .icon-git-1 {
+  margin-bottom: 37.8px;
+  display: flex;
+  width: 44.3px;
+  height: 44.3px;
+  box-sizing: border-box;
+}
+.app .vector-53 {
+  width: 44.3px;
+  height: 44.3px;
+}
+.app .javascript-6 {
+  overflow-wrap: break-word;
+  font-family: var(--heading-h-5-bold-font-family, 'Sora');
+  font-weight: var(--heading-h-5-bold-font-weight, 700);
+  font-size: var(--heading-h-5-bold-font-size, 20px);
+  letter-spacing: var(--heading-h-5-bold-letter-spacing, -0.4px);
+  line-height: var(--heading-h-5-bold-line-height, 1.2);
+  text-transform: var(--heading-h-5-bold-text-transform, capitalize);
+  color: var(--primary-black, #000000);
+}
+.app .icon-socket {
+  margin: 0 0px 32px 0;
+  display: flex;
+  width: 56px;
+  height: 55.9px;
+  box-sizing: border-box;
+}
+.app .vector-54 {
+  width: 56px;
+  height: 55.9px;
+}
+.app .javascript-7 {
+  overflow-wrap: break-word;
+  font-family: var(--heading-h-5-bold-font-family, 'Sora');
+  font-weight: var(--heading-h-5-bold-font-weight, 700);
+  font-size: var(--heading-h-5-bold-font-size, 20px);
+  letter-spacing: var(--heading-h-5-bold-letter-spacing, -0.4px);
+  line-height: var(--heading-h-5-bold-line-height, 1.2);
+  text-transform: var(--heading-h-5-bold-text-transform, capitalize);
+  color: var(--primary-black, #000000);
+}
+.app .icon-sass {
+  margin-bottom: 41.4px;
+  display: flex;
+  width: 51.3px;
+  height: 38.5px;
+  box-sizing: border-box;
+}
+.app .vector-55 {
+  width: 51.3px;
+  height: 38.5px;
+}
+.app .javascript-8 {
+  overflow-wrap: break-word;
+  font-family: var(--heading-h-5-bold-font-family, 'Sora');
+  font-weight: var(--heading-h-5-bold-font-weight, 700);
+  font-size: var(--heading-h-5-bold-font-size, 20px);
+  letter-spacing: var(--heading-h-5-bold-letter-spacing, -0.4px);
+  line-height: var(--heading-h-5-bold-line-height, 1.2);
+  text-transform: var(--heading-h-5-bold-text-transform, capitalize);
+  color: var(--primary-black, #000000);
+}
+.app .icon-nest {
+  margin: 0 0.5px 32.5px 0;
+  display: flex;
+  width: 53px;
+  height: 54.6px;
+  box-sizing: border-box;
+}
+.app .vector-56 {
+  width: 53px;
+  height: 54.6px;
+}
+.app .javascript-9 {
+  overflow-wrap: break-word;
+  font-family: var(--heading-h-5-bold-font-family, 'Sora');
+  font-weight: var(--heading-h-5-bold-font-weight, 700);
+  font-size: var(--heading-h-5-bold-font-size, 20px);
+  letter-spacing: var(--heading-h-5-bold-letter-spacing, -0.4px);
+  line-height: var(--heading-h-5-bold-line-height, 1.2);
+  text-transform: var(--heading-h-5-bold-text-transform, capitalize);
+  color: var(--primary-black, #000000);
+}
+.app .icon-storybook {
+  margin-bottom: 32px;
+  width: 56px;
+  height: 56px;
+}
+.app .export {
+  width: 20px;
+  height: 20px;
+}
+.app .export-1 {
+  width: 20px;
+  height: 20px;
+}
+.app .export-2 {
+  width: 20px;
+  height: 20px;
+}
+.app .frame-1000015865 {
+  border-radius: 4px;
+  border: 1.4px solid var(--primary-black, #000000);
+  padding: 16.6px 22.6px;
+  box-sizing: border-box;
+}
+.app .your-name {
+  overflow-wrap: break-word;
+  font-family: var(--heading-h-6-regular-font-family, 'Sora');
+  font-weight: var(--heading-h-6-regular-font-weight, 400);
+  font-size: var(--heading-h-6-regular-font-size, 16px);
+  letter-spacing: var(--heading-h-6-regular-letter-spacing, -0.3px);
+  line-height: var(--heading-h-6-regular-line-height, 1.25);
+  color: var(--zinc-500, #71717A);
+}
+.app .frame-10000158651 {
+  border-radius: 4px;
+  border: 1.4px solid var(--primary-black, #000000);
+  padding: 16.6px 22.6px;
+  box-sizing: border-box;
+}
+.app .your-name-1 {
+  overflow-wrap: break-word;
+  font-family: var(--heading-h-6-regular-font-family, 'Sora');
+  font-weight: var(--heading-h-6-regular-font-weight, 400);
+  font-size: var(--heading-h-6-regular-font-size, 16px);
+  letter-spacing: var(--heading-h-6-regular-letter-spacing, -0.3px);
+  line-height: var(--heading-h-6-regular-line-height, 1.25);
+  color: var(--zinc-500, #71717A);
+}
+.app .frame-10000158652 {
+  border-radius: 4px;
+  border: 1.4px solid var(--primary-black, #000000);
+  padding: 16.6px 22.6px;
+  box-sizing: border-box;
+}
+.app .your-name-2 {
+  overflow-wrap: break-word;
+  font-family: var(--heading-h-6-regular-font-family, 'Sora');
+  font-weight: var(--heading-h-6-regular-font-weight, 400);
+  font-size: var(--heading-h-6-regular-font-size, 16px);
+  letter-spacing: var(--heading-h-6-regular-letter-spacing, -0.3px);
+  line-height: var(--heading-h-6-regular-line-height, 1.25);
+  color: var(--zinc-500, #71717A);
+}
+.app .frame-10000158653 {
+  border-radius: 4px;
+  border: 1.4px solid var(--primary-black, #000000);
+  padding: 14.6px 22.6px 102.6px 22.6px;
+  box-sizing: border-box;
+}
+.app .how-can-ihelp {
+  overflow-wrap: break-word;
+  font-family: var(--heading-h-6-regular-font-family, 'Sora');
+  font-weight: var(--heading-h-6-regular-font-weight, 400);
+  font-size: var(--heading-h-6-regular-font-size, 16px);
+  letter-spacing: var(--heading-h-6-regular-letter-spacing, -0.3px);
+  line-height: var(--heading-h-6-regular-line-height, 1.25);
+  color: var(--zinc-500, #71717A);
+}
+.app .vector-68 {
+  width: 20px;
+  height: 20px;
+}
+.app .vector-69 {
+  width: 20px;
+  height: 16.3px;
+}
+.app .resume {
+  overflow-wrap: break-word;
+  font-family: var(--button-text-semi-bold-font-family, 'Sora');
+  font-weight: var(--button-text-semi-bold-font-weight, 600);
+  font-size: var(--button-text-semi-bold-font-size, 30px);
+  letter-spacing: var(--button-text-semi-bold-letter-spacing, 0.4px);
+  line-height: var(--button-text-semi-bold-line-height, 1.2);
+  color: var(--primary-white, #FFFFFF);
+}
+.app .vector-70 {
+  width: 20px;
+  height: 19.9px;
+}
+.app .subtract {
+  width: 20px;
+  height: 20px;
+}
+.app .vector-71 {
+  width: 20px;
+  height: 16.3px;
+}
+.app .group-1 {
+  width: 17.5px;
+  height: 20px;
+}
+.app .resume-1 {
+  margin-right: 11.2px;
+  overflow-wrap: break-word;
+  font-family: var(--button-text-semi-bold-font-family, 'Sora');
+  font-weight: var(--button-text-semi-bold-font-weight, 600);
+  font-size: var(--button-text-semi-bold-font-size, 20px);
+  letter-spacing: var(--button-text-semi-bold-letter-spacing, 0.4px);
+  line-height: var(--button-text-semi-bold-line-height, 1.2);
+  color: var(--primary-white, #FFFFFF);
+}
+.app .download {
+  margin: 4.5px 0;
+  display: flex;
+  width: 15px;
+  height: 15px;
+  box-sizing: border-box;
+}
+.app .icon {
+  width: 15px;
+  height: 15px;
+}
+.app .about-me-5 {
+  overflow-wrap: break-word;
+  font-family: var(--heading-h-5-semibold-font-family, 'Sora');
+  font-weight: var(--heading-h-5-semibold-font-weight, 600);
+  font-size: var(--heading-h-5-semibold-font-size, 25px);
+  letter-spacing: var(--heading-h-5-semibold-letter-spacing, -0.4px);
+  line-height: var(--heading-h-5-semibold-line-height, 1.2);
+  text-transform: var(--heading-h-5-semibold-text-transform, capitalize);
+  color: var(--primary-black, #000000);
+}
+.app .about-me-6 {
+  overflow-wrap: break-word;
+  font-family: var(--heading-h-5-semibold-font-family, 'Sora');
+  font-weight: var(--heading-h-5-semibold-font-weight, 600);
+  font-size: var(--heading-h-5-semibold-font-size, 25px);
+  letter-spacing: var(--heading-h-5-semibold-letter-spacing, -0.4px);
+  line-height: var(--heading-h-5-semibold-line-height, 1.2);
+  text-transform: var(--heading-h-5-semibold-text-transform, capitalize);
+  color: var(--primary-black, #000000);
+}
+.app .about-me-7 {
+  overflow-wrap: break-word;
+  font-family: var(--heading-h-5-semibold-font-family, 'Sora');
+  font-weight: var(--heading-h-5-semibold-font-weight, 600);
+  font-size: var(--heading-h-5-semibold-font-size, 25px);
+  letter-spacing: var(--heading-h-5-semibold-letter-spacing, -0.4px);
+  line-height: var(--heading-h-5-semibold-line-height, 1.2);
+  text-transform: var(--heading-h-5-semibold-text-transform, capitalize);
+  color: var(--primary-black, #000000);
+}
+.app .about-me-8 {
+  overflow-wrap: break-word;
+  font-family: var(--heading-h-5-semibold-font-family, 'Sora');
+  font-weight: var(--heading-h-5-semibold-font-weight, 600);
+  font-size: var(--heading-h-5-semibold-font-size, 25px);
+  letter-spacing: var(--heading-h-5-semibold-letter-spacing, -0.4px);
+  line-height: var(--heading-h-5-semibold-line-height, 1.2);
+  text-transform: var(--heading-h-5-semibold-text-transform, capitalize);
+  color: var(--primary-black, #000000);
+}
+.app .logo-1 {
+  margin-right: 20.4px;
+  display: flex;
+  width: 23.2px;
+  height: 34.7px;
+  box-sizing: border-box;
+}
+.app .group-26 {
+  width: 23.2px;
+  height: 34.7px;
+}
+.app .personal-1 {
+  margin: 5.4px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: var(--heading-h-5-bold-font-family, 'Sora');
+  font-weight: var(--heading-h-5-bold-font-weight, 700);
+  font-size: var(--heading-h-5-bold-font-size, 30px);
+  letter-spacing: var(--heading-h-5-bold-letter-spacing, -0.4px);
+  line-height: var(--heading-h-5-bold-line-height, 1.2);
+  text-transform: var(--heading-h-5-bold-text-transform, capitalize);
+  color: var(--primary-black, #000000);
+}
+.app .ellipse-2665 {
+  border-radius: 15px;
+  background: var(--primary-black, #000000);
+  position: absolute;
+  top: 66px;
+  right: 0px;
+  width: 30px;
+  height: 30px;
+}
+.app .vector-76 {
+  position: absolute;
+  right: 8.1px;
+  bottom: 10.7px;
+  width: 12.9px;
+  height: 9.3px;
+}
+.app .irecently-had-to-jump-on-10-different-calls-across-eight-different-countries-to-find-the-right-owner {
+  margin-bottom: 24px;
+  display: inline-block;
   text-align: center;
+  overflow-wrap: break-word;
+  font-family: var(--button-text-2-regular-font-family, 'Sora');
+  font-weight: var(--button-text-2-regular-font-weight, 400);
+  font-size: var(--button-text-2-regular-font-size, 16px);
+  letter-spacing: var(--button-text-2-regular-letter-spacing, 0.3px);
+  line-height: var(--button-text-2-regular-line-height, 1.25);
+  color: var(--primary-neutral, #404040);
 }
-
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
+.app .rectangle-7322 {
+  background: var(--primary-black, #000000);
+  margin-bottom: 24px;
+  width: 120px;
+  height: 2px;
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+.app .designer {
+  overflow-wrap: break-word;
+  font-family: var(--heading-h-6-semibold-font-family, 'Sora');
+  font-weight: var(--heading-h-6-semibold-font-weight, 600);
+  font-size: var(--heading-h-6-semibold-font-size, 16px);
+  letter-spacing: var(--heading-h-6-semibold-letter-spacing, -0.3px);
+  line-height: var(--heading-h-6-semibold-line-height, 1.25);
+  color: var(--zinc-500, #71717A);
 }
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.app .evren-shah {
+  margin-bottom: 24px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: var(--heading-h-5-semibold-font-family, 'Sora');
+  font-weight: var(--heading-h-5-semibold-font-weight, 600);
+  font-size: var(--heading-h-5-semibold-font-size, 20px);
+  letter-spacing: var(--heading-h-5-semibold-letter-spacing, -0.4px);
+  line-height: var(--heading-h-5-semibold-line-height, 1.2);
+  text-transform: var(--heading-h-5-semibold-text-transform, capitalize);
+  color: var(--primary-neutral, #404040);
 }
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.app .frame-18 {
+  border-radius: 48px;
+  background: url('assets/images/Ellipse2664.png') 50% / cover no-repeat;
+  position: relative;
+  margin-bottom: 24px;
+  width: 96px;
+  height: 96px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.app .frame-181 {
+  border-radius: 48px;
+  background: url('assets/images/Ellipse26641.jpeg') 50% / cover no-repeat;
+  position: relative;
+  margin-bottom: 24px;
+  width: 96px;
+  height: 96px;
 }
-
-.card {
-  padding: 2em;
+.app .ellipse-26651 {
+  border-radius: 15px;
+  background: var(--primary-white, #FFFFFF);
+  position: absolute;
+  top: 66px;
+  right: 0px;
+  width: 30px;
+  height: 30px;
 }
-
-.read-the-docs {
-  color: #888;
+.app .vector-77 {
+  position: absolute;
+  right: 8.1px;
+  bottom: 10.7px;
+  width: 12.9px;
+  height: 9.3px;
+}
+.app .irecently-had-to-jump-on-10-different-calls-across-eight-different-countries-to-find-the-right-owner-1 {
+  margin-bottom: 24px;
+  display: inline-block;
+  text-align: center;
+  overflow-wrap: break-word;
+  font-family: var(--button-text-2-regular-font-family, 'Sora');
+  font-weight: var(--button-text-2-regular-font-weight, 400);
+  font-size: var(--button-text-2-regular-font-size, 16px);
+  letter-spacing: var(--button-text-2-regular-letter-spacing, 0.3px);
+  line-height: var(--button-text-2-regular-line-height, 1.25);
+  color: var(--primary-white, #FFFFFF);
+}
+.app .rectangle-73221 {
+  background: var(--primary-white, #FFFFFF);
+  margin-bottom: 24px;
+  width: 120px;
+  height: 2px;
+}
+.app .evren-shah-1 {
+  margin-bottom: 24px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: var(--heading-h-5-semibold-font-family, 'Sora');
+  font-weight: var(--heading-h-5-semibold-font-weight, 600);
+  font-size: var(--heading-h-5-semibold-font-size, 20px);
+  letter-spacing: var(--heading-h-5-semibold-letter-spacing, -0.4px);
+  line-height: var(--heading-h-5-semibold-line-height, 1.2);
+  text-transform: var(--heading-h-5-semibold-text-transform, capitalize);
+  color: var(--primary-white, #FFFFFF);
+}
+.app .designer-1 {
+  overflow-wrap: break-word;
+  font-family: var(--heading-h-6-semibold-font-family, 'Sora');
+  font-weight: var(--heading-h-6-semibold-font-weight, 600);
+  font-size: var(--heading-h-6-semibold-font-size, 16px);
+  letter-spacing: var(--heading-h-6-semibold-letter-spacing, -0.3px);
+  line-height: var(--heading-h-6-semibold-line-height, 1.25);
+  color: var(--primary-white, #FFFFFF);
+}
+.app .ellipse-26652 {
+  border-radius: 15px;
+  background: var(--primary-black, #000000);
+  position: absolute;
+  top: 66px;
+  right: 0px;
+  width: 30px;
+  height: 30px;
+}
+.app .vector-78 {
+  position: absolute;
+  right: 8.1px;
+  bottom: 10.7px;
+  width: 12.9px;
+  height: 9.3px;
+}
+.app .irecently-had-to-jump-on-10-different-calls-across-eight-different-countries-to-find-the-right-owner-2 {
+  margin-bottom: 24px;
+  display: inline-block;
+  text-align: center;
+  overflow-wrap: break-word;
+  font-family: var(--button-text-2-regular-font-family, 'Sora');
+  font-weight: var(--button-text-2-regular-font-weight, 400);
+  font-size: var(--button-text-2-regular-font-size, 16px);
+  letter-spacing: var(--button-text-2-regular-letter-spacing, 0.3px);
+  line-height: var(--button-text-2-regular-line-height, 1.25);
+  color: var(--primary-neutral, #404040);
+}
+.app .rectangle-73222 {
+  background: var(--primary-black, #000000);
+  margin-bottom: 24px;
+  width: 120px;
+  height: 2px;
+}
+.app .designer-2 {
+  overflow-wrap: break-word;
+  font-family: var(--heading-h-6-semibold-font-family, 'Sora');
+  font-weight: var(--heading-h-6-semibold-font-weight, 600);
+  font-size: var(--heading-h-6-semibold-font-size, 16px);
+  letter-spacing: var(--heading-h-6-semibold-letter-spacing, -0.3px);
+  line-height: var(--heading-h-6-semibold-line-height, 1.25);
+  color: var(--zinc-500, #71717A);
+}
+.app .evren-shah-2 {
+  margin-bottom: 24px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: var(--heading-h-5-semibold-font-family, 'Sora');
+  font-weight: var(--heading-h-5-semibold-font-weight, 600);
+  font-size: var(--heading-h-5-semibold-font-size, 20px);
+  letter-spacing: var(--heading-h-5-semibold-letter-spacing, -0.4px);
+  line-height: var(--heading-h-5-semibold-line-height, 1.2);
+  text-transform: var(--heading-h-5-semibold-text-transform, capitalize);
+  color: var(--primary-neutral, #404040);
+}
+.app .frame-182 {
+  border-radius: 48px;
+  background: url('assets/images/Ellipse2664.png') 50% / cover no-repeat;
+  position: relative;
+  margin-bottom: 24px;
+  width: 96px;
+  height: 96px;
+}
+.app .logo-11 {
+  margin-right: 20.4px;
+  display: flex;
+  width: 23.2px;
+  height: 34.7px;
+  box-sizing: border-box;
+}
+.app .group-27 {
+  width: 23.2px;
+  height: 34.7px;
+}
+.app .personal-2 {
+  margin: 5.4px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: var(--heading-h-5-bold-font-family, 'Sora');
+  font-weight: var(--heading-h-5-bold-font-weight, 700);
+  font-size: var(--heading-h-5-bold-font-size, 20px);
+  letter-spacing: var(--heading-h-5-bold-letter-spacing, -0.4px);
+  line-height: var(--heading-h-5-bold-line-height, 1.2);
+  text-transform: var(--heading-h-5-bold-text-transform, capitalize);
+  color: var(--primary-white, #FFFFFF);
+}
+.app .frame-1000015887 {
+  margin-bottom: 28px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 1119.9px;
+  box-sizing: border-box;
+}
+.app .frame-1000015886 {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.app .google {
+  margin-right: 30.4px;
+  width: 32px;
+  height: 32px;
+}
+.app .lead-software-engineer-at-google {
+  margin: 2px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: var(--heading-h-4-semibold-font-family, 'Sora');
+  font-weight: var(--heading-h-4-semibold-font-weight, 600);
+  font-size: var(--heading-h-4-semibold-font-size, 24px);
+  letter-spacing: var(--heading-h-4-semibold-letter-spacing, -0.5px);
+  line-height: var(--heading-h-4-semibold-line-height, 1.167);
+  color: var(--primary-white, #FFFFFF);
+}
+.app .nov-2019-present {
+  margin: 6px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: var(--heading-h-6-semibold-font-family, 'Sora');
+  font-weight: var(--heading-h-6-semibold-font-weight, 600);
+  font-size: var(--heading-h-6-semibold-font-size, 16px);
+  letter-spacing: var(--heading-h-6-semibold-letter-spacing, -0.3px);
+  line-height: var(--heading-h-6-semibold-line-height, 1.25);
+  color: var(--zinc-300, #D4D4D8);
+}
+.app .as-asenior-software-engineer-at-google-iplayed-apivotal-role-in-developing-innovative-solutions-for-googles-core-search-algorithms-collaborating-with-adynamic-team-of-engineers-icontributed-to-the-enhancement-of-search-accuracy-and-efficiency-optimizing-user-experiences-for-millions-of-users-worldwide {
+  margin-right: 15.2px;
+  overflow-wrap: break-word;
+  font-family: var(--paragraph-p-2-regular-font-family, 'Sora');
+  font-weight: var(--paragraph-p-2-regular-font-weight, 400);
+  font-size: var(--paragraph-p-2-regular-font-size, 16px);
+  letter-spacing: var(--paragraph-p-2-regular-letter-spacing, 0.3px);
+  line-height: var(--paragraph-p-2-regular-line-height, 1.5);
+  color: var(--zinc-300, #D4D4D8);
+}
+.app .frame-10000158871 {
+  margin-bottom: 28px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 1120px;
+  box-sizing: border-box;
+}
+.app .frame-10000158861 {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.app .youtube {
+  margin-right: 30.4px;
+  width: 32px;
+  height: 32px;
+}
+.app .lead-software-engineer-at-google-1 {
+  margin: 2px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: var(--heading-h-4-semibold-font-family, 'Sora');
+  font-weight: var(--heading-h-4-semibold-font-weight, 600);
+  font-size: var(--heading-h-4-semibold-font-size, 24px);
+  letter-spacing: var(--heading-h-4-semibold-letter-spacing, -0.5px);
+  line-height: var(--heading-h-4-semibold-line-height, 1.167);
+  color: var(--primary-white, #FFFFFF);
+}
+.app .nov-2019-present-1 {
+  margin: 6px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: var(--heading-h-6-semibold-font-family, 'Sora');
+  font-weight: var(--heading-h-6-semibold-font-weight, 600);
+  font-size: var(--heading-h-6-semibold-font-size, 16px);
+  letter-spacing: var(--heading-h-6-semibold-letter-spacing, -0.3px);
+  line-height: var(--heading-h-6-semibold-line-height, 1.25);
+  color: var(--zinc-300, #D4D4D8);
+}
+.app .as-asenior-software-engineer-at-google-iplayed-apivotal-role-in-developing-innovative-solutions-for-googles-core-search-algorithms-collaborating-with-adynamic-team-of-engineers-icontributed-to-the-enhancement-of-search-accuracy-and-efficiency-optimizing-user-experiences-for-millions-of-users-worldwide-1 {
+  margin-right: 20.2px;
+  overflow-wrap: break-word;
+  font-family: var(--paragraph-p-2-regular-font-family, 'Sora');
+  font-weight: var(--paragraph-p-2-regular-font-weight, 400);
+  font-size: var(--paragraph-p-2-regular-font-size, 16px);
+  letter-spacing: var(--paragraph-p-2-regular-letter-spacing, 0.3px);
+  line-height: var(--paragraph-p-2-regular-line-height, 1.5);
+  color: var(--zinc-300, #D4D4D8);
+}
+.app .frame-10000158872 {
+  margin-bottom: 28px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 1119.8px;
+  box-sizing: border-box;
+}
+.app .frame-10000158862 {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.app .apple {
+  margin-right: 30.3px;
+  width: 32px;
+  height: 32px;
+}
+.app .lead-software-engineer-at-google-2 {
+  margin: 2px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: var(--heading-h-4-semibold-font-family, 'Sora');
+  font-weight: var(--heading-h-4-semibold-font-weight, 600);
+  font-size: var(--heading-h-4-semibold-font-size, 24px);
+  letter-spacing: var(--heading-h-4-semibold-letter-spacing, -0.5px);
+  line-height: var(--heading-h-4-semibold-line-height, 1.167);
+  color: var(--primary-white, #FFFFFF);
+}
+.app .nov-2019-present-2 {
+  margin: 6px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: var(--heading-h-6-semibold-font-family, 'Sora');
+  font-weight: var(--heading-h-6-semibold-font-weight, 600);
+  font-size: var(--heading-h-6-semibold-font-size, 16px);
+  letter-spacing: var(--heading-h-6-semibold-letter-spacing, -0.3px);
+  line-height: var(--heading-h-6-semibold-line-height, 1.25);
+  color: var(--zinc-300, #D4D4D8);
+}
+.app .as-asenior-software-engineer-at-google-iplayed-apivotal-role-in-developing-innovative-solutions-for-googles-core-search-algorithms-collaborating-with-adynamic-team-of-engineers-icontributed-to-the-enhancement-of-search-accuracy-and-efficiency-optimizing-user-experiences-for-millions-of-users-worldwide-2 {
+  margin-right: 45.8px;
+  overflow-wrap: break-word;
+  font-family: var(--paragraph-p-2-regular-font-family, 'Sora');
+  font-weight: var(--paragraph-p-2-regular-font-weight, 400);
+  font-size: var(--paragraph-p-2-regular-font-size, 16px);
+  letter-spacing: var(--paragraph-p-2-regular-letter-spacing, 0.3px);
+  line-height: var(--paragraph-p-2-regular-line-height, 1.5);
+  color: var(--zinc-300, #D4D4D8);
 }
