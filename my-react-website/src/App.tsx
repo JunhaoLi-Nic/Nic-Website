@@ -11,7 +11,7 @@ export default function App() {
             <img className="vector-68" src="src/assets/vectors/Vector82_x2.svg" />
           </div>
           <div className="button-2">
-            <img className="vector-69" src="src/assets/vectors/Vector5_x2.svg" />
+            <img className="vector-69" src="src/assets/vectors/Vector26_x2.svg"  />
           </div>
         </div>
         <div className="container">
