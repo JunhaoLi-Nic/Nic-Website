@@ -14,7 +14,8 @@
     "@splinetool/runtime": "^1.6.6",
     "github-calendar": "^2.3.4",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-github-calendar": "^4.1.5"
   },
   "devDependencies": {
     "@types/node": "^20.14.2",

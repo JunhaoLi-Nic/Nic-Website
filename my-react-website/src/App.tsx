@@ -1,5 +1,6 @@
 import './App.css'
 import { Header } from '@components/Header/header'
+import EmbededGraph from '@components/github/record'
 
 export default function App() {
   return (
@@ -398,6 +399,7 @@ export default function App() {
           </span>
         </div>
       </div>
+      <EmbededGraph />
     </div>
   )
 }
