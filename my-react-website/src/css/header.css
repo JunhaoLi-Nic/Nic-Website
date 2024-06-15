@@ -1,0 +1,145 @@
+.header {
+    margin: 40px 112px 73px 120.4px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1300px;
+    box-sizing: border-box;
+}
+
+.logo {
+    margin: 10.6px 0;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+}
+
+.app .logo-1 {
+    margin-right: 20.4px;
+    display: flex;
+    width: 23.2px;
+    height: 34.7px;
+    box-sizing: border-box;
+}
+
+.app .group-26 {
+    width: 23.2px;
+    height: 34.7px;
+}
+
+.personal-1 {
+    margin: 5.4px 0;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: var(--heading-h-5-bold-font-family, 'Sora');
+    font-weight: var(--heading-h-5-bold-font-weight, 700);
+    font-size: var(--heading-h-5-bold-font-size, 30px);
+    letter-spacing: var(--heading-h-5-bold-letter-spacing, -0.4px);
+    line-height: var(--heading-h-5-bold-line-height, 1.2);
+    text-transform: var(--heading-h-5-bold-text-transform, capitalize);
+    color: var(--primary-black, #000000);
+}
+
+.taskbaar {
+    margin: 16px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 436.9px;
+    height: fit-content;
+    box-sizing: border-box;
+    
+}
+
+.about-me-1 {
+    display: flex;
+    box-sizing: border-box;
+  }
+.about-me-2 {
+    display: flex;
+    box-sizing: border-box;
+  }
+.about-me-3 {
+    display: flex;
+    box-sizing: border-box;
+  }
+.about-me-4 {
+    margin-right: 0px;
+    display: flex;
+    box-sizing: border-box;
+  }
+
+.about-me-5 {
+    overflow-wrap: break-word;
+    font-family: var(--heading-h-5-semibold-font-family, 'Sora');
+    font-weight: var(--heading-h-5-semibold-font-weight, 600);
+    font-size: var(--heading-h-5-semibold-font-size, 25px);
+    letter-spacing: var(--heading-h-5-semibold-letter-spacing, -0.4px);
+    line-height: var(--heading-h-5-semibold-line-height, 1.2);
+    text-transform: var(--heading-h-5-semibold-text-transform, capitalize);
+    color: var(--primary-black, #000000);
+  }
+.about-me-6 {
+    overflow-wrap: break-word;
+    font-family: var(--heading-h-5-semibold-font-family, 'Sora');
+    font-weight: var(--heading-h-5-semibold-font-weight, 600);
+    font-size: var(--heading-h-5-semibold-font-size, 25px);
+    letter-spacing: var(--heading-h-5-semibold-letter-spacing, -0.4px);
+    line-height: var(--heading-h-5-semibold-line-height, 1.2);
+    text-transform: var(--heading-h-5-semibold-text-transform, capitalize);
+    color: var(--primary-black, #000000);
+  }
+.about-me-7 {
+    overflow-wrap: break-word;
+    font-family: var(--heading-h-5-semibold-font-family, 'Sora');
+    font-weight: var(--heading-h-5-semibold-font-weight, 600);
+    font-size: var(--heading-h-5-semibold-font-size, 25px);
+    letter-spacing: var(--heading-h-5-semibold-letter-spacing, -0.4px);
+    line-height: var(--heading-h-5-semibold-line-height, 1.2);
+    text-transform: var(--heading-h-5-semibold-text-transform, capitalize);
+    color: var(--primary-black, #000000);
+  }
+.about-me-8 {
+    overflow-wrap: break-word;
+    font-family: var(--heading-h-5-semibold-font-family, 'Sora');
+    font-weight: var(--heading-h-5-semibold-font-weight, 600);
+    font-size: var(--heading-h-5-semibold-font-size, 25px);
+    letter-spacing: var(--heading-h-5-semibold-letter-spacing, -0.4px);
+    line-height: var(--heading-h-5-semibold-line-height, 1.2);
+    text-transform: var(--heading-h-5-semibold-text-transform, capitalize);
+    color: var(--primary-black, #000000);
+  }
+
+.button-8 {
+    border-radius: 20px;
+    background: var(--primary-black, #000000);
+    display: flex;
+    flex-direction: row;
+    padding: 16px 0 16px 20px;
+    width: 130px;
+    height: 60px;
+    box-sizing: border-box;
+}
+.resume-1 {
+    margin-right: 11.2px;
+    overflow-wrap: break-word;
+    font-family: var(--button-text-semi-bold-font-family, 'Sora');
+    font-weight: var(--button-text-semi-bold-font-weight, 600);
+    font-size: var(--button-text-semi-bold-font-size, 20px);
+    letter-spacing: var(--button-text-semi-bold-letter-spacing, 0.4px);
+    line-height: var(--button-text-semi-bold-line-height, 1.2);
+    color: var(--primary-white, #FFFFFF);
+}
+
+.download {
+    margin: 4.5px 0;
+    display: flex;
+    width: 15px;
+    height: 15px;
+    box-sizing: border-box;
+}
+
+.icon {
+    width: 15px;
+    height: 15px;
+}

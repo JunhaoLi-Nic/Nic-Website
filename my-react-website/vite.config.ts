@@ -8,6 +8,7 @@ export default defineConfig({
   resolve: {
     alias: {
       '@components': Path.resolve(__dirname, './src/components'),
+      '@css': Path.resolve(__dirname, './src/css'),
     },
   },
 })

@@ -1,49 +1,10 @@
 import './App.css'
-
+import { Header } from '@components/Header/header'
 
 export default function App() {
   return (
     <div className="app">
-      <div className="header">
-        <div className="logo">
-          <div className="logo-1">
-            <img className="group-26" src="src/assets/vectors/Group1_x2.svg" />
-          </div>
-          <div className="personal-1">
-            Nic.
-          </div>
-        </div>
-        <div className="taskbaar">
-          <div className="about-me-1">
-            <span className="about-me-5">
-              About Me
-            </span>
-          </div>
-          <div className="about-me-2">
-            <span className="about-me-6">
-              Skills
-            </span>
-          </div>
-          <div className="about-me-3">
-            <span className="about-me-7">
-              Project
-            </span>
-          </div>
-          <div className="about-me-4">
-            <span className="about-me-8">
-              Contact me
-            </span>
-          </div>
-        </div>
-        <div className="button-8">
-          <span className="resume-1">
-            Resume
-          </span>
-          <div className="download">
-            <img className="icon" src="src/assets/vectors/Icon24_x2.svg" />
-          </div>
-        </div>
-      </div>
+      <Header />
       <div className="hero-section">
         <div className="frame-42">
           <div className="button-1">
@@ -197,15 +158,15 @@ export default function App() {
               <div className="frame-1000015886">
                 <img className="google" src="src/assets/vectors/Google6_x2.svg" />
                 <div className="lead-software-engineer-at-google">
-                  Lead Software Engineer at Google
+                  Software Engineer at SIL3 PTY LTD
                 </div>
               </div>
               <div className="nov-2019-present">
-                Nov 2019 - Present
+                July 2023 - Present
               </div>
             </div>
             <span className="as-asenior-software-engineer-at-google-iplayed-apivotal-role-in-developing-innovative-solutions-for-googles-core-search-algorithms-collaborating-with-adynamic-team-of-engineers-icontributed-to-the-enhancement-of-search-accuracy-and-efficiency-optimizing-user-experiences-for-millions-of-users-worldwide">
-              As a Senior Software Engineer at Google, I played a pivotal role in developing innovative solutions for Google&#39;s core search algorithms. Collaborating with a dynamic team of engineers, I contributed to the enhancement of search accuracy and efficiency, optimizing user experiences for millions of users worldwide.
+            At SIL3 Pty Ltd, I have been contributing to the development of a flight control system for AMSL Aero Pty Ltd using the Arcadia methodology. My role involves generating test cases based on specifications, standards, or concepts in C#, ensuring any failing tests are identified and corrected. Additionally, I manage the integration of test cases with Jenkins for continuous integration and deployment, making sure that changes in the code base are reflected in the test cases.
             </span>
           </div>
           <div className="experience-2">
