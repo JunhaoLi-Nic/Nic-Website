@@ -1,18 +1,36 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import ActivityCalendar from 'react-github-calendar';
+
 
 interface Activity {
     date: string;
     count: number;
     level: 0 | 1 | 2 | 3 | 4;
-}
+  }
 
+const selectLastHalfYear = (contributions: Activity[]) => {
+    const currentYear = new Date().getFullYear();
+    const currentMonth = new Date().getMonth();
+    const shownMonths = 6;
+  
+    return contributions.filter((activity: Activity) => {
+      const date = new Date(activity.date);
+      const monthOfDay = date.getMonth();
+  
+      return (
+        date.getFullYear() === currentYear &&
+        monthOfDay > currentMonth - shownMonths &&
+        monthOfDay <= currentMonth
+      );
+    });
+  };
+  
 
 const EmbededGraph: React.FC = () => {
     return (
         <ActivityCalendar
         username="JunhaoLi-Nic" 
-        year = {2024}
+        transformData={selectLastHalfYear} 
         labels={{
             months: [
                 'Jan',
@@ -37,7 +55,7 @@ const EmbededGraph: React.FC = () => {
                 'Fri',
                 'Sat',
               ],
-              totalCount: '{{count}} activities in {{year}}',
+              totalCount: '{{count}} activities in last 6 months',
               legend: {
                 less: 'Less',
                 more: 'More',
@@ -51,12 +69,18 @@ const EmbededGraph: React.FC = () => {
         fontSize={20}
         theme={{
             "light": [
-              "hsl(0, 0%, 92%)",
-              "rebeccapurple"
+              "#f0f0f0",
+              "#c4edde",
+              "#7ac7c4",
+              "#f73859",
+              "#384259"
             ],
             "dark": [
               "hsl(0, 0%, 22%)",
-              "hsl(225,92%,77%)"
+              "#4D455D",
+              "#7DB9B6",
+              "#F5E9CF",
+              "#E96479"
             ]
           }}
         />
