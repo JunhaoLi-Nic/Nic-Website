@@ -1708,3 +1708,6 @@
   line-height: var(--paragraph-p-2-regular-line-height, 1.5);
   color: var(--zinc-300, #D4D4D8);
 }
+.app .calendar{
+  color:#000
+}

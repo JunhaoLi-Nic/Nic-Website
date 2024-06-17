@@ -399,7 +399,9 @@ export default function App() {
           </span>
         </div>
       </div>
-      <EmbededGraph />
+        <div className='calendar'>
+          <EmbededGraph />
+        </div>
     </div>
   )
 }
