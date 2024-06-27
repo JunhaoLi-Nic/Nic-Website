@@ -1,88 +1,62 @@
-/* Define a unique root class for the About Me page */
-.about-me-root {
-  background: #FFFFFF;
+/* Reset CSS to handle margins, padding, and box-sizing */
+html, body, #root, .app {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  background: #FFFFFF; /* Set a white background for all */
+}
+
+/* Ensure that the content uses the full available width and is centered */
+.app {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 100%;
-  padding: 20px;
-  box-sizing: border-box;
+  justify-content: flex-start;
+  min-height: 100vh; /* Full view height */
 }
 
-/* Use specific class names instead of :root for defining variables locally */
-.about-me-root {
-  --about-me-primary-font-family: 'Sora', sans-serif;
-  --about-me-primary-text-color: #333;
-  --about-me-secondary-text-color: #71717A;
-  --about-me-primary-bg-color: #FFF;
+/* Additional global style adjustments */
+body {
+  font-family: 'Sora', sans-serif; /* Ensure your preferred font is used */
+  color: #333; /* Standard text color */
+  line-height: 1.6; /* Adequate line height for readability */
+  overflow-x: hidden; /* Hide horizontal scroll */
 }
 
-.about-me-root .about-me {
+/* Styling for the About Me section */
+.about-me {
+  width: 90%; /* Adjust width as needed */
+  max-width: 1200px; /* Maximum width for larger screens */
+  margin: 0 auto; /* Center the about-me section horizontally */
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: flex-start;
-  width: 80%;
-  max-width: 1200px;
-  margin: 40px auto;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
   padding: 20px;
-  background: var(--about-me-primary-bg-color);
 }
 
-.about-me-root .group-1000015845 {
-  width: 300px;
-  height: auto;
-  margin-right: 50px;
+/* Styling for the About Me image */
+.about-me-image {
+  width: 30%; /* Reduced from 40% to 30% */
+  height: auto; /* Maintain aspect ratio */
+  margin-right: 20px; /* Space between image and text */
+  border-radius: 8px; /* Optional: Adds rounded corners */
 }
 
-.about-me-root .frame-1000015860 {
-  display: flex;
-  flex-direction: column;
-  flex-grow: 1;
+/* Ensure the text section takes up the remaining space */
+.about-me-text {
+  width: 70%; /* Increased from 60% to 70% */
 }
 
-.about-me-root span, .about-me-root p {
-  font-family: var(--about-me-primary-font-family);
-  color: var(--about-me-primary-text-color);
-  line-height: 1.4;
-}
-
-.about-me-root .my-1, .about-me-root .me {
-  font-size: 24px;
-  margin-bottom: 8px;
-}
-
-.about-me-root .im-apassionate-self-proclaimed-designer, .about-me-root .ibegan-my-journey-as-a-web-developer {
-  font-size: 16px;
-  color: var(--about-me-secondary-text-color);
-}
-
-.about-me-root .calendar {
-  width: 80%;
-  margin: 20px auto;
-  padding: 20px;
-  background: #f9f9f9;
-  border-radius: 8px;
-}
-
-.about-me-root .calendar img {
-  width: 100%;
-  height: auto;
-}
-
+/* Responsive adjustments */
 @media (max-width: 768px) {
-  .about-me-root .about-me {
-      flex-direction: column;
-      align-items: center;
+  .about-me-image {
+      width: 80%; /* Larger relative width on smaller screens */
+      margin-bottom: 20px; /* Space between image and text on smaller screens */
   }
 
-  .about-me-root .group-1000015845 {
-      margin-right: 0;
-      margin-bottom: 20px;
-  }
-
-  .about-me-root .frame-1000015860 {
-      align-items: center;
+  .about-me-text {
+      width: 100%; /* Full width on smaller screens */
   }
 }
