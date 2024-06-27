@@ -8,12 +8,12 @@ export default function App() {
       <Header />
       <div className="hero-section">
         <div className="frame-42">
-          <div className="button-1">
-            <img className="vector-68" src="src/assets/vectors/Vector82_x2.svg" />
-          </div>
-          <div className="button-2">
-            <img className="vector-69" src="src/assets/vectors/Vector26_x2.svg"  />
-          </div>
+          <a href="https://www.linkedin.com/in/nicholas-li168336" className="button-1"target="_blank" rel="noopener noreferrer">
+          <img src="src/assets/vectors/Vector82_x2.svg" alt="Descriptive Alt Text" className="vector-68" />
+          </a>
+          <a href="https://github.com/JunhaoLi-Nic" className="button-2" target="_blank" rel="noopener noreferrer">
+          <img src="src/assets/vectors/Vector26_x2.svg" alt="GitHub Profile" className="vector-69" />
+          </a>
         </div>
         <div className="container">
           <div className="banner">
@@ -150,7 +150,7 @@ export default function App() {
             My
           </span>
           <span className="experience">
-            Experience
+           Work Experience
           </span>
         </div>
         <div className="row-5">
@@ -183,7 +183,7 @@ export default function App() {
               </div>
             </div>
             <span className="as-asenior-software-engineer-at-google-iplayed-apivotal-role-in-developing-innovative-solutions-for-googles-core-search-algorithms-collaborating-with-adynamic-team-of-engineers-icontributed-to-the-enhancement-of-search-accuracy-and-efficiency-optimizing-user-experiences-for-millions-of-users-worldwide-1">
-              At Youtube, I served as a  Software Engineer, focusing on the design and implementation of backend systems for the social media giant&#39;s dynamic platform. Working on projects that involved large-scale data processing and user engagement features, I leveraged my expertise to ensure seamless functionality and scalability.
+            effectively contributed to the debugging and verification of embedded firmware in C on Texas Instruments RM57 safety CPUs, ensuring robust performance on hardware targets. I also performed comprehensive software verification and validation using Microsoft Visual Studio. Additionally, I undertook development and investigative initiatives on Jetson Nano development hardware, leveraging my skills in Linux, Python, and C# to enhance project outcomes.
             </span>
           </div>
         </div>

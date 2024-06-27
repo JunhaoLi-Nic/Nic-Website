@@ -11,8 +11,7 @@
   margin: 0 112px 300px 112px;
   padding-bottom: 15px;
   box-sizing: border-box;
-  align-items: center; /* Aligns children in the center horizontally */
-  width: 1300px;
+  width: 78%;
 }
 .app .container {
   position: relative;
@@ -331,7 +330,7 @@
   margin: 0 121.2px 60px 112px;
   display: flex;
   flex-direction: row;
-  width: fit-content;
+  width: 70%;
   box-sizing: border-box;
 }
 .app .group-1000015845 {
