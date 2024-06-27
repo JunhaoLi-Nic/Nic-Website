@@ -1,45 +1,27 @@
-import React, { JSX } from 'react';
-import '@css/header.css'; 
+import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
+import '@css/header.css';
 
-export const Header: React.FC = (): JSX.Element => {
+export const Header: React.FC = () => {
+    const [isOpen, setIsOpen] = useState(false);
+
     return (
         <div className="header">
             <div className="logo">
-                <div className="logo-1">
-                    <img className="group-26" src="src/assets/vectors/Group1_x2.svg" />
-                </div>
-                <div className="personal-1">
-                    Nic.
-                </div>
+                <img className="group-26" src="src/assets/vectors/Group1_x2.svg" alt="Logo" />
+                <Link to ="/" className="personal-1">Nic.</Link>
             </div>
-            <div className="taskbaar">
-                <div className="about-me-1">
-                    <span className="about-me-5">
-                        About Me
-                    </span>
-                </div>
-                <div className="about-me-2">
-                    <span className="about-me-6">
-                        Skills
-                    </span>
-                </div>
-                <div className="about-me-3">
-                    <span className="about-me-7">
-                        Project
-                    </span>
-                </div>
-                <div className="about-me-4">
-                    <span className="about-me-8">
-                        Contact me
-                    </span>
-                </div>
-            </div>
-            <div className="button-8">
-                <span className="resume-1">
-                    Resume
-                </span>
-                <div className="download">
-                    <img className="icon" src="src/assets/vectors/Icon24_x2.svg" />
+            <button className="hamburger" onClick={() => setIsOpen(!isOpen)}>☰</button>
+            <div className={`taskbaar ${isOpen ? 'open' : ''}`}>
+                <Link to="/aboutme" className="link">About Me</Link>
+                <Link to="/skills" className="link">Skills</Link>
+                <Link to="/projects" className="link">Project</Link>
+                <Link to="/contact" className="link">Contact Me</Link>
+                <div className="button-8 inside-menu"> {/* New class to style differently if needed */}
+                    <span className="resume-1">Resume</span>
+                    <div className="download">
+                        <img className="icon" src="src/assets/vectors/Icon24_x2.svg" alt="Download" />
+                    </div>
                 </div>
             </div>
         </div>
