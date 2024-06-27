@@ -56,7 +56,22 @@ body {
   margin-top: 40px; /* Space between text and calendar */
   align-items: center; /* Center the calendar horizontally */
   margin-bottom: 40px;
+  transform: scale(1.2);
+  padding-top: 10px;
 }
+
+.calendar-github {
+  background-color: black;  /* Sets the background color of the container */
+  color: white;  /* Sets the text color */
+  width: 100%;  /* Ensures the container spans the full width */
+  display: flex;  /* Enables flexbox layout */
+  flex-direction: column;  /* Stacks the child elements vertically */
+  align-items: center;  /* Centers the child elements horizontally */
+  justify-content: center;  /* Centers the child elements vertically */
+  padding-top: 20px;  /* Adds space at the top */
+  padding-bottom: 20px;  /* Adds space at the bottom */
+}
+
 
 /* Responsive adjustments */
 @media (max-width: 768px) {
