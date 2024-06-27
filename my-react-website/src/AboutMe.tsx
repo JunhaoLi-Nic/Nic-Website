@@ -24,6 +24,7 @@ const AboutMe: React.FC = () => {
                     </p>
                 </div>
             </div>
+            <h1 className='calendar-header'>My GitHub Activity</h1>
             <div className='calendar'>
                 <EmbededGraph />
             </div>

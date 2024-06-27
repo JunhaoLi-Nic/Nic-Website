@@ -15,6 +15,7 @@ html, body, #root, .app {
   align-items: center;
   justify-content: flex-start;
   min-height: 100vh; /* Full view height */
+  height: fit-content;
 }
 
 /* Additional global style adjustments */
@@ -40,13 +41,21 @@ body {
 .about-me-image {
   width: 30%; /* Reduced from 40% to 30% */
   height: auto; /* Maintain aspect ratio */
-  margin-right: 20px; /* Space between image and text */
+  margin-right: 40px; /* Space between image and text */
   border-radius: 8px; /* Optional: Adds rounded corners */
+  margin-top: 45px; 
 }
 
 /* Ensure the text section takes up the remaining space */
 .about-me-text {
   width: 70%; /* Increased from 60% to 70% */
+}
+
+.calendar {
+  height: auto; /* Maintain aspect ratio */
+  margin-top: 40px; /* Space between text and calendar */
+  align-items: center; /* Center the calendar horizontally */
+  margin-bottom: 40px;
 }
 
 /* Responsive adjustments */
