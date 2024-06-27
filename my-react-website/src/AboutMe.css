@@ -1,0 +1,88 @@
+/* Define a unique root class for the About Me page */
+.about-me-root {
+  background: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* Use specific class names instead of :root for defining variables locally */
+.about-me-root {
+  --about-me-primary-font-family: 'Sora', sans-serif;
+  --about-me-primary-text-color: #333;
+  --about-me-secondary-text-color: #71717A;
+  --about-me-primary-bg-color: #FFF;
+}
+
+.about-me-root .about-me {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 80%;
+  max-width: 1200px;
+  margin: 40px auto;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  padding: 20px;
+  background: var(--about-me-primary-bg-color);
+}
+
+.about-me-root .group-1000015845 {
+  width: 300px;
+  height: auto;
+  margin-right: 50px;
+}
+
+.about-me-root .frame-1000015860 {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.about-me-root span, .about-me-root p {
+  font-family: var(--about-me-primary-font-family);
+  color: var(--about-me-primary-text-color);
+  line-height: 1.4;
+}
+
+.about-me-root .my-1, .about-me-root .me {
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+
+.about-me-root .im-apassionate-self-proclaimed-designer, .about-me-root .ibegan-my-journey-as-a-web-developer {
+  font-size: 16px;
+  color: var(--about-me-secondary-text-color);
+}
+
+.about-me-root .calendar {
+  width: 80%;
+  margin: 20px auto;
+  padding: 20px;
+  background: #f9f9f9;
+  border-radius: 8px;
+}
+
+.about-me-root .calendar img {
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .about-me-root .about-me {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .about-me-root .group-1000015845 {
+      margin-right: 0;
+      margin-bottom: 20px;
+  }
+
+  .about-me-root .frame-1000015860 {
+      align-items: center;
+  }
+}

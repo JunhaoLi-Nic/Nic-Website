@@ -329,56 +329,7 @@
   line-height: var(--displaytext-regular-line-height, 1.167);
   color: var(--primary-black, #000000);
 }
-.app .about-me {
-  margin: 0 121.2px 60px 112px;
-  display: flex;
-  flex-direction: row;
-  width: 70%;
-  box-sizing: border-box;
-}
-.app .group-1000015845 {
-  margin-right: 80.6px;
-  width: 525.4px;
-  height: 572px;
-}
-.app .frame-1000015860 {
-  margin: 20px 0 32px 0;
-  display: flex;
-  flex-direction: column;
-  box-sizing: border-box;
-}
-.app .im-apassionate-self-proclaimed-designer-who-specializes-in-full-stack-development-react-js-node-js-iam-very-enthusiastic-about-bringing-the-technical-and-visual-aspects-of-digital-products-to-life-user-experience-pixel-perfect-design-and-writing-clear-readable-highly-performant-code-matters-to-me {
-  margin: 0 1.8px 20px 0;
-  display: inline-block;
-  overflow-wrap: break-word;
-  font-family: var(--paragraph-p-2-regular-font-family, 'Sora');
-  font-weight: var(--paragraph-p-2-regular-font-weight, 400);
-  font-size: var(--paragraph-p-2-regular-font-size, 16px);
-  letter-spacing: var(--paragraph-p-2-regular-letter-spacing, 0.3px);
-  line-height: var(--paragraph-p-2-regular-line-height, 1.5);
-  color: var(--zinc-500, #71717A);
-}
-.app .ibegan-my-journey-as-aweb-developer-in-2015-and-since-then-ive-continued-to-grow-and-evolve-as-adeveloper-taking-on-new-challenges-and-learning-the-latest-technologies-along-the-way-now-in-my-early-thirties-7-years-after-starting-my-web-development-journey-im-building-cutting-edge-web-applications-using-modern-technologies-such-as-next-js-type-script-nestjs-tailwindcss-supabase-and-much-more {
-  margin-bottom: 20px;
-  display: inline-block;
-  overflow-wrap: break-word;
-  font-family: var(--paragraph-p-2-regular-font-family, 'Sora');
-  font-weight: var(--paragraph-p-2-regular-font-weight, 400);
-  font-size: var(--paragraph-p-2-regular-font-size, 16px);
-  letter-spacing: var(--paragraph-p-2-regular-letter-spacing, 0.3px);
-  line-height: var(--paragraph-p-2-regular-line-height, 1.5);
-  color: var(--zinc-500, #71717A);
-}
-.app .when-im-not-in-full-on-developer-mode-you-can-find-me-hovering-around-on-twitter-or-on-indie-hacker-witnessing-the-journey-of-early-startups-or-enjoying-some-free-time-you-can-follow-me-on-twitter-where-ishare-tech-related-bites-and-build-in-public-or-you-can-follow-me-on-git-hub {
-  margin-right: 3.1px;
-  overflow-wrap: break-word;
-  font-family: var(--paragraph-p-2-regular-font-family, 'Sora');
-  font-weight: var(--paragraph-p-2-regular-font-weight, 400);
-  font-size: var(--paragraph-p-2-regular-font-size, 16px);
-  letter-spacing: var(--paragraph-p-2-regular-letter-spacing, 0.3px);
-  line-height: var(--paragraph-p-2-regular-line-height, 1.5);
-  color: var(--zinc-500, #71717A);
-}
+
 .app .frame-1000015861 {
   margin-bottom: 40px;
   display: flex;
@@ -387,25 +338,8 @@
   width: fit-content;
   box-sizing: border-box;
 }
-.app .my-1 {
-  margin-right: 16.4px;
-  overflow-wrap: break-word;
-  font-family: var(--displaytext-regular-font-family, 'Sora');
-  font-weight: var(--displaytext-regular-font-weight, 400);
-  font-size: var(--displaytext-regular-font-size, 48px);
-  letter-spacing: var(--displaytext-regular-letter-spacing, -1px);
-  line-height: var(--displaytext-regular-line-height, 1.167);
-  color: var(--primary-black, #000000);
-}
-.app .me {
-  overflow-wrap: break-word;
-  font-family: var(--displaytext-extra-bold-font-family, 'Sora');
-  font-weight: var(--displaytext-extra-bold-font-weight, 800);
-  font-size: var(--displaytext-extra-bold-font-size, 48px);
-  letter-spacing: var(--displaytext-extra-bold-letter-spacing, -1px);
-  line-height: var(--displaytext-extra-bold-line-height, 1.167);
-  color: var(--primary-black, #000000);
-}
+
+
 .app .project {
   background: var(--primary-black, #000000);
   display: flex;
@@ -887,13 +821,7 @@
   width: fit-content;
   box-sizing: border-box;
 }
-.app .frame-1000015875 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: fit-content;
-  box-sizing: border-box;
-}
+
 
 .app .testimonial {
   background: var(--primary-white, #FFFFFF);
@@ -1709,7 +1637,4 @@
   letter-spacing: var(--paragraph-p-2-regular-letter-spacing, 0.3px);
   line-height: var(--paragraph-p-2-regular-line-height, 1.5);
   color: var(--zinc-300, #D4D4D8);
-}
-.app .calendar{
-  color:#000
 }

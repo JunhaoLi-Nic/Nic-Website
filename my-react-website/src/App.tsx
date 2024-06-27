@@ -1,8 +1,11 @@
 import './App.css'
 import { Header } from '@components/Header/header'
-import EmbededGraph from '@components/github/record'
 
-export default function App() {
+import AboutMe from './AboutMe.tsx'
+import React, { useEffect, useState } from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+
+const MainLayout: React.FC = () => {
   return (
     <div className="app">
       <Header />
@@ -188,30 +191,7 @@ export default function App() {
           </div>
         </div>
       </div>
-      <div className="about-me">
-        <img className="group-1000015845" src="src/assets/vectors/Group1000015845_x2.svg" />
-        <div className="frame-1000015860">
-          <div className="frame-1000015861">
-            <span className="my-1">
-              About
-            </span>
-            <span className="me">
-              Me
-            </span>
-          </div>
-          <div className="frame-1000015875">
-            <div className="im-apassionate-self-proclaimed-designer-who-specializes-in-full-stack-development-react-js-node-js-iam-very-enthusiastic-about-bringing-the-technical-and-visual-aspects-of-digital-products-to-life-user-experience-pixel-perfect-design-and-writing-clear-readable-highly-performant-code-matters-to-me">
-              I&#39;m a passionate, self-proclaimed designer who specializes in full stack development (React.js &amp; Node.js). I am very enthusiastic about bringing the technical and visual aspects of digital products to life. User experience, pixel perfect design, and writing clear, readable, highly performant code matters to me.
-            </div>
-            <div className="ibegan-my-journey-as-aweb-developer-in-2015-and-since-then-ive-continued-to-grow-and-evolve-as-adeveloper-taking-on-new-challenges-and-learning-the-latest-technologies-along-the-way-now-in-my-early-thirties-7-years-after-starting-my-web-development-journey-im-building-cutting-edge-web-applications-using-modern-technologies-such-as-next-js-type-script-nestjs-tailwindcss-supabase-and-much-more">
-              I began my journey as a web developer in 2015, and since then, I&#39;ve continued to grow and evolve as a developer, taking on new challenges and learning the latest technologies along the way. Now, in my early thirties, 7 years after starting my web development journey, I&#39;m building cutting-edge web applications using modern technologies such as Next.js, TypeScript, Nestjs, Tailwindcss, Supabase and much more.
-            </div>
-            <span className="when-im-not-in-full-on-developer-mode-you-can-find-me-hovering-around-on-twitter-or-on-indie-hacker-witnessing-the-journey-of-early-startups-or-enjoying-some-free-time-you-can-follow-me-on-twitter-where-ishare-tech-related-bites-and-build-in-public-or-you-can-follow-me-on-git-hub">
-              When I&#39;m not in full-on developer mode, you can find me hovering around on twitter or on indie hacker, witnessing the journey of early startups or enjoying some free time. You can follow me on Twitter where I share tech-related bites and build in public, or you can follow me on GitHub.
-            </span>
-          </div>
-        </div>
-      </div>
+      
       <div className="project">
         <div className="heading">
           <span className="my-2">
@@ -383,9 +363,35 @@ export default function App() {
           </span>
         </div>
       </div>
-        <div className='calendar'>
-          <EmbededGraph />
-        </div>
+
     </div>
   )
 }
+
+const App: React.FC = () => {
+  // Session storage
+  const [token, setToken] = useState(false);
+
+  if(token){
+    sessionStorage.setItem('token', JSON.stringify(token));
+  }
+
+  useEffect(()=>{
+    var storage = sessionStorage.getItem('token');
+    if(storage){
+      let data = JSON.parse(storage);
+      setToken(data);
+    }
+  }, [])
+
+  return (
+    <Router>
+      <Routes>
+        <Route path="/" element={<MainLayout />} />
+        <Route path="/AboutMe" element={<AboutMe/>} />
+      </Routes>
+    </Router>
+  );
+};
+
+export default App;
