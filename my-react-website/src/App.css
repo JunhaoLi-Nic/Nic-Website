@@ -11,19 +11,22 @@
   margin: 0 112px 300px 112px;
   padding-bottom: 15px;
   box-sizing: border-box;
-  width: 78%;
+  justify-content: center; /* Aligns children in the center vertically */
+  align-items: center; /* Aligns children in the center horizontally */
+  width: 80%;
 }
 .app .container {
   position: relative;
   padding: 157px 57px 157px 120px;
   align-items: center; /* Aligns children in the center horizontally */
-  width: 500px;
+  width: 39%;
 }
-.app .banner { /* Assuming this is the container class */
-  padding: 0; /* Remove padding */
+.app .banner {
   margin-left: 0; /* Align it to the far left */
-  width: 100%; /* Ensure it spans the full width */
+  width: 100%; /* Default to full width on smaller screens */
+  box-sizing: border-box; /* Ensures padding and borders are included in the width */
 }
+
 
 .app .frame-46 {
   margin: 0 0px 32px 0;
