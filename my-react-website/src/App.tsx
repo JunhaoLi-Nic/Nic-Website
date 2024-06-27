@@ -157,7 +157,7 @@ export default function App() {
           <div className="experience-1">
             <div className="frame-1000015887">
               <div className="frame-1000015886">
-                <img className="google" src="src/assets/vectors/Google6_x2.svg" />
+                <img className="sil3" src="src/assets/vectors/Google6_x2.svg" />
                 <div className="lead-software-engineer-at-google">
                   Software Engineer at SIL3 PTY LTD
                 </div>
@@ -173,33 +173,17 @@ export default function App() {
           <div className="experience-2">
             <div className="frame-10000158871">
               <div className="frame-10000158861">
-                <img className="youtube" src="src/assets/vectors/Youtube2_x2.svg" />
+                <img className="sil3" src="src/assets/vectors/Google6_x2.svg" />
                 <div className="lead-software-engineer-at-google-1">
-                  Software Engineer at Youtube
+                  Software Engineer Intern at SIL3 PTY LTD
                 </div>
               </div>
               <div className="nov-2019-present-1">
-                Jan 2017 - Oct 2019
+                Nov 2022 - Feb 2023
               </div>
             </div>
             <span className="as-asenior-software-engineer-at-google-iplayed-apivotal-role-in-developing-innovative-solutions-for-googles-core-search-algorithms-collaborating-with-adynamic-team-of-engineers-icontributed-to-the-enhancement-of-search-accuracy-and-efficiency-optimizing-user-experiences-for-millions-of-users-worldwide-1">
               At Youtube, I served as a  Software Engineer, focusing on the design and implementation of backend systems for the social media giant&#39;s dynamic platform. Working on projects that involved large-scale data processing and user engagement features, I leveraged my expertise to ensure seamless functionality and scalability.
-            </span>
-          </div>
-          <div className="experience-3">
-            <div className="frame-10000158872">
-              <div className="frame-10000158862">
-                <img className="apple" src="src/assets/vectors/Apple4_x2.svg" />
-                <div className="lead-software-engineer-at-google-2">
-                  Junior Software Engineer at Apple
-                </div>
-              </div>
-              <div className="nov-2019-present-2">
-                Jan 2016 - Dec 2017
-              </div>
-            </div>
-            <span className="as-asenior-software-engineer-at-google-iplayed-apivotal-role-in-developing-innovative-solutions-for-googles-core-search-algorithms-collaborating-with-adynamic-team-of-engineers-icontributed-to-the-enhancement-of-search-accuracy-and-efficiency-optimizing-user-experiences-for-millions-of-users-worldwide-2">
-              During my tenure at Apple, I held the role of Software Architect, where I played a key role in shaping the architecture of mission-critical software projects. Responsible for designing scalable and efficient systems, I provided technical leadership to a cross-functional team.
             </span>
           </div>
         </div>

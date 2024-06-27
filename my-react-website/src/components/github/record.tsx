@@ -32,8 +32,8 @@ const EmbededGraph: React.FC = () => {
         <>
             <ActivityCalendar
                 username="JunhaoLi-Nic"
-                //transformData={selectLastHalfYear}
-                year = {new Date().getFullYear() - 1} 
+                transformData={selectLastHalfYear}
+                //year = {new Date().getFullYear() - 1} 
                 labels={{
                     months: [
                         'Jan',
@@ -58,7 +58,7 @@ const EmbededGraph: React.FC = () => {
                         'Fri',
                         'Sat',
                     ],
-                    totalCount: '{{count}} activities in last {{year}}',
+                    totalCount: '{{count}} activities in last half {{year}}',
                     legend: {
                         less: 'Less',
                         more: 'More',
