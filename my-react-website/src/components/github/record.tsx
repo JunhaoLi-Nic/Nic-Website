@@ -75,8 +75,9 @@ const EmbededGraph: React.FC = () => {
                         "#f0f0f0",
                         "#c4edde",
                         "#7ac7c4",
+                        "#ffee00",
                         "#f73859",
-                        "#384259"
+             
                     ],
                     "dark": [
                         "hsl(0, 0%, 22%)",
