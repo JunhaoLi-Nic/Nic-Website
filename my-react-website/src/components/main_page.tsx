@@ -19,9 +19,9 @@ const MainPage: React.FC = () => {
                             <span className="based-in">Based In</span>
                             <span className="melbourne">Melbourne.</span>
                         </div>
-                        <p className="about-text">
+                        <div className="about-text">
                             I'm Nicholas Li who is simply dummy text of the printing and typesetting industry...
-                        </p>
+                        </div>
                         <div className="frame-42">
                             <a href="https://www.linkedin.com/in/nicholas-li168336" className="button-1"target="_blank" rel="noopener noreferrer">
                             <img src="src/assets/vectors/Vector82_x2.svg" alt="Descriptive Alt Text" className="vector-68" />
