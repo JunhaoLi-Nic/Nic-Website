@@ -39,16 +39,18 @@ body {
 
 /* Styling for the About Me image */
 .about-me-image {
-  width: 30%; /* Reduced from 40% to 30% */
+  width: 25%; /* Reduced from 40% to 30% */
   height: auto; /* Maintain aspect ratio */
-  margin-right: 10%; /* Space between image and text */
+  margin-right: 5%; /* Space between image and text */
   border-radius: 8px; /* Optional: Adds rounded corners */
   margin-top: 45px; 
+  margin-left: 20px;
 }
 
 /* Ensure the text section takes up the remaining space */
 .about-me-text {
-  width: 70%; /* Increased from 60% to 70% */
+  width: 65%; /* Increased from 60% to 70% */
+  margin-right: 40px;
 }
 
 .calendar {
@@ -58,6 +60,7 @@ body {
   margin-bottom: 40px;
   transform: scale(1.2);
   padding-top: 10px;
+  
 }
 
 .calendar-github {
@@ -74,13 +77,30 @@ body {
 
 
 /* Responsive adjustments */
-@media (max-width: 768px) {
+@media (max-width: 1020px) {
   .about-me-image {
       width: 80%; /* Larger relative width on smaller screens */
       margin-bottom: 20px; /* Space between image and text on smaller screens */
+      margin-left: 32px;
   }
 
   .about-me-text {
       width: 100%; /* Full width on smaller screens */
   }
+
+  .about-me {
+      width: 80%;
+      flex-direction: column; /* Stack image and text on smaller screens */
+      margin: 0 5% 0 5%; /* Reduced horizontal margin */
+  }
+ .calendar{
+  transform: scale(1.0);
+ }
+}
+
+@media (max-width: 600px) {
+  .calendar{
+    transform: scale(0.7);
+   }
+  
 }
