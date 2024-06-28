@@ -1,0 +1,147 @@
+.app .hero-section {
+    position: relative;
+    margin: 0 112px 300px 112px;
+    padding-bottom: 15px;
+    box-sizing: border-box;
+    justify-content: center; /* Aligns children in the center vertically */
+    align-items: center; /* Aligns children in the center horizontally */
+    width: 80%;
+  }
+  .app .container {
+    position: relative;
+    padding: 157px 57px 157px 120px;
+    align-items: center; /* Aligns children in the center horizontally */
+    width: 39%;
+  }
+  .app .banner {
+    margin-left: 0; /* Align it to the far left */
+    width: 100%; /* Default to full width on smaller screens */
+    box-sizing: border-box; /* Ensures padding and borders are included in the width */
+  }
+  
+  .app .frame-46 {
+    margin: 0 0px 32px 0;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .app .frame-43 {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .app .hello-iam {
+    margin-right: 16.1px;
+    overflow-wrap: break-word;
+    font-family: var(--displaytext-regular-font-family, 'Sora');
+    font-weight: var(--displaytext-regular-font-weight, 400);
+    font-size: var(--displaytext-regular-font-size, 48px);
+    letter-spacing: var(--displaytext-regular-letter-spacing, -1px);
+    line-height: var(--displaytext-regular-line-height, 1.167);
+    color: var(--primary-black, #000000);
+  }
+  .app .nicholas-li {
+    overflow-wrap: break-word;
+    font-family: var(--displaytext-extra-bold-font-family, 'Sora');
+    font-weight: var(--displaytext-extra-bold-font-weight, 800);
+    font-size: var(--displaytext-extra-bold-font-size, 48px);
+    letter-spacing: var(--displaytext-extra-bold-letter-spacing, -1px);
+    line-height: var(--displaytext-extra-bold-line-height, 1.167);
+    color: var(--primary-black, #000000);
+  }
+  .app .frame-44 {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .app .software {
+    margin-right: 16.3px;
+    overflow-wrap: break-word;
+    font-family: var(--displaytext-extra-bold-font-family, 'Sora');
+    font-weight: var(--displaytext-extra-bold-font-weight, 800);
+    font-size: var(--displaytext-extra-bold-font-size, 48px);
+    letter-spacing: var(--displaytext-extra-bold-letter-spacing, -1px);
+    line-height: var(--displaytext-extra-bold-line-height, 1.167);
+    color: var(--primary-black, #000000);
+  }
+  .app .engineer {
+    font-family: Arial, sans-serif; /* Change to your preferred font */
+    font-size: 48px; /* Adjust as needed */
+    font-weight: bold;
+    color: white; /* Text color */
+    text-shadow: 
+    -3px -3px 0 #000,  
+    3px -3px 0 #000,
+    -3px 3px 0 #000,
+    3px 3px 0 #000,
+    -2.5px 0 0 #000,
+    2.5px 0 0 #000,
+    0 -2.5px 0 #000,
+    0 2.5px 0 #000,
+    -3px 0 0 #000,
+    3px 0 0 #000,
+    0 -3px 0 #000,
+    0 3px 0 #000; /* Black thicker outline */
+  }
+  .app .frame-45 {
+    margin-right: 33.6px;
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .app .based-in {
+    margin-right: 16.6px;
+    overflow-wrap: break-word;
+    font-family: var(--displaytext-regular-font-family, 'Sora');
+    font-weight: var(--displaytext-regular-font-weight, 400);
+    font-size: var(--displaytext-regular-font-size, 48px);
+    letter-spacing: var(--displaytext-regular-letter-spacing, -1px);
+    line-height: var(--displaytext-regular-line-height, 1.167);
+    color: var(--primary-black, #000000);
+  }
+  .app .melbourne {
+    overflow-wrap: break-word;
+    font-family: var(--displaytext-extra-bold-font-family, 'Sora');
+    font-weight: var(--displaytext-extra-bold-font-weight, 800);
+    font-size: var(--displaytext-extra-bold-font-size, 48px);
+    letter-spacing: var(--displaytext-extra-bold-letter-spacing, -1px);
+    line-height: var(--displaytext-extra-bold-line-height, 1.167);
+    color: var(--primary-black, #000000);
+  }
+  .app .im-nicholas-li-who-is-simply-dummy-text-of-the-printing-and-typesetting-industry-lorem-ipsum-has-been-the-industrys-standard-dummy-text-ever-since-the-1500-swhen-an-unknown-printer-took-agalley-of-type-and-scrambled-it-to-specimen-book {
+    overflow-wrap: break-word;
+    font-family: var(--paragraph-p-2-regular-font-family, 'Sora');
+    font-weight: var(--paragraph-p-2-regular-font-weight, 400);
+    font-size: var(--paragraph-p-2-regular-font-size, 16px);
+    letter-spacing: var(--paragraph-p-2-regular-letter-spacing, 0.3px);
+    line-height: var(--paragraph-p-2-regular-line-height, 1.5);
+    color: var(--zinc-500, #71717A);
+    white-space: normal;
+    text-align: left; /* Ensure text is aligned to the left */
+    padding-left: 0; /* Remove any left padding if existing */
+    margin-left: 0; /* Ensure margin is not pushing it inward */
+    max-width: 448px;
+  }
+  
+  
+  .frame-20 {
+    position: absolute;
+    left: 120%;
+    Top: 0px;
+    width: 40%;       /* Adjusted width */
+    height: auto;       /* Auto height for maintaining aspect ratio */
+  }
+  .app .group-1000015839 {
+    position: absolute;
+    top: 0px;
+    right: -1px;
+    width: 1000px;
+    height: 941px;
+  }
