@@ -28,8 +28,8 @@ body {
 
 /* Styling for the About Me section */
 .about-me {
-  width: 90%; /* Adjust width as needed */
-  max-width: 1200px; /* Maximum width for larger screens */
+  width: 100%; /* Adjust width as needed */
+  max-width: 1400px; /* Maximum width for larger screens */
   margin: 0 auto; /* Center the about-me section horizontally */
   display: flex;
   flex-direction: row;
@@ -41,7 +41,7 @@ body {
 .about-me-image {
   width: 30%; /* Reduced from 40% to 30% */
   height: auto; /* Maintain aspect ratio */
-  margin-right: 40px; /* Space between image and text */
+  margin-right: 10%; /* Space between image and text */
   border-radius: 8px; /* Optional: Adds rounded corners */
   margin-top: 45px; 
 }
