@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import '@css/header.css';
+import {Donut} from '@components/spline/grass-donuts';
 
 export const Header: React.FC = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -8,7 +9,9 @@ export const Header: React.FC = () => {
     return (
         <div className="header">
             <div className="logo">
-                <img className="group-26" src="src/assets/vectors/Group1_x2.svg" alt="Logo" />
+                <div className="logo-1">
+                    <Donut/>
+                </div>
                 <Link to ="/" className="personal-1">Nic.</Link>
             </div>
             <button className="hamburger" onClick={() => setIsOpen(!isOpen)}>☰</button>
