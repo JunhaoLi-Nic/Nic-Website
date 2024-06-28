@@ -6,14 +6,6 @@
   align-items: center; /* Aligns children in the center horizontally */
   width: 100%; /* Takes the full width of the viewport */
 }
-.app .frame-42 {
-  position: absolute;
-  left: 112px;
-  bottom: 0px;
-  display: flex;
-  flex-direction: row;
-  box-sizing: border-box;
-}
 .app .skills {
   margin: 0 112px 100px 112px;
   display: flex;
@@ -260,18 +252,7 @@
   flex-direction: column;
   box-sizing: border-box;
 }
-.app .container {
-  margin-bottom: 28px;
-  display: inline-block;
-  align-self: flex-start;
-  overflow-wrap: break-word;
-  font-family: var(--displaytext-extra-bold-font-family, 'Sora');
-  font-weight: var(--displaytext-extra-bold-font-weight, 800);
-  font-size: var(--displaytext-extra-bold-font-size, 48px);
-  letter-spacing: var(--displaytext-extra-bold-letter-spacing, -1px);
-  line-height: var(--displaytext-extra-bold-line-height, 1.167);
-  color: var(--primary-white, #FFFFFF);
-}
+
 .app .crypto-screener-application {
   margin-bottom: 28px;
   display: inline-block;
