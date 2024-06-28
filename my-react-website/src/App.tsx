@@ -2,6 +2,7 @@ import './App.css'
 import { Header } from '@components/Header/header'
 import MainPage from '@components/main_page.tsx';
 import AboutMe from './AboutMe.tsx'
+import Project from './Project.tsx'
 import React, { useEffect, useState } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
@@ -147,77 +148,6 @@ const MainLayout: React.FC = () => {
         </div>
       </div>
       
-      <div className="project">
-        <div className="heading">
-          <span className="my-2">
-            My
-          </span>
-          <span className="projects">
-            Projects
-          </span>
-        </div>
-        <div className="project-1">
-          <div className="image">
-            <div className="image-771">
-            </div>
-          </div>
-          <div className="details">
-            <div className="container">
-              01
-            </div>
-            <div className="crypto-screener-application">
-              Crypto Screener Application
-            </div>
-            <div className="im-evren-shah-lorem-ipsum-is-simply-dummy-text-of-the-printing-and-typesetting-industry-lorem-ipsum-has-been-the-industrys-standard-dummy-text-ever-since-the-1500-swhen-an-unknown-printer-took-agalley-of-type-and-scrambled-it-to-specimen-book">
-              I&#39;m Evren Shah Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#39;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to specimen book.
-            </div>
-            <div className="read-more">
-              <img className="export" src="src/assets/vectors/Export5_x2.svg" />
-            </div>
-          </div>
-        </div>
-        <div className="project-2">
-          <div className="details-1">
-            <div className="container-1">
-              02
-            </div>
-            <div className="euphoria-ecommerce-apparels-website-template">
-              Euphoria - Ecommerce (Apparels) Website Template
-            </div>
-            <div className="im-evren-shah-lorem-ipsum-is-simply-dummy-text-of-the-printing-and-typesetting-industry-lorem-ipsum-has-been-the-industrys-standard-dummy-text-ever-since-the-1500-swhen-an-unknown-printer-took-agalley-of-type-and-scrambled-it-to-specimen-book-when-an-unknown-printer-took-agalley-of-type-and-scrambled-it-to-specimen-book">
-              I&#39;m Evren Shah Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#39;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to specimen book.<br />
-              when an unknown printer took a galley of type and scrambled it to specimen book.
-            </div>
-            <div className="read-more-1">
-              <img className="export-1" src="src/assets/vectors/Export9_x2.svg" />
-            </div>
-          </div>
-          <div className="image-1">
-            <div className="image-770">
-            </div>
-          </div>
-        </div>
-        <div className="project-3">
-          <div className="image-2">
-            <div className="image-7701">
-            </div>
-          </div>
-          <div className="details-2">
-            <div className="container-2">
-              03
-            </div>
-            <div className="blog-website-template">
-              Blog Website Template
-            </div>
-            <div className="im-evren-shah-lorem-ipsum-is-simply-dummy-text-of-the-printing-and-typesetting-industry-lorem-ipsum-has-been-the-industrys-standard-dummy-text-ever-since-the-1500-swhen-an-unknown-printer-took-agalley-of-type-and-scrambled-it-to-specimen-book-1">
-              I&#39;m Evren Shah Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#39;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to specimen book.
-            </div>
-            <div className="read-more-2">
-              <img className="export-2" src="src/assets/vectors/Export13_x2.svg" />
-            </div>
-          </div>
-        </div>
-      </div>
       <div className="contact-form">
         <div className="column-2">
           <div className="component-1">
@@ -244,7 +174,7 @@ const MainLayout: React.FC = () => {
           <div className="component-4">
             <div className="frame-10000158653">
               <span className="how-can-ihelp">
-                How can I help?*
+                How can I help?
               </span>
             </div>
           </div>
@@ -344,6 +274,7 @@ const App: React.FC = () => {
       <Routes>
         <Route path="/" element={<MainLayout />} />
         <Route path="/AboutMe" element={<AboutMe/>} />
+        <Route path="/Projects" element={<Project/>} />
       </Routes>
     </Router>
   );
