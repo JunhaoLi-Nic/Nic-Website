@@ -14,7 +14,6 @@ html, body, #root, .app {
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  min-height: 100vh; /* Full view height */
   height: fit-content;
 }
 
@@ -34,7 +33,8 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 20px;
+  padding: 20px 0px 60px 0px;
+  
 }
 
 /* Styling for the About Me image */

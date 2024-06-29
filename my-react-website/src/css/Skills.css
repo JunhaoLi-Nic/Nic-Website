@@ -1,6 +1,6 @@
 .app{
   min-height: 0px;
-  margin: 40px 0 40px 0
+  margin: 40px 0;
 }
 .app .skills {
     margin: 0 112px 100px 112px;
@@ -18,153 +18,75 @@
     box-sizing: border-box;
   }
 
-  .app .row-1 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 1300px;
-    box-sizing: border-box;
-    margin-left: 120px;
-  }
-
   .app .my {
     margin-right: 16.5px;
     overflow-wrap: break-word;
-    font-family: var(--displaytext-regular-font-family, 'Sora');
-    font-weight: var(--displaytext-regular-font-weight, 400);
-    font-size: var(--displaytext-regular-font-size, 48px);
-    letter-spacing: var(--displaytext-regular-letter-spacing, -1px);
-    line-height: var(--displaytext-regular-line-height, 1.167);
-    color: var(--primary-black, #000000);
+    font-family: 'Sora', sans-serif;
+    font-weight: 400;
+    font-size: 48px;
+    letter-spacing: -1px;
+    line-height: 1.167;
+    color: #000000;
   }
   
   .app .skills-1 {
     overflow-wrap: break-word;
-    font-family: var(--displaytext-extra-bold-font-family, 'Sora');
-    font-weight: var(--displaytext-extra-bold-font-weight, 800);
-    font-size: var(--displaytext-extra-bold-font-size, 48px);
-    letter-spacing: var(--displaytext-extra-bold-letter-spacing, -1px);
-    line-height: var(--displaytext-extra-bold-line-height, 1.167);
-    color: var(--primary-black, #000000);
+    font-family: 'Sora', sans-serif;
+    font-weight: 800;
+    font-size: 48px;
+    letter-spacing: -1px;
+    line-height: 1.167;
+    color: #000000;
   }
-  .app .column {
-    margin-bottom: 40px;
+
+  .app .row-1 {
     display: flex;
-    flex-direction: row;
-    column-gap: 71.5px;
-    width: 1216px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
     box-sizing: border-box;
   }
-  .app .skills-2 {
-    border-radius: 4px;
-    border: 2px solid var(--primary-black, #000000);
-    background: var(--primary-white, #FFFFFF);
+
+  .app .row-1 {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    width: 150px;
-    height: 150px;
+    width: 100%;
+    box-sizing: border-box;
   }
+
+  .column, .column-1 {
+    flex: 1 1 200px;  /* flex-grow, flex-shrink, flex-basis */
+    margin: 10px;  /* Adjust margin for spacing */
+    display:flex;
+    flex-direction: row;
+    column-gap: 20px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  /* Styles for individual skill blocks */
+.app .skills-2, .app .skills-3, .app .skills-4, .app .skills-5, .app .skills-6, .app .skills-7, .app .skills-8, .app .skills-9, .app .skills-10, .app .skills-11 {
+  border-radius: 4px;
+  border: 2px solid var(--primary-black, #000000);
+  background: var(--primary-white, #FFFFFF);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 150px; /* Fixed width for consistency */
+  height: 150px; /* Fixed height for consistency */
+  margin-bottom: 20px; /* Space between skill blocks */
+}
+  
   .app .skills-3 {
     border-radius: 4px;
     border: 2px solid var(--primary-black, #000000);
     background: var(--primary-black, #000000);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 150px;
-    height: 150px;
-  }
-  .app .skills-4 {
-    border-radius: 4px;
-    border: 2px solid var(--primary-black, #000000);
-    background: var(--primary-white, #FFFFFF);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 150px;
-    height: 150px;
-  }
-  .app .skills-5 {
-    border-radius: 4px;
-    border: 2px solid var(--primary-black, #000000);
-    background: var(--primary-white, #FFFFFF);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 150px;
-    height: 150px;
-  }
-  .app .skills-6 {
-    border-radius: 4px;
-    border: 2px solid var(--primary-black, #000000);
-    background: var(--primary-white, #FFFFFF);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 150px;
-    height: 150px;
-  }
-  .app .column-1 {
-    display: flex;
-    flex-direction: row;
-    column-gap: 71.5px;
-    width: 1216px;
-    box-sizing: border-box;
-  }
-  .app .skills-7 {
-    border-radius: 4px;
-    border: 2px solid var(--primary-black, #000000);
-    background: var(--primary-white, #FFFFFF);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 150px;
-    height: 150px;
-  }
-  .app .skills-8 {
-    border-radius: 4px;
-    border: 2px solid var(--primary-black, #000000);
-    background: var(--primary-white, #FFFFFF);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 150px;
-    height: 150px;
-  }
-  .app .skills-9 {
-    border-radius: 4px;
-    border: 2px solid var(--primary-black, #000000);
-    background: var(--primary-white, #FFFFFF);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 150px;
-    height: 150px;
-  }
-  .app .skills-10 {
-    border-radius: 4px;
-    border: 2px solid var(--primary-black, #000000);
-    background: var(--primary-white, #FFFFFF);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 150px;
-    height: 150px;
-  }
-  .app .skills-11 {
-    border-radius: 4px;
-    border: 2px solid var(--primary-black, #000000);
-    background: var(--primary-white, #FFFFFF);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -351,3 +273,38 @@
     width: 51.3px;
     height: 38.5px;
   }
+
+  @media (max-width: 1020px) {
+    .skills{
+      width: 100%;
+    }
+    .app .row{
+      flex-direction: column;
+    }
+
+    .app .skills-1{
+      display: flex;
+      justify-content: center;
+    }
+
+    .app .row-1 {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      justify-content: space-around; /* Aligns items nicely with space around them */
+      align-items: center; /* Centers items vertically */
+      width: 30%; /* Ensures the row takes full width */
+      box-sizing: border-box; /* Includes padding and border in the element's total width and height */
+  }
+  
+  .column, .column-1 {
+      flex: 1 1 35%; /* Initially allows two columns, adjusting flex-basis to allow wrapping */
+      display: flex;
+      flex-direction: column; /* Stacks items vertically */
+      align-items: center; /* Center items horizontally within each column */
+      justify-content: center; /* Center items vertically within each column */
+      margin: 10px; /* Space between columns */
+      width: 50%; /* Ensure columns do not exceed the width of the container */
+  }  
+  }
+  

@@ -56,7 +56,6 @@ const MainLayout: React.FC = () => {
           </div>
         </div>
       </div>
-      
       <div className="contact-form">
         <div className="column-2">
           <div className="component-1">
