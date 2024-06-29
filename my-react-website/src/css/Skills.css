@@ -1,0 +1,353 @@
+.app{
+  min-height: 0px;
+  margin: 40px 0 40px 0
+}
+.app .skills {
+    margin: 0 112px 100px 112px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1216px;
+    box-sizing: border-box;
+  }
+  .app .row {
+    margin: 0 0px 40px 0;
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+
+  .app .row-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1300px;
+    box-sizing: border-box;
+    margin-left: 120px;
+  }
+
+  .app .my {
+    margin-right: 16.5px;
+    overflow-wrap: break-word;
+    font-family: var(--displaytext-regular-font-family, 'Sora');
+    font-weight: var(--displaytext-regular-font-weight, 400);
+    font-size: var(--displaytext-regular-font-size, 48px);
+    letter-spacing: var(--displaytext-regular-letter-spacing, -1px);
+    line-height: var(--displaytext-regular-line-height, 1.167);
+    color: var(--primary-black, #000000);
+  }
+  
+  .app .skills-1 {
+    overflow-wrap: break-word;
+    font-family: var(--displaytext-extra-bold-font-family, 'Sora');
+    font-weight: var(--displaytext-extra-bold-font-weight, 800);
+    font-size: var(--displaytext-extra-bold-font-size, 48px);
+    letter-spacing: var(--displaytext-extra-bold-letter-spacing, -1px);
+    line-height: var(--displaytext-extra-bold-line-height, 1.167);
+    color: var(--primary-black, #000000);
+  }
+  .app .column {
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 71.5px;
+    width: 1216px;
+    box-sizing: border-box;
+  }
+  .app .skills-2 {
+    border-radius: 4px;
+    border: 2px solid var(--primary-black, #000000);
+    background: var(--primary-white, #FFFFFF);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+  }
+  .app .skills-3 {
+    border-radius: 4px;
+    border: 2px solid var(--primary-black, #000000);
+    background: var(--primary-black, #000000);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+  }
+  .app .skills-4 {
+    border-radius: 4px;
+    border: 2px solid var(--primary-black, #000000);
+    background: var(--primary-white, #FFFFFF);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+  }
+  .app .skills-5 {
+    border-radius: 4px;
+    border: 2px solid var(--primary-black, #000000);
+    background: var(--primary-white, #FFFFFF);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+  }
+  .app .skills-6 {
+    border-radius: 4px;
+    border: 2px solid var(--primary-black, #000000);
+    background: var(--primary-white, #FFFFFF);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+  }
+  .app .column-1 {
+    display: flex;
+    flex-direction: row;
+    column-gap: 71.5px;
+    width: 1216px;
+    box-sizing: border-box;
+  }
+  .app .skills-7 {
+    border-radius: 4px;
+    border: 2px solid var(--primary-black, #000000);
+    background: var(--primary-white, #FFFFFF);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+  }
+  .app .skills-8 {
+    border-radius: 4px;
+    border: 2px solid var(--primary-black, #000000);
+    background: var(--primary-white, #FFFFFF);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+  }
+  .app .skills-9 {
+    border-radius: 4px;
+    border: 2px solid var(--primary-black, #000000);
+    background: var(--primary-white, #FFFFFF);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+  }
+  .app .skills-10 {
+    border-radius: 4px;
+    border: 2px solid var(--primary-black, #000000);
+    background: var(--primary-white, #FFFFFF);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+  }
+  .app .skills-11 {
+    border-radius: 4px;
+    border: 2px solid var(--primary-black, #000000);
+    background: var(--primary-white, #FFFFFF);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+  }
+
+  .app .javascript {
+    overflow-wrap: break-word;
+    font-family: var(--heading-h-5-bold-font-family, 'Sora');
+    font-weight: var(--heading-h-5-bold-font-weight, 700);
+    font-size: var(--heading-h-5-bold-font-size, 20px);
+    letter-spacing: var(--heading-h-5-bold-letter-spacing, -0.4px);
+    line-height: var(--heading-h-5-bold-line-height, 1.2);
+    text-transform: var(--heading-h-5-bold-text-transform, capitalize);
+    color: var(--primary-black, #000000);
+  }
+
+  .app .icon-git {
+    margin-bottom: 10.8px;
+    display: flex;
+    width: 44.3px;
+    height: 44.3px;
+    box-sizing: border-box;
+  }
+  .app .vector-41 {
+    width: 44.3px;
+    height: 44.3px;
+  }
+  .app .icon-javscript {
+    background: #FFFFFF;
+    position: relative;
+    margin-top: 5.8px;
+    display: flex;
+    padding: 22.9px 6.2px 6.2px 14.5px;
+    width: 56px;
+    height: 56px;
+    box-sizing: border-box;
+  }
+  .app .vector-43 {
+    width: 35.3px;
+    height: 24.9px;
+  }
+  .app .javascript-1 {
+    overflow-wrap: break-word;
+    font-family: var(--heading-h-5-bold-font-family, 'Sora');
+    font-weight: var(--heading-h-5-bold-font-weight, 700);
+    font-size: var(--heading-h-5-bold-font-size, 20px);
+    letter-spacing: var(--heading-h-5-bold-letter-spacing, -0.4px);
+    line-height: var(--heading-h-5-bold-line-height, 1.2);
+    text-transform: var(--heading-h-5-bold-text-transform, capitalize);
+    color: var(--primary-white, #FFFFFF);
+  }
+  .app .javascript-2 {
+    overflow-wrap: break-word;
+    font-family: var(--heading-h-5-bold-font-family, 'Sora');
+    font-weight: var(--heading-h-5-bold-font-weight, 700);
+    font-size: var(--heading-h-5-bold-font-size, 20px);
+    letter-spacing: var(--heading-h-5-bold-letter-spacing, -0.4px);
+    line-height: var(--heading-h-5-bold-line-height, 1.2);
+    text-transform: var(--heading-h-5-bold-text-transform, capitalize);
+    color: var(--primary-black, #000000);
+  }
+  .app .icon-react {
+    margin-bottom: 10.8px;
+    width: 56px;
+    height: 56px;
+  }
+  .app .javascript-3 {
+    overflow-wrap: break-word;
+    font-family: var(--heading-h-5-bold-font-family, 'Sora');
+    font-weight: var(--heading-h-5-bold-font-weight, 700);
+    font-size: var(--heading-h-5-bold-font-size, 20px);
+    letter-spacing: var(--heading-h-5-bold-letter-spacing, -0.4px);
+    line-height: var(--heading-h-5-bold-line-height, 1.2);
+    text-transform: var(--heading-h-5-bold-text-transform, capitalize);
+    color: var(--primary-black, #000000);
+  }
+  .app .logosnodejs {
+    margin-bottom: 10.8px;
+    display: flex;
+    width: 77.9px;
+    height: 51.9px;
+    box-sizing: border-box;
+  }
+  .app .group-24 {
+    width: 77.9px;
+    height: 51.9px;
+  }
+  .app .javascript-4 {
+    overflow-wrap: break-word;
+    font-family: var(--heading-h-5-bold-font-family, 'Sora');
+    font-weight: var(--heading-h-5-bold-font-weight, 700);
+    font-size: var(--heading-h-5-bold-font-size, 20px);
+    letter-spacing: var(--heading-h-5-bold-letter-spacing, -0.4px);
+    line-height: var(--heading-h-5-bold-line-height, 2.2);
+    text-transform: var(--heading-h-5-bold-text-transform, capitalize);
+    color: var(--primary-black, #000000);
+  }
+  .app .icon-docker {
+    margin: 10px 0px 10.9px 0;
+    display: flex;
+    width: 56px;
+    height: 40.3px;
+    box-sizing: border-box;
+  }
+  .app .vector-52 {
+    width: 56px;
+    height: 40.3px;
+  }
+
+  .app .javascript-5 {
+    overflow-wrap: break-word;
+    font-family: var(--heading-h-5-bold-font-family, 'Sora');
+    font-weight: var(--heading-h-5-bold-font-weight, 700);
+    font-size: var(--heading-h-5-bold-font-size, 20px);
+    letter-spacing: var(--heading-h-5-bold-letter-spacing, -0.4px);
+    line-height: var(--heading-h-5-bold-line-height, 1.2);
+    text-transform: var(--heading-h-5-bold-text-transform, capitalize);
+    color: var(--primary-black, #000000);
+  }
+  .app .icon-git-1 {
+    margin-bottom: 37.8px;
+    display: flex;
+    width: 44.3px;
+    height: 44.3px;
+    box-sizing: border-box;
+  }
+  .app .vector-53 {
+    width: 44.3px;
+    height: 44.3px;
+  }
+  .app .javascript-6 {
+    overflow-wrap: break-word;
+    font-family: var(--heading-h-5-bold-font-family, 'Sora');
+    font-weight: var(--heading-h-5-bold-font-weight, 700);
+    font-size: var(--heading-h-5-bold-font-size, 20px);
+    letter-spacing: var(--heading-h-5-bold-letter-spacing, -0.4px);
+    line-height: var(--heading-h-5-bold-line-height, 1.2);
+    text-transform: var(--heading-h-5-bold-text-transform, capitalize);
+    color: var(--primary-black, #000000);
+  }
+  .app .icon-socket {
+    margin: 0 0px 32px 0;
+    display: flex;
+    width: 56px;
+    height: 55.9px;
+    box-sizing: border-box;
+  }
+  .app .vector-54 {
+    width: 56px;
+    height: 55.9px;
+  }
+  .app .javascript-7 {
+    overflow-wrap: break-word;
+    font-family: var(--heading-h-5-bold-font-family, 'Sora');
+    font-weight: var(--heading-h-5-bold-font-weight, 700);
+    font-size: var(--heading-h-5-bold-font-size, 20px);
+    letter-spacing: var(--heading-h-5-bold-letter-spacing, -0.4px);
+    line-height: var(--heading-h-5-bold-line-height, 1.2);
+    text-transform: var(--heading-h-5-bold-text-transform, capitalize);
+    color: var(--primary-black, #000000);
+  }
+  .app .icon-sass {
+    margin-bottom: 41.4px;
+    display: flex;
+    width: 51.3px;
+    height: 38.5px;
+    box-sizing: border-box;
+  }
+
+  .app .javascript-8 {
+    overflow-wrap: break-word;
+    font-family: var(--heading-h-5-bold-font-family, 'Sora');
+    font-weight: var(--heading-h-5-bold-font-weight, 700);
+    font-size: var(--heading-h-5-bold-font-size, 20px);
+    letter-spacing: var(--heading-h-5-bold-letter-spacing, -0.4px);
+    line-height: var(--heading-h-5-bold-line-height, 1.2);
+    text-transform: var(--heading-h-5-bold-text-transform, capitalize);
+    color: var(--primary-black, #000000);
+  }
+  .app .vector-55 {
+    width: 51.3px;
+    height: 38.5px;
+  }

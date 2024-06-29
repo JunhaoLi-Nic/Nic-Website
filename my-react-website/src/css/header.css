@@ -16,7 +16,7 @@
 
 .logo-1 {
   width: 90px; /* Adjust width to desired crop */
-  height: 150px; /* Adjust height to desired crop */
+  height: 110px; /* Adjust height to desired crop */
   overflow: hidden; /* Hides parts of the image outside this container */
   position: relative; /* Needed if positioning the image absolutely */
 }

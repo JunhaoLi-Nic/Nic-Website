@@ -2,6 +2,7 @@ import React from 'react';
 import './AboutMe.css'; // Ensure the path to your CSS file is correct
 import { Header } from '@components/Header/header';
 import EmbededGraph from '@components/github/record';
+import Skills from '@components/Skills';
 
 const AboutMe: React.FC = () => {
     return (
@@ -30,6 +31,7 @@ const AboutMe: React.FC = () => {
                     <EmbededGraph />
                 </div>
             </div>
+            <Skills />
         </div>
     );
 }

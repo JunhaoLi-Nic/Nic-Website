@@ -72,7 +72,8 @@ body {
   align-items: center;  /* Centers the child elements horizontally */
   justify-content: center;  /* Centers the child elements vertically */
   padding-top: 20px;  /* Adds space at the top */
-  padding-bottom: 20px;  /* Adds space at the bottom */
+  padding-bottom: 80px;  /* Adds space at the bottom */
+  margin-bottom: 10px; 
 }
 
 
