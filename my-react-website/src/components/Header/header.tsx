@@ -17,7 +17,7 @@ export const Header: React.FC = () => {
             <button className="hamburger" onClick={() => setIsOpen(!isOpen)}>☰</button>
             <div className={`taskbaar ${isOpen ? 'open' : ''}`}>
                 <Link to="/aboutme" className="link">About Me</Link>
-                <Link to="/skills" className="link">Skills</Link>
+                <Link to="/Resume" className="link">Resume</Link>
                 <Link to="/projects" className="link">Project</Link>
                 <Link to="/contact" className="link">Contact Me</Link>
                 <div className="button-8 inside-menu"> {/* New class to style differently if needed */}
