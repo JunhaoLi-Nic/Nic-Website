@@ -1,0 +1,42 @@
+.app .footer {
+    background: var(--primary-black, #000000);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 24px 112px 24px 120.4px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .app .frame-16 {
+    margin: 8.6px 0;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+  }
+
+  .app .frame-1000015869 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    box-sizing: border-box;
+  }
+  .app .personal {
+    margin-bottom: 12px;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: var(--heading-h-6-semibold-font-family, 'Sora');
+    font-weight: var(--heading-h-6-semibold-font-weight, 600);
+    font-size: var(--heading-h-6-semibold-font-size, 26px);
+    letter-spacing: var(--heading-h-6-semibold-letter-spacing, -0.3px);
+    line-height: var(--heading-h-6-semibold-line-height, 1.25);
+    color: var(--primary-white, #FFFFFF);
+  }
+  .app .made-in-figma {
+    overflow-wrap: break-word;
+    font-family: var(--heading-h-6-semibold-font-family, 'Sora');
+    font-weight: var(--heading-h-6-semibold-font-weight, 600);
+    font-size: var(--heading-h-6-semibold-font-size, 16px);
+    letter-spacing: var(--heading-h-6-semibold-letter-spacing, -0.3px);
+    line-height: var(--heading-h-6-semibold-line-height, 1.25);
+    color: var(--primary-white, #FFFFFF);
+  }

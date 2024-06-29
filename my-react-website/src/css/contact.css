@@ -171,3 +171,64 @@
     height: 56px;
     box-sizing: border-box;
   }
+
+  .app .frame-10000158651 {
+    border-radius: 4px;
+    border: 1.4px solid var(--primary-black, #000000);
+    padding: 16.6px 22.6px;
+    box-sizing: border-box;
+  }
+  .app .your-name-1 {
+    overflow-wrap: break-word;
+    font-family: var(--heading-h-6-regular-font-family, 'Sora');
+    font-weight: var(--heading-h-6-regular-font-weight, 400);
+    font-size: var(--heading-h-6-regular-font-size, 16px);
+    letter-spacing: var(--heading-h-6-regular-letter-spacing, -0.3px);
+    line-height: var(--heading-h-6-regular-line-height, 1.25);
+    color: var(--zinc-500, #71717A);
+  }
+  .app .frame-10000158652 {
+    border-radius: 4px;
+    border: 1.4px solid var(--primary-black, #000000);
+    padding: 16.6px 22.6px;
+    box-sizing: border-box;
+  }
+  .app .your-name-2 {
+    overflow-wrap: break-word;
+    font-family: var(--heading-h-6-regular-font-family, 'Sora');
+    font-weight: var(--heading-h-6-regular-font-weight, 400);
+    font-size: var(--heading-h-6-regular-font-size, 16px);
+    letter-spacing: var(--heading-h-6-regular-letter-spacing, -0.3px);
+    line-height: var(--heading-h-6-regular-line-height, 1.25);
+    color: var(--zinc-500, #71717A);
+  }
+  .app .frame-10000158653 {
+    border-radius: 4px;
+    border: 1.4px solid var(--primary-black, #000000);
+    padding: 14.6px 22.6px 102.6px 22.6px;
+    box-sizing: border-box;
+  }
+  .app .how-can-ihelp {
+    overflow-wrap: break-word;
+    font-family: var(--heading-h-6-regular-font-family, 'Sora');
+    font-weight: var(--heading-h-6-regular-font-weight, 400);
+    font-size: var(--heading-h-6-regular-font-size, 16px);
+    letter-spacing: var(--heading-h-6-regular-letter-spacing, -0.3px);
+    line-height: var(--heading-h-6-regular-line-height, 1.25);
+    color: var(--zinc-500, #71717A);
+  }
+  .app .frame-1000015865 {
+    border-radius: 4px;
+    border: 1.4px solid var(--primary-black, #000000);
+    padding: 16.6px 22.6px;
+    box-sizing: border-box;
+  }
+  .app .your-name {
+    overflow-wrap: break-word;
+    font-family: var(--heading-h-6-regular-font-family, 'Sora');
+    font-weight: var(--heading-h-6-regular-font-weight, 400);
+    font-size: var(--heading-h-6-regular-font-size, 16px);
+    letter-spacing: var(--heading-h-6-regular-letter-spacing, -0.3px);
+    line-height: var(--heading-h-6-regular-line-height, 1.25);
+    color: var(--zinc-500, #71717A);
+  }

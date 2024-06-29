@@ -181,6 +181,25 @@
     justify-content: center;
 }
 
+.app .button-1 {
+    border-radius: 4px;
+    background: var(--primary-black, #000000);
+    margin-right: 32px;
+    display: flex;
+    padding: 18px;
+    width: 56px;
+    height: 56px;
+    box-sizing: border-box;
+  }
+  .app .button-2 {
+    border-radius: 4px;
+    border: 2px solid var(--primary-black, #000000);
+    display: flex;
+    padding: 13px 10px;
+    width: 56px;
+    height: 56px;
+    box-sizing: border-box;
+  }
 
 @media (max-width: 1020px) {
     .banner {
