@@ -1,1 +1,170 @@
+.app .testimonial-5 {
+    background: var(--primary-black, #000000);
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px 136px 100px 136px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .app .row-4 {
+    margin: 0 0.7px 80px 0;
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .app .my-4 {
+    margin-right: 16.5px;
+    overflow-wrap: break-word;
+    font-family: var(--displaytext-regular-font-family, 'Sora');
+    font-weight: var(--displaytext-regular-font-weight, 400);
+    font-size: var(--displaytext-regular-font-size, 48px);
+    letter-spacing: var(--displaytext-regular-letter-spacing, -1px);
+    line-height: var(--displaytext-regular-line-height, 1.167);
+    color: var(--primary-white, #FFFFFF);
+  }
+  .app .experience {
+    overflow-wrap: break-word;
+    font-family: var(--displaytext-extra-bold-font-family, 'Sora');
+    font-weight: var(--displaytext-extra-bold-font-weight, 800);
+    font-size: var(--displaytext-extra-bold-font-size, 48px);
+    letter-spacing: var(--displaytext-extra-bold-letter-spacing, -1px);
+    line-height: var(--displaytext-extra-bold-line-height, 1.167);
+    color: var(--primary-white, #FFFFFF);
+  }
+  .app .row-5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    box-sizing: border-box;
+  }
+  .app .experience-1 {
+    border-radius: 10px;
+    border: 1px solid var(--zinc-500, #71717A);
+    margin-bottom: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 29px 23.1px 29px 23px;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .app .experience-2 {
+    border-radius: 10px;
+    background: #27272A;
+    margin-bottom: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 24px;
+    width: fit-content;
+    box-sizing: border-box;
+  }
 
+  .app .nov-2019-present {
+    margin: 6px 0;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: var(--heading-h-6-semibold-font-family, 'Sora');
+    font-weight: var(--heading-h-6-semibold-font-weight, 600);
+    font-size: var(--heading-h-6-semibold-font-size, 16px);
+    letter-spacing: var(--heading-h-6-semibold-letter-spacing, -0.3px);
+    line-height: var(--heading-h-6-semibold-line-height, 1.25);
+    color: var(--zinc-300, #D4D4D8);
+  }
+
+  .app .as-asenior-software-engineer-at-google-iplayed-apivotal-role-in-developing-innovative-solutions-for-googles-core-search-algorithms-collaborating-with-adynamic-team-of-engineers-icontributed-to-the-enhancement-of-search-accuracy-and-efficiency-optimizing-user-experiences-for-millions-of-users-worldwide {
+    margin-right: 15.2px;
+    overflow-wrap: break-word;
+    font-family: var(--paragraph-p-2-regular-font-family, 'Sora');
+    font-weight: var(--paragraph-p-2-regular-font-weight, 400);
+    font-size: var(--paragraph-p-2-regular-font-size, 16px);
+    letter-spacing: var(--paragraph-p-2-regular-letter-spacing, 0.3px);
+    line-height: var(--paragraph-p-2-regular-line-height, 1.5);
+    color: var(--zinc-300, #D4D4D8);
+  }
+  .app .frame-10000158871 {
+    margin-bottom: 28px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1120px;
+    box-sizing: border-box;
+  }
+  .app .frame-10000158861 {
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+  }
+  .app .youtube {
+    margin-right: 30.4px;
+    width: 32px;
+    height: 32px;
+  }
+  .app .lead-software-engineer-at-google-1 {
+    margin: 2px 0;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: var(--heading-h-4-semibold-font-family, 'Sora');
+    font-weight: var(--heading-h-4-semibold-font-weight, 600);
+    font-size: var(--heading-h-4-semibold-font-size, 24px);
+    letter-spacing: var(--heading-h-4-semibold-letter-spacing, -0.5px);
+    line-height: var(--heading-h-4-semibold-line-height, 1.167);
+    color: var(--primary-white, #FFFFFF);
+  }
+  .app .lead-software-engineer-at-google {
+    margin: 2px 0;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: var(--heading-h-4-semibold-font-family, 'Sora');
+    font-weight: var(--heading-h-4-semibold-font-weight, 600);
+    font-size: var(--heading-h-4-semibold-font-size, 24px);
+    letter-spacing: var(--heading-h-4-semibold-letter-spacing, -0.5px);
+    line-height: var(--heading-h-4-semibold-line-height, 1.167);
+    color: var(--primary-white, #FFFFFF);
+  }
+  
+  .app .nov-2019-present-1 {
+    margin: 6px 0;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: var(--heading-h-6-semibold-font-family, 'Sora');
+    font-weight: var(--heading-h-6-semibold-font-weight, 600);
+    font-size: var(--heading-h-6-semibold-font-size, 16px);
+    letter-spacing: var(--heading-h-6-semibold-letter-spacing, -0.3px);
+    line-height: var(--heading-h-6-semibold-line-height, 1.25);
+    color: var(--zinc-300, #D4D4D8);
+  }
+  .app .as-asenior-software-engineer-at-google-iplayed-apivotal-role-in-developing-innovative-solutions-for-googles-core-search-algorithms-collaborating-with-adynamic-team-of-engineers-icontributed-to-the-enhancement-of-search-accuracy-and-efficiency-optimizing-user-experiences-for-millions-of-users-worldwide-1 {
+    margin-right: 20.2px;
+    overflow-wrap: break-word;
+    font-family: var(--paragraph-p-2-regular-font-family, 'Sora');
+    font-weight: var(--paragraph-p-2-regular-font-weight, 400);
+    font-size: var(--paragraph-p-2-regular-font-size, 16px);
+    letter-spacing: var(--paragraph-p-2-regular-letter-spacing, 0.3px);
+    line-height: var(--paragraph-p-2-regular-line-height, 1.5);
+    color: var(--zinc-300, #D4D4D8);
+  }
+
+  .app .frame-1000015887 {
+    margin-bottom: 28px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1119.9px;
+    box-sizing: border-box;
+  }
+  .app .frame-1000015886 {
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+  }
+  .app .sil3 {
+    margin-right: 30.4px;
+    width: 82px;
+    height: 32px;
+  }
+  
