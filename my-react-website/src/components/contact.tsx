@@ -58,17 +58,17 @@ const Contact: React.FC = () => {
                     <div className="frame-1000015867">
                         <div className="frame-1000015874">
                             <div className="frame-1000015866">
-                                <span className="lets">
+                                <span className="text">
                                     Let’s
                                 </span>
-                                <span className="talk">
+                                <span className="text">
                                     talk
                                 </span>
-                                <span className="for">
+                                <span className="text">
                                     for
                                 </span>
                             </div>
-                            <span className="something-special">
+                            <span className="text">
                                 Something special
                             </span>
                         </div>
@@ -78,10 +78,10 @@ const Contact: React.FC = () => {
                     </div>
                     <div className="frame-1000015868">
                         <div className="youremailgmail-com">
-                            Youremail@gmail.com
+                            Nicholasleeeman@gmail.com
                         </div>
                         <span className="container-3">
-                            1234567890
+                            0401562682
                         </span>
                     </div>
                 </div>

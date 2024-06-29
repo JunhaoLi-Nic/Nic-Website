@@ -58,7 +58,7 @@
     width: fit-content;
     box-sizing: border-box;
   }
-  .app .lets {
+  .app .text {
     margin-right: 16.6px;
     overflow-wrap: break-word;
     font-family: var(--displaytext-extra-bold-font-family, 'Sora');
@@ -68,29 +68,7 @@
     line-height: var(--displaytext-extra-bold-line-height, 1.167);
     color: var(--primary-black, #000000);
   }
-  .app .talk {
-    border: 3px solid var(--primary-black, #000000);
-    margin-right: 17px;
-    overflow-wrap: break-word;
-  }
-  .app .for {
-    overflow-wrap: break-word;
-    font-family: var(--displaytext-extra-bold-font-family, 'Sora');
-    font-weight: var(--displaytext-extra-bold-font-weight, 800);
-    font-size: var(--displaytext-extra-bold-font-size, 48px);
-    letter-spacing: var(--displaytext-extra-bold-letter-spacing, -1px);
-    line-height: var(--displaytext-extra-bold-line-height, 1.167);
-    color: var(--primary-black, #000000);
-  }
-  .app .something-special {
-    overflow-wrap: break-word;
-    font-family: var(--displaytext-extra-bold-font-family, 'Sora');
-    font-weight: var(--displaytext-extra-bold-font-weight, 800);
-    font-size: var(--displaytext-extra-bold-font-size, 48px);
-    letter-spacing: var(--displaytext-extra-bold-letter-spacing, -1px);
-    line-height: var(--displaytext-extra-bold-line-height, 1.167);
-    color: var(--primary-black, #000000);
-  }
+ 
   .app .iseek-to-push-the-limits-of-creativity-to-create-high-engaging-user-friendly-and-memorable-interactive-experiences {
     overflow-wrap: break-word;
     font-family: var(--paragraph-p-2-regular-font-family, 'Sora');
