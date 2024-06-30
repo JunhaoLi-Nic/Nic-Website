@@ -1,6 +1,5 @@
 .app .testimonial-5 {
     background: var(--primary-black, #000000);
-    margin-bottom: 60px;
     display: flex;
     flex-direction: column;
     align-items: center;

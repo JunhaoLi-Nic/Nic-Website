@@ -1,92 +1,24 @@
-import "@css/contact.css";
-import React from "react";
+import React from 'react';
+import '@css/contact.css'; // Ensure your CSS path is correct
 
 const Contact: React.FC = () => {
-    return (
-        <div className="app">
-            <div className="contact-form">
-                <div className="column-2">
-                    <div className="component-1">
-                        <div className="frame-1000015865">
-                            <span className="your-name">
-                                Your name
-                            </span>
-                        </div>
-                    </div>
-                    <div className="component-2">
-                        <div className="frame-10000158651">
-                            <span className="your-name-1">
-                                Email
-                            </span>
-                        </div>
-                    </div>
-                    <div className="component-3">
-                        <div className="frame-10000158652">
-                            <span className="your-name-2">
-                                Your website (If exists)
-                            </span>
-                        </div>
-                    </div>
-                    <div className="component-4">
-                        <div className="frame-10000158653">
-                            <span className="how-can-ihelp">
-                                How can I help?
-                            </span>
-                        </div>
-                    </div>
-                    <div className="button">
-                        <div className="button-3">
-                            <span className="resume">
-                                Get In Touch
-                            </span>
-                        </div>
-                        <div className="button-4">
-                            <img className="vector-70" src="src/assets/vectors/Vector20_x2.svg" />
-                        </div>
-                        <div className="button-5">
-                            <img className="subtract" src="src/assets/vectors/Subtract5_x2.svg" />
-                        </div>
-                        <div className="button-6">
-                            <img className="vector-71" src="src/assets/vectors/Vector45_x2.svg" />
-                        </div>
-                        <div className="button-7">
-                            <img className="group-1" src="src/assets/vectors/Group11_x2.svg" />
-                        </div>
-                    </div>
-                </div>
-                <div className="column-3">
-                    <div className="frame-1000015867">
-                        <div className="frame-1000015874">
-                            <div className="frame-1000015866">
-                                <span className="text">
-                                    Let’s
-                                </span>
-                                <span className="text">
-                                    talk
-                                </span>
-                                <span className="text">
-                                    for
-                                </span>
-                            </div>
-                            <span className="text">
-                                Something special
-                            </span>
-                        </div>
-                        <span className="iseek-to-push-the-limits-of-creativity-to-create-high-engaging-user-friendly-and-memorable-interactive-experiences">
-                            I seek to push the limits of creativity to create high-engaging, user-friendly, and memorable interactive experiences.
-                        </span>
-                    </div>
-                    <div className="frame-1000015868">
-                        <div className="youremailgmail-com">
-                            Nicholasleeeman@gmail.com
-                        </div>
-                        <span className="container-3">
-                            0401562682
-                        </span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    );
+  return (
+    <div className="contact">
+      <form className="contact-form">
+        <input type="text" placeholder="Your name" />
+        <input type="email" placeholder="Email" />
+        <input type="text" placeholder="Your website (If exists)" />
+        <textarea placeholder="How can I help?" />
+        <button type="submit">Get In Touch</button>
+      </form>
+      <div className="contact-info">
+        <h1>Let's talk for Something special</h1>
+        <p>I seek to push the limits of creativity to create high-engaging, user-friendly, and memorable interactive experiences.</p>
+        <p>nicholasleeeman@gmail.com</p>
+        <p>0401562682</p>
+      </div>
+    </div>
+  );
 }
+
 export default Contact;
