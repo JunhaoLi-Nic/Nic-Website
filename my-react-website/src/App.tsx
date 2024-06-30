@@ -6,6 +6,7 @@ import Footer from '@components/footer.tsx'
 import AboutMe from './AboutMe.tsx'
 import Project from './Project.tsx'
 import Contact from '@components/contact.tsx'
+import Resume from './resume.tsx'
 import React, { useEffect, useState } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
@@ -43,6 +44,7 @@ const App: React.FC = () => {
         <Route path="/" element={<MainLayout />} />
         <Route path="/AboutMe" element={<AboutMe/>} />
         <Route path="/Projects" element={<Project/>} />
+        <Route path="/Resume" element={<Resume/>} />
       </Routes>
     </Router>
   );
