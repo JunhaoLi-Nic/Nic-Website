@@ -3,7 +3,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 24px 112px 24px 120.4px;
+    padding: 10px 112px 10px 120.4px;
     width: 100%;
     box-sizing: border-box;
   }
@@ -17,19 +17,16 @@
   .app .frame-1000015869 {
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
+    align-items: center;
+    justify-content: center;
     box-sizing: border-box;
   }
-  .app .personal {
-    margin-bottom: 12px;
-    display: inline-block;
-    overflow-wrap: break-word;
-    font-family: var(--heading-h-6-semibold-font-family, 'Sora');
-    font-weight: var(--heading-h-6-semibold-font-weight, 600);
-    font-size: var(--heading-h-6-semibold-font-size, 26px);
-    letter-spacing: var(--heading-h-6-semibold-letter-spacing, -0.3px);
-    line-height: var(--heading-h-6-semibold-line-height, 1.25);
-    color: var(--primary-white, #FFFFFF);
+  .app .personal-2 {
+    width: 90px; /* Adjust width to desired crop */
+    height: 60px; /* Adjust height to desired crop */
+    overflow: hidden; /* Hides parts of the image outside this container */
+    position: relative; /* Needed if positioning the image absolutely */
+    transform: scale(1.6);
   }
   .app .made-in-figma {
     overflow-wrap: break-word;
@@ -39,4 +36,22 @@
     letter-spacing: var(--heading-h-6-semibold-letter-spacing, -0.3px);
     line-height: var(--heading-h-6-semibold-line-height, 1.25);
     color: var(--primary-white, #FFFFFF);
+  }
+
+  .app .personal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color:#ffffff;
+  }
+
+  .personal-1 {
+    display: flex;
+    align-items: center;
+    font-family: 'Sora', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: #ffffff;
+    text-transform: capitalize;
+    padding-left: 10%;
   }
