@@ -10,7 +10,7 @@ const Footer: React.FC = () => {
           <div className="personal-2">
             <Donut />
           </div>
-          <Link to ="/" className="personal-1">Nic.</Link>
+          <Link to ="/" className="nic">Nic.</Link>
         </div>
         <div className="frame-1000015869">
           <div className="personal">
