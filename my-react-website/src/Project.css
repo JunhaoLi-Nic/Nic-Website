@@ -73,3 +73,32 @@
   margin-right: 5px; /* Adds spacing between the icon and the text */
 }
 
+
+/* Responsive styles for mobile devices */
+@media (max-width: 768px) {
+  .project-header {
+    font-size: 24px; /* Smaller font size for mobile */
+  }
+
+  .project-item, .project-item.reversed {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .project-image, .project-content {
+    width: 100%; /* Full width for smaller screens */
+    margin: 10px 0; /* Adjust margin for stacked layout */
+  }
+
+  .project-id {
+    font-size: 18px; /* Smaller font size for mobile */
+  }
+
+  .project-title {
+    font-size: 20px; /* Adjust title size for better readability on mobile */
+  }
+
+  .project-description {
+    font-size: 14px; /* Smaller text for descriptions on mobile */
+  }
+}
