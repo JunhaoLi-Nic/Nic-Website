@@ -1,14 +1,20 @@
 import React from 'react';
-import '@css/contact.css'; // Ensure your CSS path is correct
+import '@css/contact.css'; 
+
 
 const Contact: React.FC = () => {
+  const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
+    event.preventDefault();
+    // Handling form submission logic here
+  };
+
   return (
     <div className="contact">
-      <form className="contact-form">
+      <form className="contact-form" onSubmit={handleSubmit}>
         <input type="text" placeholder="Your name" />
         <input type="email" placeholder="Email" />
         <input type="text" placeholder="Your website (If exists)" />
-        <textarea className = "contact-box" placeholder="Do you have any questions?" />
+        <textarea className="contact-box" placeholder="Do you have any questions?" />
         <button type="submit">Get In Touch</button>
       </form>
       <div className="contact-info">
