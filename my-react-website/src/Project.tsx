@@ -1,83 +1,50 @@
-import React from "react";
-import "./Project.css";
-import { Header } from "@components/Header/header";
+import './Project.css'; // Ensure this CSS file is correctly linked and loaded
+import { Header } from '@components/Header/header';
+import Footer from '@components/footer';
 
-const Project: React.FC = () => {
-    return (
-        <div className="app">
-                <Header />
-            <div className="project">
-                <div className="heading">
-                    <span className="my-2">
-                        My
-                    </span>
-                    <span className="projects">
-                        Projects
-                    </span>
-                </div>
-                <div className="project-1">
-                    <div className="image">
-                        <div className="image-771">
-                        </div>
-                    </div>
-                    <div className="details">
-                        <div className="container">
-                            01
-                        </div>
-                        <div className="crypto-screener-application">
-                            Crypto Screener Application
-                        </div>
-                        <div className="im-evren-shah-lorem-ipsum-is-simply-dummy-text-of-the-printing-and-typesetting-industry-lorem-ipsum-has-been-the-industrys-standard-dummy-text-ever-since-the-1500-swhen-an-unknown-printer-took-agalley-of-type-and-scrambled-it-to-specimen-book">
-                            I&#39;m Evren Shah Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#39;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to specimen book.
-                        </div>
-                        <div className="read-more">
-                            <img className="export" src="src/assets/vectors/Export5_x2.svg" />
-                        </div>
-                    </div>
-                </div>
-                <div className="project-2">
-                    <div className="details-1">
-                        <div className="container-1">
-                            02
-                        </div>
-                        <div className="euphoria-ecommerce-apparels-website-template">
-                            Euphoria - Ecommerce (Apparels) Website Template
-                        </div>
-                        <div className="im-evren-shah-lorem-ipsum-is-simply-dummy-text-of-the-printing-and-typesetting-industry-lorem-ipsum-has-been-the-industrys-standard-dummy-text-ever-since-the-1500-swhen-an-unknown-printer-took-agalley-of-type-and-scrambled-it-to-specimen-book-when-an-unknown-printer-took-agalley-of-type-and-scrambled-it-to-specimen-book">
-                            I&#39;m Evren Shah Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#39;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to specimen book.<br />
-                            when an unknown printer took a galley of type and scrambled it to specimen book.
-                        </div>
-                        <div className="read-more-1">
-                            <img className="export-1" src="src/assets/vectors/Export9_x2.svg" />
-                        </div>
-                    </div>
-                    <div className="image-1">
-                        <div className="image-770">
-                        </div>
-                    </div>
-                </div>
-                <div className="project-3">
-                    <div className="image-2">
-                        <div className="image-7701">
-                        </div>
-                    </div>
-                    <div className="details-2">
-                        <div className="container-2">
-                            03
-                        </div>
-                        <div className="blog-website-template">
-                            Blog Website Template
-                        </div>
-                        <div className="im-evren-shah-lorem-ipsum-is-simply-dummy-text-of-the-printing-and-typesetting-industry-lorem-ipsum-has-been-the-industrys-standard-dummy-text-ever-since-the-1500-swhen-an-unknown-printer-took-agalley-of-type-and-scrambled-it-to-specimen-book-1">
-                            I&#39;m Evren Shah Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#39;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to specimen book.
-                        </div>
-                        <div className="read-more-2">
-                            <img className="export-2" src="src/assets/vectors/Export13_x2.svg" />
-                        </div>
-                    </div>
-                </div>
-            </div>
+const projects = [
+  {
+    id: '01',
+    title: 'Crypto Screener Application',
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry...',
+    imageUrl: 'path/to/crypto-screener-image.jpg',
+    readMoreLink: '#'
+  },
+  {
+    id: '02',
+    title: 'Euphoria - Ecommerce (Apparels) Website Template',
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry...',
+    imageUrl: 'path/to/euphoria-image.jpg',
+    readMoreLink: '#'
+  },
+  {
+    id: '03',
+    title: 'Blog Website Template',
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry...',
+    imageUrl: 'path/to/blog-website-image.jpg',
+    readMoreLink: '#'
+  }
+];
+
+const Project = () => (
+  <div className="app">
+    <Header />
+    <div className="project-container">
+      <h1 className="project-header">My Projects</h1>
+      {projects.map((project, index) => (
+        <div key={project.id} className={`project-item ${index % 2 === 0 ? 'normal' : 'reversed'}`}>
+          <div className="project-image" style={{ backgroundImage: `url(${project.imageUrl})` }}></div>
+          <div className="project-content">
+            <div className="project-id">{project.id}</div>
+            <h2 className="project-title">{project.title}</h2>
+            <p className="project-description">{project.description}</p>
+            <a href={project.readMoreLink} className="read-more-link">Read More</a>
+          </div>
         </div>
-    );
-}
+      ))}
+    </div>
+    <Footer />
+  </div>
+);
+
 export default Project;
