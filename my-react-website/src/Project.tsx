@@ -38,7 +38,9 @@ const Project = () => (
             <div className="project-id">{project.id}</div>
             <h2 className="project-title">{project.title}</h2>
             <p className="project-description">{project.description}</p>
-            <a href={project.readMoreLink} className="read-more-link">Read More</a>
+            <a href={project.readMoreLink} className="read-more-link">
+                <img src="src/assets/vectors/link_icon.svg" alt="Link Icon" />
+            </a>
           </div>
         </div>
       ))}
