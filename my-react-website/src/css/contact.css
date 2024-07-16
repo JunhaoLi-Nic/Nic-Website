@@ -4,6 +4,8 @@
   align-items: flex-start;
   justify-content: space-between;
   padding: 40px;
+  margin-top: 70px;
+  margin-bottom: 70px;
   background: #fff; /* White background */
 }
 
@@ -12,6 +14,9 @@
   display: flex;
   flex-direction: column;
 
+}
+.contact-box{
+  resize: vertical;
 }
 
 .contact-info {

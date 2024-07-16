@@ -72,9 +72,9 @@ const EmbededGraph: React.FC = () => {
                 fontSize={20}
                 theme={{
                     "light": [
-                        "#f0f0f0",
-                        "#c4edde",
-                        "#7ac7c4",
+                        "#bcf7e7",
+                        "#47beed",
+                        "#fc81c1",
                         "#ffee00",
                         "#f73859",
              

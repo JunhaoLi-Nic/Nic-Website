@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import '@css/header.css';
 import {Donut} from '@components/spline/grass-donuts';
+import { HashLink } from 'react-router-hash-link';
+
 
 export const Header: React.FC = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -19,7 +21,7 @@ export const Header: React.FC = () => {
                 <Link to="/aboutme" className="link">About Me</Link>
                 <Link to="/Resume" className="link">Resume</Link>
                 <Link to="/projects" className="link">Project</Link>
-                <Link to="/contact" className="link">Contact Me</Link>
+                <HashLink to="/#contact" className="link">Contact Me</HashLink>
                 <div className="button-8 inside-menu"> {/* New class to style differently if needed */}
                     <span className="resume-1">Resume</span>
                     <div className="download">

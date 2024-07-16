@@ -16,7 +16,9 @@ const MainLayout: React.FC = () => {
       <Header />
       <MainPage />
       <WorkExperience />
-      <Contact />
+      <div id="contact">
+        <Contact />
+      </div>
       <Footer />
     </div>
   )

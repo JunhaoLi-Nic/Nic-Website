@@ -8,7 +8,7 @@ const Contact: React.FC = () => {
         <input type="text" placeholder="Your name" />
         <input type="email" placeholder="Email" />
         <input type="text" placeholder="Your website (If exists)" />
-        <textarea placeholder="How can I help?" />
+        <textarea className = "contact-box" placeholder="Do you have any questions?" />
         <button type="submit">Get In Touch</button>
       </form>
       <div className="contact-info">
