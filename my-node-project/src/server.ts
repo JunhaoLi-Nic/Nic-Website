@@ -29,12 +29,12 @@ const transporter = nodemailer.createTransport({
 
 // Define the email sending route
 app.post('/send-email', async (req: Request, res: Response) => {
-    const { name, email, message } = req.body;
+    const { name, email, message, website } = req.body;
     const mailOptions = {
       from: process.env.EMAIL_USER,
       to: 'nicholasleeeman@gmail.com',
       subject: `Message from ${name}`,
-      text: `You have received a new message from ${name} (${email}): ${message}`
+      text: `You have received a new message from ${name} they are website is  ${website} (${email}): ${message}`
     };
   
     try {
