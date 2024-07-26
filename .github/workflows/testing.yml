@@ -19,8 +19,22 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
 
-      - name: npm install
+      - name: Check for package-lock.json
+        id: check-lock-file
+        run: |
+          if [ ! -f package-lock.json ]; then
+            echo "::set-output name=exists::false"
+          else
+            echo "::set-output name=exists::true"
+          fi
+
+      - name: Install dependencies (CI)
+        if: steps.check-lock-file.outputs.exists == 'true'
         run: npm ci
 
-      - name: tests
+      - name: Install dependencies (fallback)
+        if: steps.check-lock-file.outputs.exists == 'false'
+        run: npm install
+
+      - name: Run tests
         run: npm test
