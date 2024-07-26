@@ -1,6 +1,6 @@
 import React from 'react';
 import './resume.css'; // Ensure this CSS file is correctly linked and loaded
-import { Header } from '@components/Header/header';
+import Header from '@components/Header/header';
 import Footer from '@components/footer';
 
 const Resume: React.FC = () => {

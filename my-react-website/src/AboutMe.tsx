@@ -1,6 +1,6 @@
 import React from 'react';
 import './AboutMe.css'; // Ensure the path to your CSS file is correct
-import { Header } from '@components/Header/header';
+import Header from '@components/Header/header';
 import EmbededGraph from '@components/github/record';
 import Skills from '@components/Skills';
 import Footer from '@components/footer';
