@@ -5,7 +5,7 @@ import {Donut} from '@components/spline/grass-donuts';
 import { HashLink } from 'react-router-hash-link';
 
 
-export const Header: React.FC = () => {
+const Header: React.FC = () => {
     const [isOpen, setIsOpen] = useState(false);
 
     return (
@@ -32,3 +32,5 @@ export const Header: React.FC = () => {
         </div>
     );
 };
+
+export default Header;

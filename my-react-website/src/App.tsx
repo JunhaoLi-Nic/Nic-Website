@@ -1,12 +1,12 @@
-import './App.css'
-import { Header } from '@components/Header/header'
+import './App.css';
+import Header from '@components/Header/header';
 import MainPage from '@components/main_page.tsx';
 import WorkExperience from '@components/work_experience.tsx';
-import Footer from '@components/footer.tsx'
-import AboutMe from './AboutMe.tsx'
-import Project from './Project.tsx'
-import Contact from '@components/contact.tsx'
-import Resume from './resume.tsx'
+import Footer from '@components/footer.tsx';
+import AboutMe from './AboutMe.tsx';
+import Project from './Project.tsx';
+import Contact from '@components/contact.tsx';
+import Resume from './resume.tsx';
 import React, { useEffect, useState } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
