@@ -195,7 +195,7 @@
     border-radius: 4px;
     border: 2px solid var(--primary-black, #000000);
     display: flex;
-    padding: 13px 10px;
+    padding: 13px 14px;
     width: 56px;
     height: 56px;
     box-sizing: border-box;
