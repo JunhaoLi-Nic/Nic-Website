@@ -220,7 +220,7 @@
     width: 44.3px;
     height: 44.3px;
   }
-  .app .javascript-6 {
+  .app .javascript-6, .app .javascript-9  {
     overflow-wrap: break-word;
     font-family: var(--heading-h-5-bold-font-family, 'Sora');
     font-weight: var(--heading-h-5-bold-font-weight, 700);
@@ -230,7 +230,15 @@
     text-transform: var(--heading-h-5-bold-text-transform, capitalize);
     color: var(--primary-black, #000000);
   }
+
   .app .icon-socket {
+    margin: 0 0px 32px 0;
+    display: flex;
+    width: 56px;
+    height: 55.9px;
+    box-sizing: border-box;
+  }
+  .app .icon-storybook{
     margin: 0 0px 32px 0;
     display: flex;
     width: 56px;
