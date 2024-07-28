@@ -23,8 +23,8 @@ jobs:
 
       - name: npm install
         run: npm ci
-
+        working-directory: ./my-react-website
         
       - name: tests
         run: npm test
-
+        working-directory: ./my-react-website
