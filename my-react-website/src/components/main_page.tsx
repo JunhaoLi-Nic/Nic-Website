@@ -20,7 +20,7 @@ const MainPage: React.FC = () => {
                             <span className="melbourne">Melbourne.</span>
                         </div>
                         <div className="about-text">
-                            I'm Junhao (Nicholas) Li, a full stack software engineer dedicated to optimizing software efficiency. My expertise in DevOps principles further streamlines the development lifecycle
+                            I'm Nichola Li, a full stack software engineer dedicated to optimizing software efficiency. I'm interested in DevOps principles further streamlines the development lifecycle
                         </div>
                         <div className="frame-42">
                             <a href="https://www.linkedin.com/in/nicholas-li168336" className="button-1"target="_blank" rel="noopener noreferrer">

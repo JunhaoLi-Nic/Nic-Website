@@ -89,6 +89,11 @@
   margin-left: 30px;
 }
 
+.button-8 a{
+  color: white;
+  display: flex;
+  flex-direction: row;
+}
 .resume-1 {
   margin-right: 10px;
   font-family: 'Sora', sans-serif;

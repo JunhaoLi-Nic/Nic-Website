@@ -27,10 +27,12 @@ const Header: React.FC = () => {
                 <Link to="/projects" className="link">Project</Link>
                 <HashLink to="/#contact" className="link">Contact Me</HashLink>
                 <div className="button-8 inside-menu">
-                    <span className="resume-1">Resume</span>
-                    <div className="download">
-                        <img className="icon" src="src/assets/vectors/Icon24_x2.svg" alt="Download" />
-                    </div>
+                    <a href="src/assets/Resume.pdf" download="JunhaoLi_Resume.pdf">
+                        <span className="resume-1">Resume</span>
+                        <div className="download">
+                            <img className="icon" src="src/assets/vectors/Icon24_x2.svg" alt="Download" />
+                        </div>
+                    </a>
                 </div>
             </div>
         </div>
