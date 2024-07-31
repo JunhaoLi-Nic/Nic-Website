@@ -29,6 +29,6 @@
     }
   },
   
-  "include": ["src/**/*","tests", "__mock__/@splinetool/react-spline.tsx"],
+  "include": ["src/**/*","tests", "__mock__/@splinetool/react-spline.tsx","declarations.d.ts"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
