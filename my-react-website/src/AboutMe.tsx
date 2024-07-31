@@ -19,10 +19,20 @@ const AboutMe: React.FC = () => {
                         I'm a passionate, self-proclaimed designer who specializes in full stack development (React.js & Node.js). I am very enthusiastic about bringing the technical and visual aspects of digital products to life. User experience, pixel perfect design, and writing clear, readable, highly performance code matters to me.
                     </p>
                     <p className="about-me-history">
-                        I began my journey in Monash university in 2020, and since then, I've continued to grow and evolve as a softwware engineer, taking on new challenges and learning the latest technologies along the way. Now, in my early twenties, 7 years after starting my web development journey, I'm building cutting-edge web applications using modern technologies such as Node.js, TypeScript, Vite, Supabase and much more.
+                        I began my journey in Monash university in 2020, and since then, 
+                        I've continued to grow and evolve as a softwware engineer, taking on new challenges 
+                        and learning the latest technologies along the way. Now, in my early twenties, 
+                        almost 5 years after studying my software engineering journey, 
+                        I'm building cutting-edge web applications using modern technologies such as Node.js, 
+                        TypeScript, Vite, Supabase and much more.
                     </p>
                     <p className="about-me-activities">
-                        When I'm not in full-on developer mode, you can find me vlogging about my life
+                    Besides my work in software development and DevOps, I also enjoy vlogging. 
+                    This hobby lets me share my daily life and insights with a wider audience. 
+                    Vlogging is a great way for me to express myself outside of my technical work. 
+                    Whether I'm exploring new places, playing sports, or just updating about my day, 
+                    my vlogs give a unique view that connects with people.
+                     It’s a fun way to diversify my activities and improve my storytelling skills.
                     </p>
                 </div>
             </div>
