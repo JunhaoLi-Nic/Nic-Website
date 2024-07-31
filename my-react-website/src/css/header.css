@@ -94,6 +94,11 @@
   display: flex;
   flex-direction: row;
 }
+
+.button-8 a:hover{
+  color: #7ac7c4;  
+}
+
 .resume-1 {
   margin-right: 10px;
   font-family: 'Sora', sans-serif;
