@@ -1,14 +1,42 @@
-/* resume.css */
+/* Styles for the PDF viewer area */
 .resume-container {
     width: 100%;
-    max-width: 50%;  /* Adjust this value based on your layout needs */
-    margin: 0 auto;
-    overflow: hidden;  /* Ensures no scroll bars appear */
+    max-width: 50%; /* Adjust based on your preference */
+    margin: 20px auto; /* Center align the viewer */
+    padding: 20px;
+    background-color: #f8f9fa; /* Light grey background */
+    border: 1px solid #dee2e6; /* Subtle border */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    border-radius: 5px; /* Rounded corners */
+    height:100%;
 }
 
-canvas#resumeCanvas {
-    width: 100%;
-    height: auto;  /* Maintains aspect ratio */
-    border: 1px solid #ccc;  /* Adds a border around the canvas; remove if not needed */
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);  /* Optional: adds shadow for better visibility */
+/* Styles specifically for the canvas */
+#resumeCanvas {
+    width: 100%; /* Responsive width */
+    height: auto; /* Maintain aspect ratio */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05); /* Lighter shadow for the canvas */
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
+}
+
+canvas {
+    display: block; 
+    max-width: 100%;
+    max-height: 100vh;  
+    margin: auto; 
+}
+
+/* Adding responsiveness to the canvas container */
+@media screen and (max-width: 768px) {
+    .resume-container {
+        padding: 10px;
+    }
+
+    #resumeCanvas {
+        width: 100%;
+    }
 }
