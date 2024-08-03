@@ -4,13 +4,14 @@ import Header from '@components/Header/header';
 import EmbededGraph from '@components/github/record';
 import Skills from '@components/Skills';
 import Footer from '@components/footer';
+import AboutMeImage from './assets/vectors/Group1000015845_x2.svg';
 
 const AboutMe: React.FC = () => {
     return (
         <div className="app">
             <Header />
             <div className="about-me">
-                <img className="about-me-image" src="src/assets/vectors/Group1000015845_x2.svg" alt="About Me" />
+                <img className="about-me-image" src={AboutMeImage} alt="About Me" />
                 <div className="about-me-text">
                     <header className="about-me-header">
                         <h1>About Me</h1>
