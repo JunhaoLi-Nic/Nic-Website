@@ -1,5 +1,8 @@
 import '@css/main_page.css';
 import React from 'react';
+import GithubImage from "../assets/vectors/Github.svg";
+import LinkinImage from "../assets/vectors/Linkin.svg";
+import ProfileImage from "../assets/vectors/Profile.svg";
 
 const MainPage: React.FC = () => {
     return (
@@ -24,15 +27,15 @@ const MainPage: React.FC = () => {
                         </div>
                         <div className="frame-42">
                             <a href="https://www.linkedin.com/in/nicholas-li168336" className="button-1"target="_blank" rel="noopener noreferrer">
-                            <img src="src/assets/vectors/Vector82_x2.svg" alt="Descriptive Alt Text" className="vector-68" />
+                            <img src={GithubImage} alt="Descriptive Alt Text" className="vector-68" />
                             </a>
                             <a href="https://github.com/JunhaoLi-Nic" className="button-2" target="_blank" rel="noopener noreferrer">
-                            <img src="src/assets/vectors/Vector26_x2.svg" alt="GitHub Profile" className="vector-69" />
+                            <img src={LinkinImage} alt="GitHub Profile" className="vector-69" />
                             </a>
                         </div>
                     </div>
                     <div className="image-section">
-                        <img className="profile-image" src="src/assets/vectors/Group10000158391_x2.svg" alt="Profile" />
+                        <img className="profile-image" src={ProfileImage} alt="Profile" />
                     </div>
                 </div>
             </div>

@@ -8,8 +8,8 @@ import DockerImage from "../assets/vectors/Docker.svg";
 import JenkinsImage from "../assets/vectors/Jenkins.svg";
 import AwsImage from "../assets/vectors/Aws.svg";
 import KubernetesImage from "../assets/vectors/Kubernetes.svg";
-import MysqlImage from "src/assets/vectors/Vector49_x2.svg";
-import PythonImage from "src/assets/vectors/Python.svg";
+import MysqlImage from "../assets/vectors/Mysql.svg";
+import PythonImage from "../assets/vectors/Python.svg";
 
 const Skills: React.FC = () => {
     return (

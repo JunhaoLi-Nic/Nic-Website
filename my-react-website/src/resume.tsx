@@ -1,6 +1,6 @@
 import * as pdfjsLib from 'pdfjs-dist/legacy/build/pdf';
 import 'pdfjs-dist/legacy/build/pdf.worker';
-
+import ResumePdf from './assets/Resume.pdf';
 import React, { useEffect, useRef } from 'react';
 import './resume.css';
 import Header from '@components/Header/header';
@@ -13,7 +13,7 @@ const Resume: React.FC = () => {
         pdfjsLib.GlobalWorkerOptions.workerSrc = 'pdfjs-dist/legacy/build/pdf.worker.js';
 
         const loadPdf = async () => {
-            const url = './src/assets/Resume.pdf';
+            const url = ResumePdf;
             const loadingTask = pdfjsLib.getDocument(url);
 
             try {
