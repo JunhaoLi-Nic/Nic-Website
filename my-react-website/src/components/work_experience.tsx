@@ -1,5 +1,6 @@
 import React from 'react';
 import '@css/work_experience.css';
+import Sil3Icon from "../assets/vectors/Sil3_icon.svg";
 
 const WorkExperience: React.FC = () => {
     return (
@@ -9,7 +10,7 @@ const WorkExperience: React.FC = () => {
             </div>
             <div className="experience-entry">
                 <div className="experience-details">
-                    <img src="src/assets/vectors/Google6_x2.svg" alt="Company Logo" />
+                    <img src={Sil3Icon} alt="Company Logo" />
                     <div className="position">Software Engineer at SIL3 PTY LTD</div>
                 </div>
                 <div className="dates">July 2023 - Present</div>
@@ -19,7 +20,7 @@ const WorkExperience: React.FC = () => {
             </div>
             <div className="experience-entry">
                 <div className="experience-details">
-                    <img src="src/assets/vectors/Google6_x2.svg" alt="Company Logo" />
+                    <img src={Sil3Icon} alt="Company Logo" />
                     <div className="position">Software Engineer Intern at SIL3 PTY LTD</div>
                 </div>
                 <div className="dates">Nov 2022 - Feb 2023</div>
