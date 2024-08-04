@@ -1,5 +1,4 @@
 import React, { useState, ChangeEvent, FormEvent } from 'react';
-import axios from 'axios';
 import '@css/contact.css';
 import {sendCustomEmail} from './Tool/email';
 
@@ -8,6 +7,7 @@ interface FormData {
   email: string;
   website: string;
   message: string;
+  to_email:"nicholasleeeman@gmail.com"
 }
 
 const Contact: React.FC = () => {
@@ -15,7 +15,8 @@ const Contact: React.FC = () => {
     name: '',
     email: '',
     website: '',
-    message: ''
+    message: '',
+    to_email:"nicholasleeeman@gmail.com"
   });
 
   // Handler for form field changes
@@ -30,23 +31,8 @@ const Contact: React.FC = () => {
   // Handler for form submission
   const handleSubmit = async (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
-    try {
-      const response = await axios.post('http://localhost:5000/send-email', formData);
-      if (response.status === 200) {
-        alert('Message Sent Successfully!');
-        setFormData({
-          name: '',
-          email: '',
-          website: '',
-          message: ''
-        });
-      } else {
-        alert('Something went wrong. Please try again.');
-      }
-    } catch (error) {
-      console.error('Error sending message:', error);
-      alert('Failed to send the message.');
-    }
+    sendCustomEmail(formData)
+    
   };
 
   return (
