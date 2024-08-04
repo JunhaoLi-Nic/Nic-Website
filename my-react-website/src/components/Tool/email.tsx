@@ -19,8 +19,10 @@ const sendCustomEmail = (details: FormData): void => {
       import.meta.env.VITE_EMAIL_TEMPLATE_ID as string, // The template ID also saved in the .env file
       {
         to_email: details.to_email,
-        subject: details.website,
+        from_name: details.name, 
+        website: details.website,
         message: details.message,
+        from_email: details.email
       }
     )
     .then((response) => {
