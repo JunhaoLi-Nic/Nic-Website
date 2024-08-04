@@ -1,13 +1,15 @@
 import emailjs from "@emailjs/browser";
 
 // Define an interface for the details parameter to ensure it receives the correct types
-interface EmailDetails {
-  to_email: string;
-  subject: string;
-  message: string;
-}
+interface FormData {
+    name: string;
+    email: string;
+    website: string;
+    message: string;
+    to_email:"nicholasleeeman@gmail.com"
+  }
 
-const sendCustomEmail = (details: EmailDetails): void => {
+const sendCustomEmail = (details: FormData): void => {
   // Initialize using your User ID saved in the .env file
   emailjs.init(import.meta.env.VITE_EMAIL_USER_ID as string);
 
@@ -17,7 +19,7 @@ const sendCustomEmail = (details: EmailDetails): void => {
       import.meta.env.VITE_EMAIL_TEMPLATE_ID as string, // The template ID also saved in the .env file
       {
         to_email: details.to_email,
-        subject: details.subject,
+        subject: details.website,
         message: details.message,
       }
     )

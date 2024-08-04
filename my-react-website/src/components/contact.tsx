@@ -1,6 +1,7 @@
 import React, { useState, ChangeEvent, FormEvent } from 'react';
 import axios from 'axios';
 import '@css/contact.css';
+import {sendCustomEmail} from './Tool/email';
 
 interface FormData {
   name: string;
