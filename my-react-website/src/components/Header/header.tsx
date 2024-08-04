@@ -5,6 +5,7 @@ import '@css/header.css';
 import { Donut } from '@components/spline/grass-donuts';
 import HamburgerButton from '@components/Tool/HamburgerButton';
 import DownloadIcon from "../../assets/vectors/Download_icon.svg";
+import ResumePdf from "../../assets/Resume.pdf"
 
 const Header: React.FC = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -28,7 +29,7 @@ const Header: React.FC = () => {
                 <Link to="/projects" className="link">Project</Link>
                 <HashLink to="/#contact" className="link">Contact Me</HashLink>
                 <div className="button-8 inside-menu">
-                    <a href="src/assets/Resume.pdf" download="JunhaoLi_Resume.pdf">
+                    <a href={ResumePdf} download="JunhaoLi_Resume.pdf">
                         <span className="resume-1">Resume</span>
                         <div className="download">
                             <img className="icon" src={DownloadIcon} alt="Download" />
