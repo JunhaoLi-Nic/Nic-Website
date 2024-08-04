@@ -4,6 +4,7 @@ import { HashLink } from 'react-router-hash-link';
 import '@css/header.css';
 import { Donut } from '@components/spline/grass-donuts';
 import HamburgerButton from '@components/Tool/HamburgerButton';
+import DownloadIcon from "../../assets/vectors/Download_icon.svg";
 
 const Header: React.FC = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -30,7 +31,7 @@ const Header: React.FC = () => {
                     <a href="src/assets/Resume.pdf" download="JunhaoLi_Resume.pdf">
                         <span className="resume-1">Resume</span>
                         <div className="download">
-                            <img className="icon" src="src/assets/vectors/Icon24_x2.svg" alt="Download" />
+                            <img className="icon" src={DownloadIcon} alt="Download" />
                         </div>
                     </a>
                 </div>
