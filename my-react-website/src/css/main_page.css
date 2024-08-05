@@ -183,25 +183,32 @@
 
 .app .button-1 {
     border-radius: 4px;
-    background: var(--primary-black, #000000);
     margin-right: 32px;
     display: flex;
-    padding: 18px;
     width: 56px;
     height: 56px;
     box-sizing: border-box;
+    justify-content: center;
   }
   .app .button-2 {
     border-radius: 4px;
-    border: 2px solid var(--primary-black, #000000);
     display: flex;
-    padding: 13px 14px;
+    border: 3px solid var(--primary-black, #000000);
+    display: flex;
+    padding: 2% 2%;
     width: 56px;
     height: 56px;
     box-sizing: border-box;
+    justify-content: center;
   }
 
 @media (max-width: 1020px) {
+
+    .app .button-1,.app .button-2 {
+        width: 42px;
+        height: 42px;
+      }
+
     .banner {
         flex-direction: column-reverse;
         /* Image above text on small screens */

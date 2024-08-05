@@ -27,10 +27,10 @@ const MainPage: React.FC = () => {
                         </div>
                         <div className="frame-42">
                             <a href="https://www.linkedin.com/in/nicholas-li168336" className="button-1"target="_blank" rel="noopener noreferrer">
-                            <img src={GithubImage} alt="Descriptive Alt Text" className="vector-68" />
+                            <img src={LinkinImage} alt="Descriptive Alt Text" className="vector-68" />
                             </a>
                             <a href="https://github.com/JunhaoLi-Nic" className="button-2" target="_blank" rel="noopener noreferrer">
-                            <img src={LinkinImage} alt="GitHub Profile" className="vector-69" />
+                            <img src={GithubImage} alt="GitHub Profile" className="vector-69" />
                             </a>
                         </div>
                     </div>
