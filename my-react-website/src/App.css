@@ -1,12 +1,14 @@
 .app {
   background: #FFFFFF;
+  position: absolute;
   display: flex; /* This enables flexbox */
   flex-direction: column; /* Children are stacked vertically */
   justify-content: center; /* Aligns children in the center vertically */
   align-items: center; /* Aligns children in the center horizontally */
   width: 100%; /* Takes the full width of the viewport */
   min-height: 0px;
-  margin: 40px 0;
+  margin: 0px 0;
+  overflow: hidden;
 }
 
 
