@@ -31,12 +31,15 @@ canvas {
 }
 
 /* Adding responsiveness to the canvas container */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1080px) {
     .resume-container {
         padding: 10px;
+        max-width: 90%;
+
     }
 
     #resumeCanvas {
         width: 100%;
+
     }
 }

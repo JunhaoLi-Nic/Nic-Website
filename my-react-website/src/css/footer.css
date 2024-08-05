@@ -3,49 +3,27 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 10px 112px 10px 120.4px;
+    align-items: center; /* Align items vertically center */
+    padding: 10px 50px; /* Adjust padding as needed */
     width: 100%;
     box-sizing: border-box;
-  }
-  .app .frame-16 {
-    margin: 8.6px 0;
-    display: flex;
-    flex-direction: row;
-    box-sizing: border-box;
-  }
+}
 
-  .app .frame-1000015869 {
+.app .frame-16 {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    box-sizing: border-box;
-  }
-  .app .personal-2 {
-    width: 90px; /* Adjust width to desired crop */
+    align-items: center; /* Vertically center the items */
+}
+
+.app .personal-2 {
+    width: 60px; /* Adjust width to desired crop */
     height: 60px; /* Adjust height to desired crop */
     overflow: hidden; /* Hides parts of the image outside this container */
     position: relative; /* Needed if positioning the image absolutely */
     transform: scale(1.6);
-  }
-  .app .made-in-figma {
-    overflow-wrap: break-word;
-    font-family: var(--heading-h-6-semibold-font-family, 'Sora');
-    font-weight: var(--heading-h-6-semibold-font-weight, 600);
-    font-size: var(--heading-h-6-semibold-font-size, 16px);
-    letter-spacing: var(--heading-h-6-semibold-letter-spacing, -0.3px);
-    line-height: var(--heading-h-6-semibold-line-height, 1.25);
-    color: var(--primary-white, #FFFFFF);
-  }
+}
 
-  .app .personal{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    color:#ffffff;
-  }
-
-  .nic {
+.app .nic {
+    margin-left: 20px; /* Space between donut and Nic. */
     display: flex;
     align-items: center;
     font-family: 'Sora', sans-serif;
@@ -53,5 +31,48 @@
     font-size: 30px;
     color: #ffffff;
     text-transform: capitalize;
-    padding-left: 10%;
-  }
+}
+
+.app .frame-1000015869 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align items to the left */
+    justify-content: center;
+}
+
+.app .personal {
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+}
+
+.app .made-in-figma {
+    overflow-wrap: break-word;
+    font-family: var(--heading-h-6-semibold-font-family, 'Sora');
+    font-weight: var(--heading-h-6-semibold-font-weight, 600);
+    font-size: var(--heading-h-6-semibold-font-size, 16px);
+    letter-spacing: var(--heading-h-6-semibold-letter-spacing, -0.3px);
+    line-height: var(--heading-h-6-semibold-line-height, 1.25);
+    color: var(--primary-white, #FFFFFF);
+}
+
+@media (max-width: 1080px) {
+    .app .footer {
+        flex-direction: row; /* Stack items vertically on small screens */
+        padding: 10px; /* Increase padding for better touch target */
+    }
+
+    .app .frame-16 {
+        margin-bottom: 20px; /* Space between stacked items */
+    }
+
+    .app .nic, .personal-2{
+        margin-left: 10px; /* Adjust margin for smaller screens */
+        margin-top:10px
+    }
+
+    .app .frame-1000015869 {
+        align-items: center; /* Center align for smaller screens */
+        margin-right: 10px;
+    }
+}
