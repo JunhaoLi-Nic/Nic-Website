@@ -212,6 +212,7 @@
         /* Stack elements on small screens */
         align-items: center;
         /* Center elements on small screens */
+        margin-bottom: 0px;;
     }
 
     .image-section {
@@ -227,7 +228,7 @@
     }
 
     .hello-iam {
-        margin-right: 16.1px;
+        margin-right: 2.3%;
         overflow-wrap: break-word;
         font-family: var(--displaytext-regular-font-family, 'Sora');
         font-weight: var(--displaytext-regular-font-weight, 400);
@@ -299,6 +300,16 @@
             0 3px 0 #000;
         /* Black thicker outline */
     }
+
+    .frame-42 {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        box-sizing: border-box;
+        padding-top:5%;
+        justify-content: center;
+      }
+    
     
     .frame-45 {
         margin-right: 33.6px;
@@ -309,7 +320,7 @@
     }
     
     .based-in {
-        margin-right: 16.6px;
+        margin-right: 2.6%;
         overflow-wrap: break-word;
         font-family: var(--displaytext-regular-font-family, 'Sora');
         font-weight: var(--displaytext-regular-font-weight, 400);
