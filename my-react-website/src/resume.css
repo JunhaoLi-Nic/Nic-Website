@@ -1,7 +1,7 @@
 /* Styles for the PDF viewer area */
 .resume-container {
     width: 100%;
-    max-width: 50%; /* Adjust based on your preference */
+    max-width: 45%; /* Adjust based on your preference */
     margin: 20px auto; /* Center align the viewer */
     padding: 20px;
     background-color: #f8f9fa; /* Light grey background */
