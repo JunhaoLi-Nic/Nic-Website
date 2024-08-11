@@ -23,14 +23,17 @@ const Resume: React.FC = () => {
                 const page = await pdf.getPage(1);
                 console.log('Page loaded');
 
-                const scale = window.devicePixelRatio || 1; // Adjust scale based on device
-                const viewport = page.getViewport({ scale: scale * 2 });
+                // Adjust scale value here to increase the size
+                const scale = 2.5; // Increase this value for a larger render
+                let viewport = page.getViewport({ scale: scale });
 
                 const canvas = document.getElementById('resumeCanvas') as HTMLCanvasElement;
                 const context = canvas.getContext('2d');
                 if (context) {
+                    // Check if the device is an iOS device
+                    const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent);
+                    canvas.width = isIOS ? screen.width : viewport.width;
                     canvas.height = viewport.height;
-                    canvas.width = viewport.width ;
 
                     if (renderTaskRef.current) {
                         renderTaskRef.current.cancel();
@@ -62,7 +65,7 @@ const Resume: React.FC = () => {
         <div className="app">
             <Header />
             <div className="resume-container">
-                <canvas id="resumeCanvas" style={{ maxWidth: '100%', maxHeight:'100%' }}></canvas>
+                <canvas id="resumeCanvas" style={{ width: '100%', height: 'auto', maxHeight: 'auto' }}></canvas>
             </div>
             <Footer />
         </div>
