@@ -23,21 +23,23 @@ const Resume: React.FC = () => {
                 const page = await pdf.getPage(1);
                 console.log('Page loaded');
 
-                // Get the canvas element
                 const canvas = document.getElementById('resumeCanvas') as HTMLCanvasElement;
                 const context = canvas.getContext('2d');
 
                 if (context) {
-                    // Check if the device is an iOS device
                     const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent);
                     const canvasWidth = isIOS ? screen.width : window.innerWidth;
-                    
-                    // Set a dynamic scale based on the desired canvas width
-                    let viewport = page.getViewport({ scale: canvasWidth / page.getViewport({ scale: 1 }).width });
-                    const canvasHeight = viewport.height;
 
-                    canvas.width = canvasWidth;
-                    canvas.height = canvasHeight;
+                    // Use devicePixelRatio to improve clarity on high-density screens
+                    const devicePixelRatio = window.devicePixelRatio || 1;
+                    const viewport = page.getViewport({ scale: canvasWidth / page.getViewport({ scale: 1 }).width });
+
+                    // Scale the canvas based on devicePixelRatio
+                    canvas.width = viewport.width * devicePixelRatio;
+                    canvas.height = viewport.height * devicePixelRatio;
+
+                    // Scale down the canvas context to match the devicePixelRatio
+                    context.scale(devicePixelRatio, devicePixelRatio);
 
                     if (renderTaskRef.current) {
                         renderTaskRef.current.cancel();
