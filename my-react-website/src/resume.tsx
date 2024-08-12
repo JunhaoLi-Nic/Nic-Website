@@ -69,7 +69,7 @@ const Resume: React.FC = () => {
         <div className="app">
             <Header />
             <div className="resume-container">
-                <canvas id="resumeCanvas" style={{ width: '100%', height: 'auto', maxHeight: '100vh' }}></canvas>
+                <canvas id="resumeCanvas"></canvas>
             </div>
             <Footer />
         </div>
