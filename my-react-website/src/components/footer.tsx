@@ -14,7 +14,7 @@ const Footer: React.FC = () => {
       </div>
       <div className="frame-1000015869">
         <div className="personal">
-          @ 2019-2024
+          @ 2019-2025
         </div>
         <span className="made-in-figma">
           Made by Nicholas Li

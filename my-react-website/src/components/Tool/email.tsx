@@ -34,5 +34,15 @@ const sendCustomEmail = (details: FormData): void => {
       console.log(error);
     });
 };
-
+// This file does not use a default export because it only exports the named function `sendCustomEmail`.
+// Using named exports allows you to export multiple functions or variables from a module and import them selectively elsewhere.
+// In this case, since only `sendCustomEmail` is exported and there is no need for a default export, a named export is used.
+//
+// Example usage in another file:
+// import { sendCustomEmail } from './Tool/email';
+//
+// If you want to use a default export, you could write:
+// export default sendCustomEmail;
+// and then import it as:
+// import sendCustomEmail from './Tool/email';
 export { sendCustomEmail };

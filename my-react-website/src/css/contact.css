@@ -1,95 +1,360 @@
+/* Contact Container */
+.contact-container {
+  padding: 60px 20px;
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .contact {
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
+  align-items: stretch;
   justify-content: space-between;
-  padding: 40px;
-  margin-top: 10%;
-  margin-bottom: 10%;
-  background: #fff; /* White background */
+  max-width: 1500px;
+  width: 100%;
+  margin: 0 auto;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  position: relative;
 }
 
+/* Contact Form */
 .contact-form {
-  flex: 1 1 60%; /* Takes up more space */
+  flex: 1 1 60%;
   display: flex;
   flex-direction: column;
-
-}
-.contact-box{
-  resize: vertical;
-}
-
-.contact-info {
-  flex: 1 0 40%; /* Adjusted width */
-  padding-left: 50px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center; /* Vertically centers content in the available space */
+  padding: 40px;
+  background: #fff;
+  position: relative;
+  z-index: 1;
 }
 
-.contact-info h1 {
-  margin-bottom: 20px;
-  font-size: 32px; /* Larger font size for heading */
-  font-weight: bold;
+.form-group {
+  margin-bottom: 24px;
+  position: relative;
+  transition: transform 0.3s ease;
 }
 
-.contact-info p {
-  margin-bottom: 10px;
-  font-size: 18px; /* Larger font size for text */
+.form-group.focused {
+  transform: translateY(-5px);
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 500;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.form-group.focused label {
+  color: #4a6cf7;
 }
 
 .contact-form input,
 .contact-form textarea {
-  margin-bottom: 20px;
-  padding: 15px; /* More padding for better text visibility */
-  border: 2px solid #ccc; /* Slightly thicker border */
-  border-radius: 8px; /* Rounded corners */
-  background: #FFFFFF; /* Ensures background is white */
-  color: #000000; /* Sets text color to black */
+  width: 100%;
+  padding: 15px;
+  border: 2px solid #e1e5ee;
+  border-radius: 8px;
+  background: #f8fafc;
+  color: #333;
+  font-size: 16px;
+  transition: all 0.3s ease;
 }
 
-.contact-form button {
-  padding: 12px 24px;
-  background: black;
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: none;
+  border-color: #4a6cf7;
+  box-shadow: 0 0 0 3px rgba(74, 108, 247, 0.2);
+  background: #fff;
+}
+
+.contact-box {
+  resize: vertical;
+  min-height: 120px;
+}
+
+.submit-button {
+  padding: 15px 30px;
+  background: #000;
   color: white;
   border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
   cursor: pointer;
-  border-radius: 8px; /* Rounded corners */
-  font-size: 16px; /* Larger font size for readability */
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+  margin-top: 10px;
 }
 
+.submit-button:hover {
+  background: #333;
+  transform: translateY(-2px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
 
+.submit-button:active {
+  transform: translateY(1px);
+}
 
-/* Adjusts layout for smaller screens */
+.submit-button.submitting {
+  background: #666;
+  cursor: not-allowed;
+}
+
+.submit-button.success {
+  background: #10b981;
+}
+
+.submit-button.error {
+  background: #ef4444;
+}
+
+.success-message {
+  color: #10b981;
+  margin-top: 16px;
+  font-weight: 500;
+  animation: fadeIn 0.5s ease;
+}
+
+.error-message {
+  color: #ef4444;
+  margin-top: 16px;
+  font-weight: 500;
+  animation: fadeIn 0.5s ease;
+}
+
+/* Contact Info */
+.contact-info {
+  flex: 1 0 40%;
+  padding: 40px;
+  background: linear-gradient(135deg, #000 0%, #333 100%);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.contact-info::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  right: -50%;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 50%;
+  transform: scale(1.5);
+}
+
+.info-header {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.info-header h1 {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 15px;
+}
+
+.highlight {
+  color: #4a6cf7;
+  position: relative;
+  display: inline-block;
+}
+
+.underline-animated {
+  width: 60px;
+  height: 4px;
+  background: #4a6cf7;
+  border-radius: 2px;
+  position: relative;
+  overflow: hidden;
+}
+
+.underline-animated::after {
+  content: '';
+  position: absolute;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.5);
+  animation: shimmer 2s infinite;
+}
+
+.contact-info p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+  opacity: 0.9;
+}
+
+.contact-details {
+  margin-bottom: 30px;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.contact-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
+  margin-right: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.contact-icon::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  animation: pulse 2s infinite;
+}
+
+.email-icon::after {
+  content: '✉';
+  font-size: 18px;
+}
+
+.phone-icon::after {
+  content: '📱';
+  font-size: 18px;
+}
+
+.contact-item p {
+  margin: 0;
+  font-size: 16px;
+}
+
+.social-links {
+  display: flex;
+  gap: 15px;
+}
+
+.social-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.social-icon:hover {
+  transform: translateY(-5px);
+  background: #4a6cf7;
+}
+
+.linkedin::before {
+  content: 'in';
+  font-weight: bold;
+}
+
+.github::before {
+  content: 'GH';
+  font-weight: bold;
+}
+
+.twitter::before {
+  content: 'X';
+  font-weight: bold;
+}
+
+/* Animations */
+/** 
+ * Keyframes are a CSS feature used to define intermediate steps in an animation sequence.
+ * They allow you to specify styles at various points during the animation, using percentages or keywords like 'from' and 'to'.
+ * The @keyframes rule is used to create animations by gradually changing from one set of CSS styles to another.
+ * For example:
+ * 
+ * @keyframes example {
+ *   from { opacity: 0; }
+ *   to { opacity: 1; }
+ * }
+ * 
+ * This animation will fade an element in by changing its opacity from 0 to 1.
+ */
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); opacity: 1; }
+  50% { transform: scale(1.1); opacity: 0.7; }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+@keyframes shimmer {
+  0% { left: -100%; }
+  100% { left: 100%; }
+}
+
+/* Responsive Design */
 @media (max-width: 1024px) {
   .contact {
     flex-direction: column;
-    align-items: center; /* Centers the content on smaller screens */
+    max-width: 90%;
   }
 
-  .contact-form,
-  .contact-info {
-    width: 80%;
-    padding: 0;
-    justify-content: center;
-    align-items: center;
-
+  .contact-info,
+  .contact-form {
+    width: 100%;
+    padding: 30px;
   }
-
+  
   .contact-info {
-    padding-top: 20px;
+    order: -1;
   }
 }
 
 @media (max-width: 600px) {
+  .contact-container {
+    padding: 20px 10px;
+  }
+  
+  .contact {
+    border-radius: 10px;
+    max-width: 100%;
+  }
+  
   .contact-form input,
   .contact-form textarea,
   .contact-form button {
-    width: 100%; /* Ensures full width on small devices */
+    width: 100%;
   }
 
-  .contact-info h1,
+  .info-header h1 {
+    font-size: 28px;
+  }
+  
   .contact-info p {
-    text-align: center; /* Centers text on very small screens */
+    font-size: 16px;
   }
 }
