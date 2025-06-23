@@ -1,6 +1,7 @@
 # Nic - Personal Portfolio Website
 www.nicholasli.site
 
+<<<<<<< HEAD
 This is a personal portfolio website built with Vite, React, and TypeScript. It includes a React frontend and a Node.js backend for handling email functionality.
 
 ## Project Structure
@@ -122,4 +123,19 @@ For deployment, you'll need to:
   - TypeScript
   - Nodemailer
   - CORS
+=======
+
+![image](https://github.com/user-attachments/assets/4b49411c-9659-4bdd-aa5c-892026bb6aa6)
+
+
+
+## First set up vite, react, typescript
+```bash
+npm create vite@latest  
+npm i   (To install the packages)
+npm i -D @types/node   
+```
+
+(This package contains TypeScript definitions for Node.js, which allows you to use Node.js built-in modules with TypeScript. The -D flag is short for --save-dev, which means the package will be saved in your package.json file under the devDependencies section. This is typically used for packages that are only needed during development and not in production.)
+>>>>>>> ae27459db69e31553362ddf5c37776fa9374bf87
 
