@@ -1,5 +1,5 @@
 # Nic - Personal Portfolio Website
-www.nicholasli.site
+
 
 This is a personal portfolio website built with Vite, React, and TypeScript. It includes a React frontend and a Node.js backend for handling email functionality.
 
